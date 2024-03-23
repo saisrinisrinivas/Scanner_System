@@ -1,15 +1,3 @@
-# import os
-
-# def trivy_scan(repo_url, token_name):
-    
-#     os.environ["GITHUB_TOKEN"] = token_name
-#     os.system(f"trivy repo {repo_url}")
-
-# if __name__ == "__main__":
-#     github_repo_url = input("Enter the private GitHub repo URL: ")
-#     secret_token_name = "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"
-
-#     trivy_scan(github_repo_url, secret_token_name)
 import os
 import boto3
 import json

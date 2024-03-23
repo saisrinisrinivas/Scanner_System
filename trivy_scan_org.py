@@ -23,7 +23,7 @@ def get_github_token_from_secrets_manager(secret_name, region_name):
         return None
     else:
         secret_value_dict = json.loads(get_secret_value_response['SecretString'])
-        secret_value = secret_value_dict.get("MY_GITHUB_PAT", "")
+        secret_value = secret_value_dict.get(secret_name, "")
         return secret_value
 
 # Function to perform Trivy scan on a repository

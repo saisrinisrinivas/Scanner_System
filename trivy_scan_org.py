@@ -38,8 +38,15 @@ def trivy_scan(repo_url, repo_name):
     subprocess.run(["trivy", "filesystem", "--format", "cyclonedx", "-o", f"trivy_sbom_{repo_name}.json", os.path.join(os.getcwd(), repo_name)])
 
     # research on local filesystem (local directory scanning => saturday evening )
+
+    # $ trivy fs /path/to/project
+
     
     subprocess.run(["trivy","sbom",f"trivy_sbom_{repo_name}.json","-o",f"trivy_sbom_vulnerabilities_{repo_name}.json"])
+
+    # The following code scans the repository to check for misconfigs in Licenses(shall have pakage-lock.json)
+
+    # subprocess.run(["trivy","fs","--scanners","license","-o",f"trivy_license_{repo_name}",os.path.join(os.getcwd(), repo_name)])
 
 # Function to retrieve all repositories under a GitHub organization
 def get_organization_repositories(organization_name, github_pat):

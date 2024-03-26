@@ -59,9 +59,9 @@ def initiate_trivy_scan():
     choice = input("Enter '1' to provide GitHub organization name or '2' to provide repo URL: ")
     
     if choice == '1':
-        organization_name = input("Enter the GitHub organization name: ")
-        secret_name = input("Enter the name of your secret in AWS Secrets Manager: ") 
-        region_name = input("Enter your AWS region: ")
+        organization_name = input("Enter the GitHub organization name: ") # Value: Software-Supply
+        secret_name = input("Enter the name of your secret in AWS Secrets Manager: ") # Value: MY_GITHUB_PAT
+        region_name = input("Enter your AWS region: ") # Input value: us-east-1
         github_pat = get_github_token_from_secrets_manager(secret_name, region_name) 
         if not github_pat:
             print("Error: GitHub token not found in AWS Secrets Manager.")
@@ -78,8 +78,8 @@ def initiate_trivy_scan():
             
     elif choice == '2':
         repo_url = input("Enter the GitHub repository URL: ")
-        secret_name = input("Enter the name of your secret in AWS Secrets Manager: ") 
-        region_name = input("Enter your AWS region: ")
+        secret_name = input("Enter the name of your secret in AWS Secrets Manager: ")    # Value: MY_GITHUB_PAT
+        region_name = input("Enter your AWS region: ") # Input value: us-east-1
         github_pat = get_github_token_from_secrets_manager(secret_name, region_name) 
         if not github_pat:
             print("Error: GitHub token not found in AWS Secrets Manager.")

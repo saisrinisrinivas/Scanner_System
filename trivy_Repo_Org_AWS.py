@@ -37,7 +37,7 @@ def trivy_scan(repo_url, repo_name):
 
     subprocess.run(["trivy", "filesystem", "--format", "cyclonedx", "-o", f"trivy_sbom_{repo_name}.json", os.path.join(os.getcwd(), repo_name)])
 
-    subprocess.run(["trivy","sbom",f"trivy_sbom_{repo_name}.json","-o",f"trivy_sbom_vulnerabilities_{repo_name}.json"])
+    subprocess.run(["trivy","sbom",f"trivy_sbom_{repo_name}.json","-o",f"trivy_sbom_vulnerabilities_{repo_name}.json","--format","json"])
 
 # Function to retrieve repositories under a GitHub organization
 def get_organization_repositories(organization_name, github_pat):

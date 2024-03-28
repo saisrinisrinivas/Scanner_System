@@ -37,14 +37,15 @@ def get_github_token_from_azure_key_vault(vault_url, secret_name):
 def trivy_scan(repo_url, repo_name):
     os.system(f"git clone {repo_url}")
 
-    os.system(f"trivy repo {repo_url}")
+    # os.system(f"trivy repo {repo_url}")
 
-    current_directory = os.getcwd()
-    print("Current Directory:", current_directory)
+    # current_directory = os.getcwd()
+    # print("Current Directory:", current_directory)
 
     subprocess.run(["trivy", "filesystem", "--format", "cyclonedx", "-o", f"trivy_sbom_{repo_name}.json", os.path.join(os.getcwd(), repo_name)])
 
-    subprocess.run(["trivy","sbom",f"trivy_sbom_{repo_name}.json","-o",f"trivy_sbom_vulnerabilities_{repo_name}.json"])
+    subprocess.run(["trivy","sbom",f"trivy_sbom_{repo_name}.json","-o",f"trivy_sbom_vulnerabilities_{repo_name}.json","--format","json"])
+
 
 # Function to retrieve repositories under a GitHub organization
 def get_organization_repositories(organization_name, github_pat):

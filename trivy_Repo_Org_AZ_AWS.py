@@ -6,7 +6,10 @@ from azure.identity import DefaultAzureCredential
 from azure.keyvault.secrets import SecretClient
 import boto3
 
+
 # Function to retrieve the GitHub PAT token from AWS Secrets Manager
+
+
 def get_github_token_from_aws_secrets_manager(secret_name, region_name):
     session = boto3.session.Session()
     client = session.client(
@@ -46,6 +49,7 @@ def trivy_scan(repo_url, repo_name):
 
     subprocess.run(["trivy","sbom",f"trivy_sbom_{repo_name}.json","-o",f"trivy_sbom_vulnerabilities_{repo_name}.json","--format","json"])
 
+    
 
 # Function to retrieve repositories under a GitHub organization
 def get_organization_repositories(organization_name, github_pat):

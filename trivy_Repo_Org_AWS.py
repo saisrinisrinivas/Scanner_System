@@ -38,7 +38,31 @@ def trivy_scan(repo_url, repo_name):
     subprocess.run(["trivy", "filesystem", "--format", "cyclonedx", "-o", f"trivy_sbom_{repo_name}.json", os.path.join(os.getcwd(), repo_name)])
 
     subprocess.run(["trivy","sbom",f"trivy_sbom_{repo_name}.json","-o",f"trivy_sbom_vulnerabilities_{repo_name}.json","--format","json"])
-    # subprocess.run(["trivy","sbom",f"trivy_sbom_{repo_name}.csv","-o",f"trivy_sbom_vulnerabilities_{repo_name}.csv"])
+
+
+
+    with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "r") as json_file:
+        data = json.load(json_file)
+
+    # Check if 'Results' key exists in the JSON data
+    if 'Results' in data:
+        # Process vulnerability data if 'Results' key exists
+        vulnerabilities = data['Results']
+        for vulnerability in vulnerabilities:
+            if 'Vulnerabilities' in vulnerability:
+                for vuln in vulnerability['Vulnerabilities']:
+                    # Add repository name to vulnerability information
+                    vuln['Repository'] = vulnerability.get("Repository", repo_name)
+    else:
+        # If 'Results' key is not found, set repository name to repo_name
+        data['Results'] = [{"Repository": repo_name, "Vulnerabilities": []}]
+
+    # Write the modified JSON data back to the file
+    with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "w") as json_file:
+        json.dump(data, json_file, indent=4)
+
+
+
 
 # Function to retrieve repositories under a GitHub organization
 def get_organization_repositories(organization_name, github_pat):

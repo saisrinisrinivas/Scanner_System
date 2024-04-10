@@ -48,6 +48,25 @@ def trivy_scan(repo_url, repo_name):
     subprocess.run(["trivy", "filesystem", "--format", "cyclonedx", "-o", f"trivy_sbom_{repo_name}.json", os.path.join(os.getcwd(), repo_name)])
 
     subprocess.run(["trivy","sbom",f"trivy_sbom_{repo_name}.json","-o",f"trivy_sbom_vulnerabilities_{repo_name}.json","--format","json"])
+    with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "r") as json_file:
+        data = json.load(json_file)
+
+    # Check if 'Results' key exists in the JSON data
+    if 'Results' in data:
+        # Process vulnerability data if 'Results' key exists
+        vulnerabilities = data['Results']
+        for vulnerability in vulnerabilities:
+            if 'Vulnerabilities' in vulnerability:
+                for vuln in vulnerability['Vulnerabilities']:
+                    # Add repository URL to vulnerability information
+                    vuln['RepositoryURL'] = repo_url
+    else:
+        # If 'Results' key is not found, set repository URL to repo_url
+        data['Results'] = [{"RepositoryURL": repo_url, "Vulnerabilities": []}]
+
+    # Write the modified JSON data back to the file
+    with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "w") as json_file:
+        json.dump(data, json_file, indent=4)
 
     with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "r") as json_file:
         data = json.load(json_file)

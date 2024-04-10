@@ -3,6 +3,7 @@ import boto3
 import json
 import subprocess
 import requests
+import csv
 
 # Function to retrieve the GitHub PAT token from AWS Secrets Manager
 def get_github_token_from_secrets_manager(secret_name, region_name):
@@ -32,14 +33,49 @@ def trivy_scan(repo_url, repo_name):
 
     os.system(f"trivy repo {repo_url}")
 
-    # # current_directory = os.getcwd()
-    # print("Current Directory:", current_directory)
-
     subprocess.run(["trivy", "filesystem", "--format", "cyclonedx", "-o", f"trivy_sbom_{repo_name}.json", os.path.join(os.getcwd(), repo_name)])
 
     subprocess.run(["trivy","sbom",f"trivy_sbom_{repo_name}.json","-o",f"trivy_sbom_vulnerabilities_{repo_name}.json","--format","json"])
 
 
+    # Adding the Repository URL to SBOM report.
+    with open(f"trivy_sbom_{repo_name}.json", "r+") as json_file:
+        data = json.load(json_file)
+
+        # Add repository URL to the metadata section
+        data["metadata"]["RepositoryURL"] = repo_url
+
+        # Move the file pointer to the beginning of the file
+        json_file.seek(0)
+
+        # Write the modified JSON data back to the file
+        json.dump(data, json_file, indent=4)
+        json_file.truncate()
+    
+
+    # Converting the SBOM json file to CSV format.
+    with open(f"trivy_sbom_{repo_name}.json") as f:
+        data = json.load(f)
+
+    components = data.get('components', [])
+    repository_url = data.get('metadata', {}).get('RepositoryURL', '')
+    headers = ["RepositoryURL","bom-ref", "type", "group", "name", "version", "purl"]
+
+    with open(f"trivy_sbom_{repo_name}.csv", 'w', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=headers)
+        writer.writeheader()
+        for component in components:
+            row = {}
+            for header in headers:
+                if header == "RepositoryURL":
+                    row[header] = repository_url
+                else:
+                    row[header] = component.get(header, "")
+            writer.writerow(row)
+
+    print("SBOM_CSV file generated successfully.")
+
+    #Bringing the vulnerablities report in JSON format
 
     with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "r") as json_file:
         data = json.load(json_file)
@@ -51,18 +87,38 @@ def trivy_scan(repo_url, repo_name):
         for vulnerability in vulnerabilities:
             if 'Vulnerabilities' in vulnerability:
                 for vuln in vulnerability['Vulnerabilities']:
-                    # Add repository name to vulnerability information
-                    vuln['Repository'] = vulnerability.get("Repository", repo_name)
+                    # Add repository URL to vulnerability information
+                    vuln['RepositoryURL'] = repo_url
     else:
-        # If 'Results' key is not found, set repository name to repo_name
-        data['Results'] = [{"Repository": repo_name, "Vulnerabilities": []}]
+        # If 'Results' key is not found, set repository URL to repo_url
+        data['Results'] = [{"RepositoryURL": repo_url, "Vulnerabilities": []}]
 
     # Write the modified JSON data back to the file
     with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "w") as json_file:
         json.dump(data, json_file, indent=4)
 
+    # Converting CSV file of SBOM_Vulnerability
+    with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "r") as json_file:
+     data = json.load(json_file)
 
+    results = data["Results"][0]["Vulnerabilities"]
 
+    desired_headers_order = ["RepositoryURL","VulnerabilityID", "PkgID", "PkgName", "InstalledVersion", 
+                         "FixedVersion", "Status", "Severity", "CweIDs", "CVSS", 
+                         "PrimaryURL", "References", "PublishedDate", "LastModifiedDate", 
+                          "Title", "Description"]
+
+# Writing to CSV
+    with open(f"trivy_sbom_vulnerabilities_{repo_name}.csv", "w", newline="") as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=desired_headers_order)
+        writer.writeheader()
+        for result in results:
+            reordered_result = {header: result.get(header, "") for header in desired_headers_order}
+            writer.writerow(reordered_result)
+
+    print("Vulnerabilities_CSV file created successfully.")
+
+   
 
 # Function to retrieve repositories under a GitHub organization
 def get_organization_repositories(organization_name, github_pat):

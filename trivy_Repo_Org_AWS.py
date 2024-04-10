@@ -36,6 +36,19 @@ def trivy_scan(repo_url, repo_name):
 
     subprocess.run(["trivy","sbom",f"trivy_sbom_{repo_name}.json","-o",f"trivy_sbom_vulnerabilities_{repo_name}.json","--format","json"])
 
+    with open(f"trivy_sbom_{repo_name}.json", "r+") as json_file:
+        data = json.load(json_file)
+
+        # Add repository URL to the metadata section
+        data["metadata"]["repositoryURL"] = repo_url
+
+        # Move the file pointer to the beginning of the file
+        json_file.seek(0)
+
+        # Write the modified JSON data back to the file
+        json.dump(data, json_file, indent=4)
+        json_file.truncate()
+
     with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "r") as json_file:
         data = json.load(json_file)
 
@@ -55,6 +68,8 @@ def trivy_scan(repo_url, repo_name):
     # Write the modified JSON data back to the file
     with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "w") as json_file:
         json.dump(data, json_file, indent=4)
+
+   
 
 # Function to retrieve repositories under a GitHub organization
 def get_organization_repositories(organization_name, github_pat):

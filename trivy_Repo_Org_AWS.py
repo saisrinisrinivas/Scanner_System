@@ -3,6 +3,7 @@ import boto3
 import json
 import subprocess
 import requests
+import csv
 
 # Function to retrieve the GitHub PAT token from AWS Secrets Manager
 def get_github_token_from_secrets_manager(secret_name, region_name):
@@ -36,11 +37,13 @@ def trivy_scan(repo_url, repo_name):
 
     subprocess.run(["trivy","sbom",f"trivy_sbom_{repo_name}.json","-o",f"trivy_sbom_vulnerabilities_{repo_name}.json","--format","json"])
 
+
+    # Adding the Repository URL to SBOM report.
     with open(f"trivy_sbom_{repo_name}.json", "r+") as json_file:
         data = json.load(json_file)
 
         # Add repository URL to the metadata section
-        data["metadata"]["repositoryURL"] = repo_url
+        data["metadata"]["RepositoryURL"] = repo_url
 
         # Move the file pointer to the beginning of the file
         json_file.seek(0)
@@ -48,6 +51,31 @@ def trivy_scan(repo_url, repo_name):
         # Write the modified JSON data back to the file
         json.dump(data, json_file, indent=4)
         json_file.truncate()
+    
+
+    # Converting the SBOM json file to CSV format.
+    with open(f"trivy_sbom_{repo_name}.json") as f:
+        data = json.load(f)
+
+    components = data.get('components', [])
+    repository_url = data.get('metadata', {}).get('RepositoryURL', '')
+    headers = ["RepositoryURL","bom-ref", "type", "group", "name", "version", "purl"]
+
+    with open(f"trivy_sbom_{repo_name}.csv", 'w', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=headers)
+        writer.writeheader()
+        for component in components:
+            row = {}
+            for header in headers:
+                if header == "RepositoryURL":
+                    row[header] = repository_url
+                else:
+                    row[header] = component.get(header, "")
+            writer.writerow(row)
+
+    print("SBOM_CSV file generated successfully.")
+
+    #Bringing the vulnerablities report in JSON format
 
     with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "r") as json_file:
         data = json.load(json_file)
@@ -68,6 +96,27 @@ def trivy_scan(repo_url, repo_name):
     # Write the modified JSON data back to the file
     with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "w") as json_file:
         json.dump(data, json_file, indent=4)
+
+    # Converting CSV file of SBOM_Vulnerability
+    with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "r") as json_file:
+     data = json.load(json_file)
+
+    results = data["Results"][0]["Vulnerabilities"]
+
+    desired_headers_order = ["RepositoryURL","VulnerabilityID", "PkgID", "PkgName", "InstalledVersion", 
+                         "FixedVersion", "Status", "Severity", "CweIDs", "CVSS", 
+                         "PrimaryURL", "References", "PublishedDate", "LastModifiedDate", 
+                          "Title", "Description"]
+
+# Writing to CSV
+    with open(f"trivy_sbom_vulnerabilities_{repo_name}.csv", "w", newline="") as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=desired_headers_order)
+        writer.writeheader()
+        for result in results:
+            reordered_result = {header: result.get(header, "") for header in desired_headers_order}
+            writer.writerow(reordered_result)
+
+    print("Vulnerabilities_CSV file created successfully.")
 
    
 

@@ -59,8 +59,34 @@ def trivy_scan(repo_url, repo_name):
 
     components = data.get('components', [])
     repository_url = data.get('metadata', {}).get('RepositoryURL', '')
-    headers = ["RepositoryURL","bom-ref", "type", "group", "name", "version", "purl"]
 
+    dependency_map = {}
+
+    for dependency in data.get('dependencies', []):
+        ref = dependency.get('ref')
+        depends_on = dependency.get('dependsOn', [])
+        dependency_map[ref] = depends_on
+
+    headers = ["RepositoryURL", "bom-ref", "type", "group", "name", "version", "purl"]
+
+    # with open(f"trivy_sbom_{repo_name}.csv", 'w', newline='') as csvfile:
+    #     writer = csv.DictWriter(csvfile, fieldnames=headers)
+    #     writer.writeheader()
+    #     for component in components:
+    #         row = {}
+    #         for header in headers:
+    #             if header == "RepositoryURL":
+    #                 row[header] = repository_url
+    #             elif header in ["dependencies", "dependsOn"]:
+    #                 dependencies = component.get(header, [])
+    #                 if dependencies:
+    #                     # Convert list of dependencies to a comma-separated string
+    #                     row[header] = ", ".join(dependencies)
+    #                 else:
+    #                     row[header] = ""
+    #             else:
+    #                 row[header] = component.get(header, "")
+    #         writer.writerow(row)
     with open(f"trivy_sbom_{repo_name}.csv", 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=headers)
         writer.writeheader()
@@ -71,9 +97,31 @@ def trivy_scan(repo_url, repo_name):
                     row[header] = repository_url
                 else:
                     row[header] = component.get(header, "")
-            writer.writerow(row)
+            writer.writerow(row) 
+    # Load the dataset again to populate dependsOn column
+    dependency_map = {}
 
+
+    for dependency in data.get('dependencies', []):
+        ref = dependency.get('ref')
+        depends_on = dependency.get('dependsOn', [])
+        dependency_map[ref] = depends_on
+
+    with open(f"trivy_sbom_{repo_name}.csv", 'r', newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        rows = list(reader)
+    with open(f"trivy_sbom_{repo_name}.csv", 'w', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=headers + ["dependsOn"])
+        writer.writeheader()
+        for row in rows:
+            bom_ref = row.get("bom-ref")
+            row["dependsOn"] = ", ".join(dependency_map.get(bom_ref, []))
+            writer.writerow(row)
     print("SBOM_CSV file generated successfully.")
+
+# # Print the rows
+#     for row in rows:
+#         print(row)        
 
     #Bringing the vulnerablities report in JSON format
 
@@ -96,6 +144,10 @@ def trivy_scan(repo_url, repo_name):
     # Write the modified JSON data back to the file
     with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "w") as json_file:
         json.dump(data, json_file, indent=4)
+
+
+
+
 
     # Converting CSV file of SBOM_Vulnerability
     with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "r") as json_file:

@@ -67,14 +67,12 @@ def trivy_scan(repo_url, repo_name, organization_name=" "):
         depends_on = dependency.get('dependsOn', [])
         dependency_map[ref] = depends_on
 
-<<<<<<< HEAD
+
     headers = ["OrganizationName", "RepositoryURL", "bom-ref", "type", "group", "name", "version", "purl"]
 
    
-=======
-    headers = ["RepositoryURL", "bom-ref", "type", "group", "name", "version", "purl"]
 #Adding the dependson to sbom.csv
->>>>>>> 9e95119cd7ad706ee4c82ce015a31a4ed39227e7
+
     with open(f"trivy_sbom_{repo_name}.csv", 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=headers)
         writer.writeheader()

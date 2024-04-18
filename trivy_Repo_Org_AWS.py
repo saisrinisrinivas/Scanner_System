@@ -28,7 +28,7 @@ def get_github_token_from_secrets_manager(secret_name, region_name):
         return github_pat
 
 # Function to perform Trivy scan on a repository
-def trivy_scan(repo_url, repo_name):
+def trivy_scan(repo_url, repo_name, organization_name=" "):
     os.system(f"git clone {repo_url}")
 
     os.system(f"trivy repo {repo_url}")
@@ -67,41 +67,23 @@ def trivy_scan(repo_url, repo_name):
         depends_on = dependency.get('dependsOn', [])
         dependency_map[ref] = depends_on
 
-    headers = ["RepositoryURL", "bom-ref", "type", "group", "name", "version", "purl"]
+    headers = ["OrganizationName", "RepositoryURL", "bom-ref", "type", "group", "name", "version", "purl"]
 
-    # with open(f"trivy_sbom_{repo_name}.csv", 'w', newline='') as csvfile:
-    #     writer = csv.DictWriter(csvfile, fieldnames=headers)
-    #     writer.writeheader()
-    #     for component in components:
-    #         row = {}
-    #         for header in headers:
-    #             if header == "RepositoryURL":
-    #                 row[header] = repository_url
-    #             elif header in ["dependencies", "dependsOn"]:
-    #                 dependencies = component.get(header, [])
-    #                 if dependencies:
-    #                     # Convert list of dependencies to a comma-separated string
-    #                     row[header] = ", ".join(dependencies)
-    #                 else:
-    #                     row[header] = ""
-    #             else:
-    #                 row[header] = component.get(header, "")
-    #         writer.writerow(row)
+   
     with open(f"trivy_sbom_{repo_name}.csv", 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=headers)
         writer.writeheader()
         for component in components:
-            row = {}
-            for header in headers:
+            row = {"OrganizationName": organization_name}  # Adding organization name
+            for header in headers[1:]:  # Exclude OrganizationName from headers
                 if header == "RepositoryURL":
                     row[header] = repository_url
                 else:
                     row[header] = component.get(header, "")
             writer.writerow(row) 
+
     # Load the dataset again to populate dependsOn column
     dependency_map = {}
-
-
     for dependency in data.get('dependencies', []):
         ref = dependency.get('ref')
         depends_on = dependency.get('dependsOn', [])
@@ -119,12 +101,7 @@ def trivy_scan(repo_url, repo_name):
             writer.writerow(row)
     print("SBOM_CSV file generated successfully.")
 
-# # Print the rows
-#     for row in rows:
-#         print(row)        
-
     #Bringing the vulnerablities report in JSON format
-
     with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "r") as json_file:
         data = json.load(json_file)
 
@@ -134,8 +111,10 @@ def trivy_scan(repo_url, repo_name):
         vulnerabilities = data['Results']
         for vulnerability in vulnerabilities:
             if 'Vulnerabilities' in vulnerability:
+                
                 for vuln in vulnerability['Vulnerabilities']:
                     # Add repository URL to vulnerability information
+                    vuln['OrganizationName'] = organization_name
                     vuln['RepositoryURL'] = repo_url
     else:
         # If 'Results' key is not found, set repository URL to repo_url
@@ -145,22 +124,18 @@ def trivy_scan(repo_url, repo_name):
     with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "w") as json_file:
         json.dump(data, json_file, indent=4)
 
-
-
-
-
     # Converting CSV file of SBOM_Vulnerability
     with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "r") as json_file:
      data = json.load(json_file)
 
     results = data["Results"][0]["Vulnerabilities"]
 
-    desired_headers_order = ["RepositoryURL","VulnerabilityID", "PkgID", "PkgName", "InstalledVersion", 
-                         "FixedVersion", "Status", "Severity", "CweIDs", "CVSS", 
-                         "PrimaryURL", "References", "PublishedDate", "LastModifiedDate", 
-                          "Title", "Description"]
+    desired_headers_order = ["OrganizationName", "RepositoryURL", "VulnerabilityID", "PkgID", "PkgName", "InstalledVersion", 
+                             "FixedVersion", "Status", "Severity", "CweIDs", "CVSS", 
+                             "PrimaryURL", "References", "PublishedDate", "LastModifiedDate", 
+                              "Title", "Description"]
 
-# Writing to CSV
+    # Writing to CSV
     with open(f"trivy_sbom_vulnerabilities_{repo_name}.csv", "w", newline="") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=desired_headers_order)
         writer.writeheader()
@@ -169,8 +144,6 @@ def trivy_scan(repo_url, repo_name):
             writer.writerow(reordered_result)
 
     print("Vulnerabilities_CSV file created successfully.")
-
-   
 
 # Function to retrieve repositories under a GitHub organization
 def get_organization_repositories(organization_name, github_pat):
@@ -207,7 +180,7 @@ def initiate_trivy_scan():
 
         for repo_url in repo_urls:
             repo_name = repo_url.split('/')[-1].split('.')[0] # Fetch the GitHub repo name
-            trivy_scan(repo_url, repo_name)
+            trivy_scan(repo_url, repo_name, organization_name)
             
     elif choice == '2':
         repo_url = input("Enter the GitHub repository URL: ")

@@ -35,7 +35,7 @@ def get_github_token_from_azure_key_vault(vault_url, secret_name):
         return None
 
 # Function to perform Trivy scan on a repository
-def trivy_scan(repo_url, repo_name, organization_name=""):
+def trivy_scan(repo_url, repo_name, organization_name="", organization_id=""):
     os.system(f"git clone {repo_url}")
 
     os.system(f"trivy repo {repo_url}")
@@ -74,9 +74,12 @@ def trivy_scan(repo_url, repo_name, organization_name=""):
         dependency_map[ref] = depends_on
 
 
-    headers = ["OrganizationName", "RepositoryURL", "bom-ref", "type", "group", "name", "version", "purl"]
+    headers = ["OrganizationName", "OrganizationID", "RepositoryURL", "bom-ref", "type", "group", "name", "version", "purl"]
 
-   
+    if not organization_name and not organization_id:
+        organization_name = ""
+        organization_id = ""
+
     # Adding the dependson to sbom.csv
     with open(f"trivy_sbom_{repo_name}.csv", 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=headers)
@@ -122,6 +125,7 @@ def trivy_scan(repo_url, repo_name, organization_name=""):
                 for vuln in vulnerability['Vulnerabilities']:
                     # Add repository URL to vulnerability information
                     vuln['OrganizationName'] = organization_name
+                    vuln['OrganizationID'] = organization_id
                     vuln['RepositoryURL'] = repo_url
     else:
         # If 'Results' key is not found, set repository URL to repo_url
@@ -137,10 +141,10 @@ def trivy_scan(repo_url, repo_name, organization_name=""):
 
     results = data["Results"][0]["Vulnerabilities"]
 
-    desired_headers_order = ["OrganizationName", "RepositoryURL", "VulnerabilityID", "PkgID", "PkgName", "InstalledVersion", 
+    desired_headers_order = ["OrganizationName", "OrganizationID", "RepositoryURL", "VulnerabilityID", "PkgID", "PkgName", "InstalledVersion", 
                              "FixedVersion", "Status", "Severity", "CweIDs", "CVSS", 
                              "PrimaryURL", "References", "PublishedDate", "LastModifiedDate", 
-                             "Title", "Description"]
+                              "Title", "Description"]
 
     # Writing to CSV
     with open(f"trivy_sbom_vulnerabilities_{repo_name}.csv", "w", newline="") as csvfile:
@@ -152,6 +156,22 @@ def trivy_scan(repo_url, repo_name, organization_name=""):
 
     print("Vulnerabilities_CSV file created successfully.")
 
+
+def get_organization_id(org_name, github_pat):
+    headers = {
+        "Authorization": f"token {github_pat}",
+        "Accept": "application/vnd.github.v3+json"
+    }
+    url = f"https://api.github.com/orgs/{org_name}"
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        org_data = response.json()
+        organization_id = org_data.get('id', '')
+        return organization_id
+    else:
+        print(f"Failed to fetch organization data: {response.status_code}")
+        return None   
+
 # Function to retrieve repositories under a GitHub organization
 def get_organization_repositories(organization_name, github_pat):
     headers = {
@@ -162,10 +182,11 @@ def get_organization_repositories(organization_name, github_pat):
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
         repos = response.json()
+        organization_id = get_organization_id(organization_name, github_pat)
         return [repo["clone_url"] for repo in repos]
     else:
         print(f"Failed to fetch repositories: {response.status_code}")
-        return []
+        return [], ""
 
 # Function to handle input and initiate Trivy scan
 def initiate_trivy_scan():

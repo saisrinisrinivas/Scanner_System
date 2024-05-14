@@ -114,15 +114,33 @@ def trivy_scan(repo_url, repo_name, organization_name="", organization_id=""):
     # Check if 'Results' key exists in the JSON data
     if 'Results' in data:
         # Process vulnerability data if 'Results' key exists
+        results = data['Results']
+
         vulnerabilities = data['Results']
-        for vulnerability in vulnerabilities:
-            if 'Vulnerabilities' in vulnerability:
+        for result in results:
+            result_target = result.get('Target', '')
+            result_class = result.get('Class', '')
+            result_type = result.get('Type', '')
+            vulnerabilities = result.get('Vulnerabilities', [])  
+        # for vulnerability in vulnerabilities:
+        #     if 'Vulnerabilities' in vulnerability:
                 
-                for vuln in vulnerability['Vulnerabilities']:
-                    # Add repository URL to vulnerability information
-                    vuln['OrganizationName'] = organization_name
-                    vuln['OrganizationID'] = organization_id
-                    vuln['RepositoryURL'] = repo_url
+        #         for vuln in vulnerability['Vulnerabilities']:
+        #             # Add repository URL to vulnerability information
+        #             vuln['OrganizationName'] = organization_name
+        #             vuln['OrganizationID'] = organization_id
+        #             vuln['RepositoryURL'] = repo_url
+            for vuln in vulnerabilities:
+                vuln['OrganizationName'] = organization_name
+                vuln['OrganizationID'] = organization_id
+                vuln['RepositoryURL'] = repo_url
+                # Add additional fields
+                vuln['Target'] = result_target
+                vuln['Class'] = result_class
+                vuln['Type'] = result_type
+
+                    
+
     else:
         # If 'Results' key is not found, set repository URL to repo_url
         data['Results'] = [{"RepositoryURL": repo_url, "Vulnerabilities": []}]
@@ -140,7 +158,7 @@ def trivy_scan(repo_url, repo_name, organization_name="", organization_id=""):
     desired_headers_order = ["OrganizationName", "OrganizationID", "RepositoryURL", "VulnerabilityID", "PkgID", "PkgName", "InstalledVersion", 
                              "FixedVersion", "Status", "Severity", "CweIDs", "CVSS", 
                              "PrimaryURL", "References", "PublishedDate", "LastModifiedDate", 
-                              "Title", "Description"]
+                              "Title","Target", "Class", "Type", "Description"]
 
     # Writing to CSV
     with open(f"trivy_sbom_vulnerabilities_{repo_name}.csv", "w", newline="") as csvfile:
@@ -149,7 +167,6 @@ def trivy_scan(repo_url, repo_name, organization_name="", organization_id=""):
         for result in results:
             reordered_result = {header: result.get(header, "") for header in desired_headers_order}
             writer.writerow(reordered_result)
-
     print("Vulnerabilities_CSV file created successfully.")
 
 def get_organization_id(org_name, github_pat):

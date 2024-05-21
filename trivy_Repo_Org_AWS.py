@@ -114,6 +114,7 @@ def trivy_scan(repo_url, repo_name, organization_name="", organization_id=""):
     # Check if 'Results' key exists in the JSON data
     if 'Results' in data:
         # Process vulnerability data if 'Results' key exists
+<<<<<<< HEAD
         vulnerabilities = []
         for result in data["Results"]:
             if "Vulnerabilities" in result:
@@ -124,6 +125,24 @@ def trivy_scan(repo_url, repo_name, organization_name="", organization_id=""):
             result_class = result.get('Class', '')
             result_type = result.get('Type', '')
             vulnerabilities = result.get('Vulnerabilities', [])  
+=======
+        results = data['Results']
+
+        vulnerabilities = data['Results']
+        for result in results:
+            result_target = result.get('Target', '')
+            result_class = result.get('Class', '')
+            result_type = result.get('Type', '')
+            vulnerabilities = result.get('Vulnerabilities', [])  
+        # for vulnerability in vulnerabilities:
+        #     if 'Vulnerabilities' in vulnerability:
+                
+        #         for vuln in vulnerability['Vulnerabilities']:
+        #             # Add repository URL to vulnerability information
+        #             vuln['OrganizationName'] = organization_name
+        #             vuln['OrganizationID'] = organization_id
+        #             vuln['RepositoryURL'] = repo_url
+>>>>>>> ceddc3e85e6f2aea9fc91315b7d9aac18a2186b9
             for vuln in vulnerabilities:
                 vuln['OrganizationName'] = organization_name
                 vuln['OrganizationID'] = organization_id
@@ -133,6 +152,11 @@ def trivy_scan(repo_url, repo_name, organization_name="", organization_id=""):
                 vuln['Class'] = result_class
                 vuln['Type'] = result_type
 
+<<<<<<< HEAD
+=======
+                    
+
+>>>>>>> ceddc3e85e6f2aea9fc91315b7d9aac18a2186b9
     else:
         # If 'Results' key is not found, set repository URL to repo_url
         data['Results'] = [{"RepositoryURL": repo_url, "Vulnerabilities": []}]

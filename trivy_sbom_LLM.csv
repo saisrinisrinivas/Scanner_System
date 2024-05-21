@@ -1,7 +1,0 @@
-OrganizationName,OrganizationID,RepositoryURL,bom-ref,type,group,name,version,purl,dependsOn
-,,https://github.com/mg-the-programmer/LLM,d4ee6cb2-9dd6-4265-b4cd-92f8b730bf73,application,,requirements.txt,,,"pkg:pypi/altair@4.1.0, pkg:pypi/faiss-cpu@1.7.4, pkg:pypi/pypdf2@3.0.1, pkg:pypi/python-dotenv@1.0.0, pkg:pypi/streamlit@1.18.1"
-,,https://github.com/mg-the-programmer/LLM,pkg:pypi/altair@4.1.0,library,,altair,4.1.0,pkg:pypi/altair@4.1.0,
-,,https://github.com/mg-the-programmer/LLM,pkg:pypi/faiss-cpu@1.7.4,library,,faiss-cpu,1.7.4,pkg:pypi/faiss-cpu@1.7.4,
-,,https://github.com/mg-the-programmer/LLM,pkg:pypi/pypdf2@3.0.1,library,,PyPDF2,3.0.1,pkg:pypi/pypdf2@3.0.1,
-,,https://github.com/mg-the-programmer/LLM,pkg:pypi/python-dotenv@1.0.0,library,,python-dotenv,1.0.0,pkg:pypi/python-dotenv@1.0.0,
-,,https://github.com/mg-the-programmer/LLM,pkg:pypi/streamlit@1.18.1,library,,streamlit,1.18.1,pkg:pypi/streamlit@1.18.1,

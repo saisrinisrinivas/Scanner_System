@@ -1,0 +1,890 @@
+OrganizationName,OrganizationID,RepositoryURL,bom-ref,type,group,name,version,purl,dependsOn
+,,https://github.com/rustdesk/rustdesk,01c32034-126d-47d1-a926-9cad785f5429,library,,bit_field,0.10.2,pkg:cargo/bit_field@0.10.2,
+,,https://github.com/rustdesk/rustdesk,04b2ecff-dd11-4904-a30b-a08f26719fea,library,,num-rational,0.4.1,pkg:cargo/num-rational@0.4.1,"59524327-31f9-4889-ace0-0b9c9bc16116, e9171ec2-75fe-40fb-9fd9-017b022df7d8, pkg:cargo/num-traits@0.2.17"
+,,https://github.com/rustdesk/rustdesk,09cfe590-7325-4a4b-9627-672fa512b83b,library,,num-rational,0.4.1,pkg:cargo/num-rational@0.4.1,"4d2bfd18-c343-4348-93a4-a195ee071c0f, e8f08a36-1172-448b-82d8-96b594978a63, pkg:cargo/num-traits@0.2.15"
+,,https://github.com/rustdesk/rustdesk,0a2cce8f-ce6f-455f-9e43-0dd9fc3a122f,library,,wakelock_plus,0.0.1,pkg:cocoapods/wakelock_plus@0.0.1,pkg:cocoapods/Flutter@1.0.0
+,,https://github.com/rustdesk/rustdesk,0a5d4274-5c57-4672-b3e9-bdd75036654d,library,,half,2.2.1,pkg:cargo/half@2.2.1,5dcb73cc-8e0d-41ca-9b47-83cf0b63b8be
+,,https://github.com/rustdesk/rustdesk,0bf0b472-8867-4bbd-b875-2a54d956be84,library,,syn,1.0.109,pkg:cargo/syn@1.0.109,"pkg:cargo/proc-macro2@1.0.51, pkg:cargo/quote@1.0.23, pkg:cargo/unicode-ident@1.0.6"
+,,https://github.com/rustdesk/rustdesk,0eae17db-075d-4136-a3e4-6f2408c4f3ba,library,,device_info_plus,0.0.1,pkg:cocoapods/device_info_plus@0.0.1,pkg:cocoapods/Flutter@1.0.0
+,,https://github.com/rustdesk/rustdesk,1256db80-d961-4527-a58f-b34e1b4bf083,library,,winapi,0.3.9,pkg:cargo/winapi@0.3.9,"96619cc1-e74c-413f-9974-e316f55eb7cc, b8e0d314-6f3b-4695-8c9b-1c22911d59b3"
+,,https://github.com/rustdesk/rustdesk,1740a9ee-6c8a-43ea-aaae-e000c532f5c6,application,,flutter/web/js/yarn.lock,,,"pkg:npm/fast-sha256@1.3.0, pkg:npm/libsodium-wrappers@0.7.9, pkg:npm/libsodium@0.7.9, pkg:npm/pcm-player@0.0.11, pkg:npm/wasm-feature-detect@1.2.11, pkg:npm/zstddec@0.0.2"
+,,https://github.com/rustdesk/rustdesk,180a5b83-5d5f-4e5a-9242-7c288a09dddc,library,,winapi-i686-pc-windows-gnu,0.4.0,pkg:cargo/winapi-i686-pc-windows-gnu@0.4.0,
+,,https://github.com/rustdesk/rustdesk,1c9a1816-a8e0-4fd8-a1db-606c29c66e87,library,,wakelock_plus,0.0.1,pkg:cocoapods/wakelock_plus@0.0.1,pkg:cocoapods/FlutterMacOS@1.0.0
+,,https://github.com/rustdesk/rustdesk,1d40ca75-3f4a-412c-bfde-aa59d4105526,library,,strsim,0.10.0,pkg:cargo/strsim@0.10.0,
+,,https://github.com/rustdesk/rustdesk,26d3d320-e9b9-454c-8ddb-6ae1488569b2,library,,bit_field,0.10.2,pkg:cargo/bit_field@0.10.2,
+,,https://github.com/rustdesk/rustdesk,2736962f-f1ed-43da-bceb-0711672c04b6,library,,winapi-x86_64-pc-windows-gnu,0.4.0,pkg:cargo/winapi-x86_64-pc-windows-gnu@0.4.0,
+,,https://github.com/rustdesk/rustdesk,2c64e100-5648-4e34-9518-482ca657604e,library,,winapi,0.3.9,pkg:cargo/winapi@0.3.9,"2736962f-f1ed-43da-bceb-0711672c04b6, 3682ed35-65a8-46e4-8e0c-26bb46fca364"
+,,https://github.com/rustdesk/rustdesk,3682ed35-65a8-46e4-8e0c-26bb46fca364,library,,winapi-i686-pc-windows-gnu,0.4.0,pkg:cargo/winapi-i686-pc-windows-gnu@0.4.0,
+,,https://github.com/rustdesk/rustdesk,36d9ca5f-056a-4aaf-b805-fc2f23c068d3,library,,adler,1.0.2,pkg:cargo/adler@1.0.2,
+,,https://github.com/rustdesk/rustdesk,3a1bf336-dfc7-4bab-92a7-e712b2843d24,application,,flutter/ios/Podfile.lock,,,"0a2cce8f-ce6f-455f-9e43-0dd9fc3a122f, 0eae17db-075d-4136-a3e4-6f2408c4f3ba, 50726436-bf7b-48c7-8368-001edd658c2e, db463770-b353-40d3-bbd0-d26c84686973, e4340bf8-e77e-4ce3-9645-b9b009b7323e, pkg:cocoapods/DKImagePickerController@4.3.4#Core, pkg:cocoapods/DKImagePickerController@4.3.4#ImageDataManager, pkg:cocoapods/DKImagePickerController@4.3.4#PhotoGallery, pkg:cocoapods/DKImagePickerController@4.3.4#Resource, pkg:cocoapods/DKPhotoGallery@0.0.17, pkg:cocoapods/DKPhotoGallery@0.0.17#Core, pkg:cocoapods/DKPhotoGallery@0.0.17#Model, pkg:cocoapods/DKPhotoGallery@0.0.17#Preview, pkg:cocoapods/DKPhotoGallery@0.0.17#Resource, pkg:cocoapods/Flutter@1.0.0, pkg:cocoapods/MTBBarcodeScanner@5.0.11, pkg:cocoapods/SDWebImage@5.18.11, pkg:cocoapods/SDWebImage@5.18.11#Core, pkg:cocoapods/SwiftyGif@5.4.4, pkg:cocoapods/file_picker@0.0.1, pkg:cocoapods/flutter_keyboard_visibility@0.0.1, pkg:cocoapods/image_picker_ios@0.0.1, pkg:cocoapods/package_info_plus@0.4.5, pkg:cocoapods/qr_code_scanner@0.2.0, pkg:cocoapods/uni_links@0.0.1, pkg:cocoapods/url_launcher_ios@0.0.1"
+,,https://github.com/rustdesk/rustdesk,3b497892-bfd1-470e-a9ac-e655f2d68627,library,,windows-sys,0.45.0,pkg:cargo/windows-sys@0.45.0,pkg:cargo/windows-targets@0.42.1
+,,https://github.com/rustdesk/rustdesk,3cf04432-b2a1-4076-840c-f32f8b70ebca,library,,video_player_avfoundation,0.0.1,pkg:cocoapods/video_player_avfoundation@0.0.1,pkg:cocoapods/FlutterMacOS@1.0.0
+,,https://github.com/rustdesk/rustdesk,3effe842-47a9-4457-8c0d-023e5219bc17,library,,proc-macro-error,1.0.4,pkg:cargo/proc-macro-error@1.0.4,"9f473092-fb36-4bd0-bfd6-1c3ef9392466, ba6fb264-fcdd-47dd-adb7-d10a039faf2e, f9a04d3f-1e3b-4628-8c9e-a6735470b4d7, pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35"
+,,https://github.com/rustdesk/rustdesk,451fe4d1-f54c-48f6-a0ac-40ec87407c86,library,,lebe,0.5.2,pkg:cargo/lebe@0.5.2,
+,,https://github.com/rustdesk/rustdesk,469d5005-97c4-4644-9bf8-6c5e980c7dff,application,,libs/portable/Cargo.lock,,,"1256db80-d961-4527-a58f-b34e1b4bf083, 8afa06fb-bd06-4705-a423-d36de4129968"
+,,https://github.com/rustdesk/rustdesk,4b02ad11-64d9-44a8-b569-c5808c46e915,application,,res/msi/CustomActions/packages.config,,,"pkg:nuget/WixToolset.DUtil@4.0.5, pkg:nuget/WixToolset.WcaUtil@4.0.5"
+,,https://github.com/rustdesk/rustdesk,4d2bfd18-c343-4348-93a4-a195ee071c0f,library,,num-integer,0.1.45,pkg:cargo/num-integer@0.1.45,"e8f08a36-1172-448b-82d8-96b594978a63, pkg:cargo/num-traits@0.2.15"
+,,https://github.com/rustdesk/rustdesk,50726436-bf7b-48c7-8368-001edd658c2e,library,,sqflite,0.0.3,pkg:cocoapods/sqflite@0.0.3,pkg:cocoapods/Flutter@1.0.0
+,,https://github.com/rustdesk/rustdesk,54fe5f04-bf4a-416d-ac29-10a31b703069,library,,jpeg-decoder,0.3.0,pkg:cargo/jpeg-decoder@0.3.0,pkg:cargo/rayon@1.8.0
+,,https://github.com/rustdesk/rustdesk,56e162d2-1f69-459f-ade9-04d29256adbc,library,,device_info_plus,0.0.1,pkg:cocoapods/device_info_plus@0.0.1,pkg:cocoapods/FlutterMacOS@1.0.0
+,,https://github.com/rustdesk/rustdesk,59524327-31f9-4889-ace0-0b9c9bc16116,library,,num-integer,0.1.45,pkg:cargo/num-integer@0.1.45,"e9171ec2-75fe-40fb-9fd9-017b022df7d8, pkg:cargo/num-traits@0.2.17"
+,,https://github.com/rustdesk/rustdesk,5b1258eb-6f5b-422f-adc0-6c647d5160b4,library,,windows-sys,0.45.0,pkg:cargo/windows-sys@0.45.0,pkg:cargo/windows-targets@0.42.2
+,,https://github.com/rustdesk/rustdesk,5dcb73cc-8e0d-41ca-9b47-83cf0b63b8be,library,,crunchy,0.2.2,pkg:cargo/crunchy@0.2.2,
+,,https://github.com/rustdesk/rustdesk,5de366bc-a9ab-49f7-b753-dcbb92682a72,library,,color_quant,1.1.0,pkg:cargo/color_quant@1.1.0,
+,,https://github.com/rustdesk/rustdesk,62efa306-2bb7-435f-acfa-3de6d6011d7a,application,,flutter/macos/Podfile.lock,,,"1c9a1816-a8e0-4fd8-a1db-606c29c66e87, 3cf04432-b2a1-4076-840c-f32f8b70ebca, 56e162d2-1f69-459f-ade9-04d29256adbc, 9a39cb4d-14e6-427d-b5ff-03bed7addeb8, c419f810-bc67-4cd9-9831-fc2ae9daa1f1, pkg:cocoapods/FlutterMacOS@1.0.0, pkg:cocoapods/desktop_drop@0.0.1, pkg:cocoapods/desktop_multi_window@0.0.1, pkg:cocoapods/file_selector_macos@0.0.1, pkg:cocoapods/flutter_custom_cursor@0.0.1, pkg:cocoapods/package_info_plus@0.0.1, pkg:cocoapods/screen_retriever@0.0.1, pkg:cocoapods/texture_rgba_renderer@0.0.1, pkg:cocoapods/uni_links_desktop@0.0.1, pkg:cocoapods/url_launcher_macos@0.0.1, pkg:cocoapods/window_manager@0.2.0, pkg:cocoapods/window_size@0.0.2"
+,,https://github.com/rustdesk/rustdesk,63afbb6e-a020-4798-befc-e9d53eb5f0e5,application,,libs/virtual_display/Cargo.lock,,,ea301e9c-f8f7-4854-b3ed-8479495d7808
+,,https://github.com/rustdesk/rustdesk,63c668c6-c5bc-439b-b092-5b1fcf4b241b,library,,crunchy,0.2.2,pkg:cargo/crunchy@0.2.2,
+,,https://github.com/rustdesk/rustdesk,67f07eff-29c9-4cec-8aee-74d31745e56a,library,,lazy_static,1.4.0,pkg:cargo/lazy_static@1.4.0,
+,,https://github.com/rustdesk/rustdesk,6a9bb4fa-845a-461c-9e76-a7b22ece4de4,library,,version_check,0.9.4,pkg:cargo/version_check@0.9.4,
+,,https://github.com/rustdesk/rustdesk,7298fb44-f15e-41fc-981d-659cfa12459d,library,,bitflags,1.3.2,pkg:cargo/bitflags@1.3.2,
+,,https://github.com/rustdesk/rustdesk,77666680-e880-4d53-b997-6f5d77a8fc92,library,,crc32fast,1.3.2,pkg:cargo/crc32fast@1.3.2,b8bd2d7d-ad09-4e53-ac00-f9005ae756fc
+,,https://github.com/rustdesk/rustdesk,85ecb1c3-290e-4342-9852-e413e6e6cf17,library,,wasi,0.11.0+wasi-snapshot-preview1,pkg:cargo/wasi@0.11.0%2Bwasi-snapshot-preview1,
+,,https://github.com/rustdesk/rustdesk,8afa06fb-bd06-4705-a423-d36de4129968,library,,md5,0.7.0,pkg:cargo/md5@0.7.0,
+,,https://github.com/rustdesk/rustdesk,8b637efe-8817-476b-82ad-95c4100543bb,library,,cfg-if,1.0.0,pkg:cargo/cfg-if@1.0.0,
+,,https://github.com/rustdesk/rustdesk,8e2c9669-b4b1-4fc1-8dab-d39243f71805,library,,proc-macro-error,1.0.4,pkg:cargo/proc-macro-error@1.0.4,"0bf0b472-8867-4bbd-b875-2a54d956be84, 6a9bb4fa-845a-461c-9e76-a7b22ece4de4, f452374f-f609-4452-a0b2-c3f8788f8864, pkg:cargo/proc-macro2@1.0.51, pkg:cargo/quote@1.0.23"
+,,https://github.com/rustdesk/rustdesk,933f7e1f-56d3-4cc3-acf8-c8db53c37f9d,library,,lebe,0.5.2,pkg:cargo/lebe@0.5.2,
+,,https://github.com/rustdesk/rustdesk,96619cc1-e74c-413f-9974-e316f55eb7cc,library,,winapi-x86_64-pc-windows-gnu,0.4.0,pkg:cargo/winapi-x86_64-pc-windows-gnu@0.4.0,
+,,https://github.com/rustdesk/rustdesk,9a39cb4d-14e6-427d-b5ff-03bed7addeb8,library,,path_provider_foundation,0.0.1,pkg:cocoapods/path_provider_foundation@0.0.1,pkg:cocoapods/FlutterMacOS@1.0.0
+,,https://github.com/rustdesk/rustdesk,9f473092-fb36-4bd0-bfd6-1c3ef9392466,library,,version_check,0.9.4,pkg:cargo/version_check@0.9.4,
+,,https://github.com/rustdesk/rustdesk,a9f921e1-f671-4082-8299-8a1cdeba7267,library,,bitflags,1.3.2,pkg:cargo/bitflags@1.3.2,
+,,https://github.com/rustdesk/rustdesk,aaa4ec66-bccd-488d-9311-b38d4accd8c5,application,,flutter/pubspec.lock,,,"pkg:pub/_fe_analyzer_shared@64.0.0, pkg:pub/after_layout@1.2.0, pkg:pub/analyzer@6.2.0, pkg:pub/animations@2.0.11, pkg:pub/archive@3.4.10, pkg:pub/args@2.4.2, pkg:pub/async@2.11.0, pkg:pub/auto_size_text@3.0.0, pkg:pub/auto_size_text_field@2.2.2, pkg:pub/back_button_interceptor@6.0.2, pkg:pub/boolean_selector@2.1.1, pkg:pub/bot_toast@4.1.3, pkg:pub/build@2.4.1, pkg:pub/build_cli_annotations@2.1.0, pkg:pub/build_config@1.1.1, pkg:pub/build_daemon@4.0.1, pkg:pub/build_resolvers@2.4.2, pkg:pub/build_runner@2.4.8, pkg:pub/build_runner_core@7.3.0, pkg:pub/built_collection@5.1.1, pkg:pub/built_value@8.9.0, pkg:pub/cached_network_image@3.3.1, pkg:pub/cached_network_image_platform_interface@4.0.0, pkg:pub/cached_network_image_web@1.1.1, pkg:pub/characters@1.3.0, pkg:pub/charcode@1.3.1, pkg:pub/checked_yaml@2.0.3, pkg:pub/cli_util@0.4.1, pkg:pub/clock@1.1.1, pkg:pub/code_builder@4.10.0, pkg:pub/collection@1.18.0, pkg:pub/contextmenu@3.0.0, pkg:pub/convert@3.1.1, pkg:pub/cross_file@0.3.3%2B8, pkg:pub/crypto@3.0.3, pkg:pub/csslib@1.0.0, pkg:pub/dart_style@2.3.4, pkg:pub/dash_chat_2@0.0.18, pkg:pub/dbus@0.7.10, pkg:pub/debounce_throttle@2.0.0, pkg:pub/desktop_drop@0.4.4, pkg:pub/desktop_multi_window@0.1.0, pkg:pub/device_info_plus@9.1.2, pkg:pub/device_info_plus_platform_interface@7.0.0, pkg:pub/draggable_float_widget@0.1.0, pkg:pub/dropdown_button2@2.3.9, pkg:pub/dynamic_layouts@0.0.1%2B1, pkg:pub/external_path@1.0.3, pkg:pub/ffi@2.1.0, pkg:pub/ffigen@8.0.2, pkg:pub/file@6.1.4, pkg:pub/file_picker@5.5.0, pkg:pub/file_selector_linux@0.9.2%2B1, pkg:pub/file_selector_macos@0.9.3%2B3, pkg:pub/file_selector_platform_interface@2.6.2, pkg:pub/file_selector_windows@0.9.3%2B1, pkg:pub/fixnum@1.1.0, pkg:pub/flex_color_picker@3.3.1, pkg:pub/flex_seed_scheme@1.4.0, pkg:pub/flutter@0.0.0, pkg:pub/flutter_breadcrumb@1.0.1, pkg:pub/flutter_cache_manager@3.3.1, pkg:pub/flutter_custom_cursor@0.0.4, pkg:pub/flutter_gpu_texture_renderer@0.0.1, pkg:pub/flutter_improved_scrolling@0.0.3, pkg:pub/flutter_keyboard_visibility@5.4.1, pkg:pub/flutter_keyboard_visibility_linux@1.0.0, pkg:pub/flutter_keyboard_visibility_macos@1.0.0, pkg:pub/flutter_keyboard_visibility_platform_interface@2.0.0, pkg:pub/flutter_keyboard_visibility_web@2.0.0, pkg:pub/flutter_keyboard_visibility_windows@1.0.0, pkg:pub/flutter_launcher_icons@0.13.1, pkg:pub/flutter_lints@2.0.3, pkg:pub/flutter_localizations@0.0.0, pkg:pub/flutter_parsed_text@2.2.1, pkg:pub/flutter_plugin_android_lifecycle@2.0.17, pkg:pub/flutter_rust_bridge@1.80.1, pkg:pub/flutter_svg@2.0.9, pkg:pub/flutter_web_plugins@0.0.0, pkg:pub/freezed@2.4.7, pkg:pub/freezed_annotation@2.4.1, pkg:pub/frontend_server_client@3.2.0, pkg:pub/get@4.6.6, pkg:pub/glob@2.1.2, pkg:pub/graphs@2.3.1, pkg:pub/html@0.15.4, pkg:pub/http@1.2.0, pkg:pub/http_multi_server@3.2.1, pkg:pub/http_parser@4.0.2, pkg:pub/icons_launcher@2.1.7, pkg:pub/image@4.1.7, pkg:pub/image_picker@0.8.9, pkg:pub/image_picker_android@0.8.9%2B3, pkg:pub/image_picker_for_web@2.2.0, pkg:pub/image_picker_ios@0.8.9%2B1, pkg:pub/image_picker_linux@0.2.1%2B1, pkg:pub/image_picker_macos@0.2.1%2B1, pkg:pub/image_picker_platform_interface@2.9.3, pkg:pub/image_picker_windows@0.2.1%2B1, pkg:pub/intl@0.18.1, pkg:pub/io@1.0.4, pkg:pub/js@0.6.7, pkg:pub/json_annotation@4.8.1, pkg:pub/lints@2.1.1, pkg:pub/logging@1.2.0, pkg:pub/matcher@0.12.16%2B1, pkg:pub/material_color_utilities@0.8.0, pkg:pub/meta@1.11.0, pkg:pub/mime@1.0.5, pkg:pub/nested@1.0.0, pkg:pub/octo_image@2.0.0, pkg:pub/package_config@2.1.0, pkg:pub/package_info_plus@4.2.0, pkg:pub/package_info_plus_platform_interface@2.0.1, pkg:pub/password_strength@0.2.0, pkg:pub/path@1.9.0, pkg:pub/path_parsing@1.0.1, pkg:pub/path_provider@2.1.2, pkg:pub/path_provider_android@2.2.2, pkg:pub/path_provider_foundation@2.3.2, pkg:pub/path_provider_linux@2.2.1, pkg:pub/path_provider_platform_interface@2.1.2, pkg:pub/path_provider_windows@2.2.1, pkg:pub/pedantic@1.11.1, pkg:pub/percent_indicator@4.2.3, pkg:pub/petitparser@6.0.2, pkg:pub/platform@3.1.4, pkg:pub/plugin_platform_interface@2.1.8, pkg:pub/pointycastle@3.7.4, pkg:pub/pool@1.5.1, pkg:pub/provider@6.1.1, pkg:pub/pub_semver@2.1.4, pkg:pub/pubspec_parse@1.2.3, pkg:pub/pull_down_button@0.9.3, pkg:pub/puppeteer@3.6.0, pkg:pub/qr@3.0.1, pkg:pub/qr_code_scanner@1.0.1, pkg:pub/qr_flutter@4.1.0, pkg:pub/quiver@3.2.1, pkg:pub/rxdart@0.27.7, pkg:pub/screen_retriever@0.1.9, pkg:pub/scroll_pos@0.4.0, pkg:pub/settings_ui@2.0.2, pkg:pub/shelf@1.4.1, pkg:pub/shelf_static@1.1.2, pkg:pub/shelf_web_socket@1.0.4, pkg:pub/simple_observable@2.0.0, pkg:pub/sky_engine@0.0.99, pkg:pub/source_gen@1.5.0, pkg:pub/source_span@1.10.0, pkg:pub/sqflite@2.3.2, pkg:pub/sqflite_common@2.5.3, pkg:pub/stack_trace@1.11.1, pkg:pub/stream_channel@2.1.2, pkg:pub/stream_transform@2.1.0, pkg:pub/string_scanner@1.2.0, pkg:pub/synchronized@3.1.0%2B1, pkg:pub/term_glyph@1.2.1, pkg:pub/test_api@0.7.0, pkg:pub/texture_rgba_renderer@0.0.16, pkg:pub/timing@1.0.1, pkg:pub/toggle_switch@2.1.0, pkg:pub/tuple@2.0.2, pkg:pub/typed_data@1.3.2, pkg:pub/uni_links@0.5.1, pkg:pub/uni_links_desktop@0.1.7, pkg:pub/uni_links_platform_interface@1.0.0, pkg:pub/uni_links_web@0.1.0, pkg:pub/universal_io@2.2.2, pkg:pub/url_launcher@6.2.4, pkg:pub/url_launcher_android@6.2.2, pkg:pub/url_launcher_ios@6.2.4, pkg:pub/url_launcher_linux@3.1.1, pkg:pub/url_launcher_macos@3.1.0, pkg:pub/url_launcher_platform_interface@2.3.1, pkg:pub/url_launcher_web@2.2.3, pkg:pub/url_launcher_windows@3.1.1, pkg:pub/uuid@3.0.7, pkg:pub/vector_graphics@1.1.10%2B1, pkg:pub/vector_graphics_codec@1.1.10%2B1, pkg:pub/vector_graphics_compiler@1.1.10%2B1, pkg:pub/vector_math@2.1.4, pkg:pub/video_player@2.8.2, pkg:pub/video_player_android@2.4.11, pkg:pub/video_player_avfoundation@2.5.6, pkg:pub/video_player_platform_interface@6.2.2, pkg:pub/video_player_web@2.1.3, pkg:pub/visibility_detector@0.4.0%2B2, pkg:pub/wakelock_plus@1.1.4, pkg:pub/wakelock_plus_platform_interface@1.1.0, pkg:pub/watcher@1.1.0, pkg:pub/web@0.4.2, pkg:pub/web_socket_channel@2.4.0, pkg:pub/win32@5.2.0, pkg:pub/win32_registry@1.1.2, pkg:pub/window_manager@0.3.6, pkg:pub/window_size@0.1.0, pkg:pub/xdg_directories@1.0.4, pkg:pub/xml@6.5.0, pkg:pub/yaml@3.1.2, pkg:pub/yaml_edit@2.1.1, pkg:pub/zxing2@0.2.1"
+,,https://github.com/rustdesk/rustdesk,b2e445b8-9eb1-4a9e-a093-404078659c72,library,,color_quant,1.1.0,pkg:cargo/color_quant@1.1.0,
+,,https://github.com/rustdesk/rustdesk,b8bd2d7d-ad09-4e53-ac00-f9005ae756fc,library,,cfg-if,1.0.0,pkg:cargo/cfg-if@1.0.0,
+,,https://github.com/rustdesk/rustdesk,b8e0d314-6f3b-4695-8c9b-1c22911d59b3,library,,winapi-i686-pc-windows-gnu,0.4.0,pkg:cargo/winapi-i686-pc-windows-gnu@0.4.0,
+,,https://github.com/rustdesk/rustdesk,ba033647-7f3c-4cce-8312-18a39a4da99d,library,,strsim,0.10.0,pkg:cargo/strsim@0.10.0,
+,,https://github.com/rustdesk/rustdesk,ba6fb264-fcdd-47dd-adb7-d10a039faf2e,library,,syn,1.0.109,pkg:cargo/syn@1.0.109,"pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/unicode-ident@1.0.12"
+,,https://github.com/rustdesk/rustdesk,bf1c6e60-6219-43f7-a042-e315b7a4251d,library,,wasi,0.11.0+wasi-snapshot-preview1,pkg:cargo/wasi@0.11.0%2Bwasi-snapshot-preview1,
+,,https://github.com/rustdesk/rustdesk,c419f810-bc67-4cd9-9831-fc2ae9daa1f1,library,,sqflite,0.0.3,pkg:cocoapods/sqflite@0.0.3,pkg:cocoapods/FlutterMacOS@1.0.0
+,,https://github.com/rustdesk/rustdesk,ce1438cd-1e01-46a5-b852-4445796dbd3e,library,,jpeg-decoder,0.3.0,pkg:cargo/jpeg-decoder@0.3.0,pkg:cargo/rayon@1.6.1
+,,https://github.com/rustdesk/rustdesk,db463770-b353-40d3-bbd0-d26c84686973,library,,path_provider_foundation,0.0.1,pkg:cocoapods/path_provider_foundation@0.0.1,pkg:cocoapods/Flutter@1.0.0
+,,https://github.com/rustdesk/rustdesk,dd27e67b-9f5d-49f5-a572-57bdf75f083f,application,,vdi/host/Cargo.lock,,,"pkg:cargo/async-trait@0.1.64, pkg:cargo/clap@4.1.11, pkg:cargo/image@0.24.5"
+,,https://github.com/rustdesk/rustdesk,de01b389-50e0-4f80-8dac-272c0b49b45b,library,,winapi,0.3.9,pkg:cargo/winapi@0.3.9,"180a5b83-5d5f-4e5a-9242-7c288a09dddc, f798b457-8477-4577-8663-22fcedf4f925"
+,,https://github.com/rustdesk/rustdesk,de312e01-4800-4269-b057-ad82220ec539,library,,half,2.2.1,pkg:cargo/half@2.2.1,63c668c6-c5bc-439b-b092-5b1fcf4b241b
+,,https://github.com/rustdesk/rustdesk,de7b4aed-1170-4baf-a62a-123c4ac5608d,library,,memoffset,0.7.1,pkg:cargo/memoffset@0.7.1,e8f08a36-1172-448b-82d8-96b594978a63
+,,https://github.com/rustdesk/rustdesk,de8765cc-b81c-406b-aa51-13ea7f4b47fb,library,,md5,0.7.0,pkg:cargo/md5@0.7.0,
+,,https://github.com/rustdesk/rustdesk,e1a6b97b-b0cd-4d66-864e-4791d6de50ba,application,,Cargo.lock,,,"67f07eff-29c9-4cec-8aee-74d31745e56a, 8b637efe-8817-476b-82ad-95c4100543bb, de01b389-50e0-4f80-8dac-272c0b49b45b, de8765cc-b81c-406b-aa51-13ea7f4b47fb, pkg:cargo/android_logger@0.13.3, pkg:cargo/anyhow@1.0.75, pkg:cargo/async-process@1.8.1, pkg:cargo/async-trait@0.1.79, pkg:cargo/backtrace@0.3.69, pkg:cargo/base64@0.22.0, pkg:cargo/block@0.1.6, pkg:cargo/brotli@3.4.0, pkg:cargo/bytes@1.5.0, pkg:cargo/chrono@0.4.31, pkg:cargo/cidr-utils@0.5.11, pkg:cargo/clap@4.4.7, pkg:cargo/cocoa@0.24.1, pkg:cargo/core-foundation@0.9.3, pkg:cargo/core-graphics@0.22.3, pkg:cargo/cpal@0.15.2, pkg:cargo/crossbeam-queue@0.3.8, pkg:cargo/ctrlc@3.4.1, pkg:cargo/dashmap@5.5.3, pkg:cargo/dasp@0.11.0, pkg:cargo/dbus-crossroads@0.5.2, pkg:cargo/dbus@0.9.7, pkg:cargo/default-net@0.14.1, pkg:cargo/directories-next@2.0.0, pkg:cargo/dirs-next@2.0.0, pkg:cargo/dirs@5.0.1, pkg:cargo/dispatch@0.2.0, pkg:cargo/dlopen@0.1.8, pkg:cargo/env_logger@0.10.0, pkg:cargo/errno@0.3.5, pkg:cargo/filetime@0.2.22, pkg:cargo/flexi_logger@0.27.3, pkg:cargo/flutter_rust_bridge@1.80.1, pkg:cargo/fon@0.6.0, pkg:cargo/fruitbasket@0.10.0, pkg:cargo/fuser@0.13.0, pkg:cargo/futures-util@0.3.29, pkg:cargo/futures@0.3.29, pkg:cargo/gstreamer-app@0.16.5, pkg:cargo/gstreamer-video@0.16.7, pkg:cargo/gstreamer@0.16.7, pkg:cargo/hex@0.4.3, pkg:cargo/httparse@1.8.0, pkg:cargo/image@0.24.7, pkg:cargo/include_dir@0.7.3, pkg:cargo/jni@0.21.1, pkg:cargo/libc@0.2.150, pkg:cargo/libloading@0.8.1, pkg:cargo/log@0.4.20, pkg:cargo/mac_address@1.1.5, pkg:cargo/ndk-context@0.1.1, pkg:cargo/ndk@0.7.0, pkg:cargo/num_cpus@1.16.0, pkg:cargo/objc@0.2.7, pkg:cargo/objc_id@0.1.1, pkg:cargo/once_cell@1.18.0, pkg:cargo/osascript@0.3.0, pkg:cargo/parking_lot@0.12.1, pkg:cargo/percent-encoding@2.3.0, pkg:cargo/protobuf@3.4.0, pkg:cargo/qrcode-generator@4.1.9, pkg:cargo/quinn@0.9.4, pkg:cargo/rand@0.8.5, pkg:cargo/regex@1.10.2, pkg:cargo/repng@0.2.2, pkg:cargo/ringbuf@0.3.3, pkg:cargo/rpassword@7.2.0, pkg:cargo/rubato@0.12.0, pkg:cargo/runas@1.2.0, pkg:cargo/rustls-pki-types@1.4.1, pkg:cargo/rustls-platform-verifier@0.3.1, pkg:cargo/samplerate@0.2.4, pkg:cargo/serde@1.0.190, pkg:cargo/serde_derive@1.0.190, pkg:cargo/serde_json@1.0.107, pkg:cargo/serde_repr@0.1.16, pkg:cargo/sha2@0.10.8, pkg:cargo/shared_memory@0.12.4, pkg:cargo/shutdown_hooks@0.1.0, pkg:cargo/socket2@0.3.19, pkg:cargo/sodiumoxide@0.2.7, pkg:cargo/sys-locale@0.3.1, pkg:cargo/system_shutdown@4.0.1, pkg:cargo/tauri-winrt-notification@0.1.3, pkg:cargo/thiserror@1.0.50, pkg:cargo/tokio-native-tls@0.3.1, pkg:cargo/tokio-rustls@0.26.0, pkg:cargo/tokio-util@0.7.10, pkg:cargo/tokio@1.36.0, pkg:cargo/toml@0.7.8, pkg:cargo/totp-rs@5.4.0, pkg:cargo/tracing@0.1.40, pkg:cargo/unicode-segmentation@1.10.1, pkg:cargo/url@2.4.1, pkg:cargo/users@0.11.0, pkg:cargo/utf16string@0.2.0, pkg:cargo/uuid@1.5.0, pkg:cargo/whoami@1.5.0, pkg:cargo/windows-service@0.6.0, pkg:cargo/winreg@0.11.0, pkg:cargo/wol-rs@1.0.1, pkg:cargo/x11rb@0.12.0, pkg:cargo/zip@0.6.6, pkg:cargo/zstd@0.13.0"
+,,https://github.com/rustdesk/rustdesk,e4340bf8-e77e-4ce3-9645-b9b009b7323e,library,,video_player_avfoundation,0.0.1,pkg:cocoapods/video_player_avfoundation@0.0.1,pkg:cocoapods/Flutter@1.0.0
+,,https://github.com/rustdesk/rustdesk,e8609413-5317-4066-8294-78ff5a2c2097,library,,crc32fast,1.3.2,pkg:cargo/crc32fast@1.3.2,8b637efe-8817-476b-82ad-95c4100543bb
+,,https://github.com/rustdesk/rustdesk,e8f08a36-1172-448b-82d8-96b594978a63,library,,autocfg,1.1.0,pkg:cargo/autocfg@1.1.0,
+,,https://github.com/rustdesk/rustdesk,e8f0fcb9-8da6-44c4-ba20-b021b4ecf765,library,,weezl,0.1.7,pkg:cargo/weezl@0.1.7,
+,,https://github.com/rustdesk/rustdesk,e9171ec2-75fe-40fb-9fd9-017b022df7d8,library,,autocfg,1.1.0,pkg:cargo/autocfg@1.1.0,
+,,https://github.com/rustdesk/rustdesk,ea301e9c-f8f7-4854-b3ed-8479495d7808,library,,lazy_static,1.4.0,pkg:cargo/lazy_static@1.4.0,
+,,https://github.com/rustdesk/rustdesk,ed8d5360-f377-42ed-95a6-5f77f7775d43,library,,adler,1.0.2,pkg:cargo/adler@1.0.2,
+,,https://github.com/rustdesk/rustdesk,f452374f-f609-4452-a0b2-c3f8788f8864,library,,proc-macro-error-attr,1.0.4,pkg:cargo/proc-macro-error-attr@1.0.4,"6a9bb4fa-845a-461c-9e76-a7b22ece4de4, pkg:cargo/proc-macro2@1.0.51, pkg:cargo/quote@1.0.23"
+,,https://github.com/rustdesk/rustdesk,f798b457-8477-4577-8663-22fcedf4f925,library,,winapi-x86_64-pc-windows-gnu,0.4.0,pkg:cargo/winapi-x86_64-pc-windows-gnu@0.4.0,
+,,https://github.com/rustdesk/rustdesk,f9a04d3f-1e3b-4628-8c9e-a6735470b4d7,library,,proc-macro-error-attr,1.0.4,pkg:cargo/proc-macro-error-attr@1.0.4,"9f473092-fb36-4bd0-bfd6-1c3ef9392466, pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35"
+,,https://github.com/rustdesk/rustdesk,fb934dad-318a-4470-8100-4860730cb909,library,,memoffset,0.7.1,pkg:cargo/memoffset@0.7.1,e9171ec2-75fe-40fb-9fd9-017b022df7d8
+,,https://github.com/rustdesk/rustdesk,fc20529d-7d15-495b-9e85-5f938858367f,library,,weezl,0.1.7,pkg:cargo/weezl@0.1.7,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/addr2line@0.21.0,library,,addr2line,0.21.0,pkg:cargo/addr2line@0.21.0,pkg:cargo/gimli@0.28.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/aes@0.8.3,library,,aes,0.8.3,pkg:cargo/aes@0.8.3,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/cipher@0.4.4, pkg:cargo/cpufeatures@0.2.11"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/ahash@0.8.6,library,,ahash,0.8.6,pkg:cargo/ahash@0.8.6,"8b637efe-8817-476b-82ad-95c4100543bb, 9f473092-fb36-4bd0-bfd6-1c3ef9392466, pkg:cargo/once_cell@1.18.0, pkg:cargo/zerocopy@0.7.32"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/aho-corasick@1.1.2,library,,aho-corasick,1.1.2,pkg:cargo/aho-corasick@1.1.2,pkg:cargo/memchr@2.6.4
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/allo-isolate@0.1.20,library,,allo-isolate,0.1.20,pkg:cargo/allo-isolate@0.1.20,"pkg:cargo/anyhow@1.0.75, pkg:cargo/atomic@0.5.3, pkg:cargo/chrono@0.4.31, pkg:cargo/uuid@1.5.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/alloc-no-stdlib@2.0.4,library,,alloc-no-stdlib,2.0.4,pkg:cargo/alloc-no-stdlib@2.0.4,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/alloc-stdlib@0.2.2,library,,alloc-stdlib,0.2.2,pkg:cargo/alloc-stdlib@0.2.2,pkg:cargo/alloc-no-stdlib@2.0.4
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/allocator-api2@0.2.16,library,,allocator-api2,0.2.16,pkg:cargo/allocator-api2@0.2.16,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/alsa-sys@0.3.1,library,,alsa-sys,0.3.1,pkg:cargo/alsa-sys@0.3.1,"pkg:cargo/libc@0.2.150, pkg:cargo/pkg-config@0.3.27"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/alsa@0.7.1,library,,alsa,0.7.1,pkg:cargo/alsa@0.7.1,"a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/alsa-sys@0.3.1, pkg:cargo/libc@0.2.150, pkg:cargo/nix@0.24.3"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/android-tzdata@0.1.1,library,,android-tzdata,0.1.1,pkg:cargo/android-tzdata@0.1.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/android_log-sys@0.3.1,library,,android_log-sys,0.3.1,pkg:cargo/android_log-sys@0.3.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/android_logger@0.13.3,library,,android_logger,0.13.3,pkg:cargo/android_logger@0.13.3,"pkg:cargo/android_log-sys@0.3.1, pkg:cargo/env_logger@0.10.0, pkg:cargo/log@0.4.20, pkg:cargo/once_cell@1.18.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/android_system_properties@0.1.5,library,,android_system_properties,0.1.5,pkg:cargo/android_system_properties@0.1.5,pkg:cargo/libc@0.2.150
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/anstream@0.6.4,library,,anstream,0.6.4,pkg:cargo/anstream@0.6.4,"pkg:cargo/anstyle-parse@0.2.2, pkg:cargo/anstyle-query@1.0.0, pkg:cargo/anstyle-wincon@3.0.1, pkg:cargo/anstyle@1.0.4, pkg:cargo/colorchoice@1.0.0, pkg:cargo/utf8parse@0.2.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/anstyle-parse@0.2.2,library,,anstyle-parse,0.2.2,pkg:cargo/anstyle-parse@0.2.2,pkg:cargo/utf8parse@0.2.1
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/anstyle-query@1.0.0,library,,anstyle-query,1.0.0,pkg:cargo/anstyle-query@1.0.0,pkg:cargo/windows-sys@0.48.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/anstyle-wincon@3.0.1,library,,anstyle-wincon,3.0.1,pkg:cargo/anstyle-wincon@3.0.1,"pkg:cargo/anstyle@1.0.4, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/anstyle@1.0.4,library,,anstyle,1.0.4,pkg:cargo/anstyle@1.0.4,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/anyhow@1.0.75,library,,anyhow,1.0.75,pkg:cargo/anyhow@1.0.75,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/async-broadcast@0.5.1,library,,async-broadcast,0.5.1,pkg:cargo/async-broadcast@0.5.1,"pkg:cargo/event-listener@2.5.3, pkg:cargo/futures-core@0.3.29"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/async-channel@1.9.0,library,,async-channel,1.9.0,pkg:cargo/async-channel@1.9.0,"pkg:cargo/concurrent-queue@2.3.0, pkg:cargo/event-listener@2.5.3, pkg:cargo/futures-core@0.3.29"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/async-executor@1.6.0,library,,async-executor,1.6.0,pkg:cargo/async-executor@1.6.0,"pkg:cargo/async-lock@2.8.0, pkg:cargo/async-task@4.5.0, pkg:cargo/concurrent-queue@2.3.0, pkg:cargo/fastrand@2.0.1, pkg:cargo/futures-lite@1.13.0, pkg:cargo/slab@0.4.9"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/async-fs@1.6.0,library,,async-fs,1.6.0,pkg:cargo/async-fs@1.6.0,"e9171ec2-75fe-40fb-9fd9-017b022df7d8, pkg:cargo/async-lock@2.8.0, pkg:cargo/blocking@1.4.1, pkg:cargo/futures-lite@1.13.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/async-io@1.13.0,library,,async-io,1.13.0,pkg:cargo/async-io@1.13.0,"8b637efe-8817-476b-82ad-95c4100543bb, e9171ec2-75fe-40fb-9fd9-017b022df7d8, pkg:cargo/async-lock@2.8.0, pkg:cargo/concurrent-queue@2.3.0, pkg:cargo/futures-lite@1.13.0, pkg:cargo/log@0.4.20, pkg:cargo/parking@2.2.0, pkg:cargo/polling@2.8.0, pkg:cargo/rustix@0.37.27, pkg:cargo/slab@0.4.9, pkg:cargo/socket2@0.4.10, pkg:cargo/waker-fn@1.1.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/async-lock@2.8.0,library,,async-lock,2.8.0,pkg:cargo/async-lock@2.8.0,pkg:cargo/event-listener@2.5.3
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/async-process@1.8.1,library,,async-process,1.8.1,pkg:cargo/async-process@1.8.1,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/async-io@1.13.0, pkg:cargo/async-lock@2.8.0, pkg:cargo/async-signal@0.2.4, pkg:cargo/blocking@1.4.1, pkg:cargo/event-listener@3.0.0, pkg:cargo/futures-lite@1.13.0, pkg:cargo/rustix@0.38.21, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/async-recursion@1.0.5,library,,async-recursion,1.0.5,pkg:cargo/async-recursion@1.0.5,"pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/syn@2.0.55"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/async-signal@0.2.4,library,,async-signal,0.2.4,pkg:cargo/async-signal@0.2.4,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/async-io@1.13.0, pkg:cargo/async-lock@2.8.0, pkg:cargo/atomic-waker@1.1.2, pkg:cargo/futures-core@0.3.29, pkg:cargo/futures-io@0.3.29, pkg:cargo/rustix@0.38.21, pkg:cargo/signal-hook-registry@1.4.1, pkg:cargo/slab@0.4.9, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/async-task@4.5.0,library,,async-task,4.5.0,pkg:cargo/async-task@4.5.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/async-trait@0.1.64,library,,async-trait,0.1.64,pkg:cargo/async-trait@0.1.64,"0bf0b472-8867-4bbd-b875-2a54d956be84, pkg:cargo/proc-macro2@1.0.51, pkg:cargo/quote@1.0.23"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/async-trait@0.1.79,library,,async-trait,0.1.79,pkg:cargo/async-trait@0.1.79,"pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/syn@2.0.55"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/atomic-waker@1.1.2,library,,atomic-waker,1.1.2,pkg:cargo/atomic-waker@1.1.2,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/atomic@0.5.3,library,,atomic,0.5.3,pkg:cargo/atomic@0.5.3,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/backtrace@0.3.69,library,,backtrace,0.3.69,pkg:cargo/backtrace@0.3.69,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/addr2line@0.21.0, pkg:cargo/cc@1.0.83, pkg:cargo/libc@0.2.150, pkg:cargo/miniz_oxide@0.7.1, pkg:cargo/object@0.32.1, pkg:cargo/rustc-demangle@0.1.23"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/base32@0.4.0,library,,base32,0.4.0,pkg:cargo/base32@0.4.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/base64@0.21.5,library,,base64,0.21.5,pkg:cargo/base64@0.21.5,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/base64@0.22.0,library,,base64,0.22.0,pkg:cargo/base64@0.22.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/base64ct@1.6.0,library,,base64ct,1.6.0,pkg:cargo/base64ct@1.6.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/bindgen@0.68.1,library,,bindgen,0.68.1,pkg:cargo/bindgen@0.68.1,"67f07eff-29c9-4cec-8aee-74d31745e56a, pkg:cargo/bitflags@2.4.1, pkg:cargo/cexpr@0.6.0, pkg:cargo/clang-sys@1.6.1, pkg:cargo/lazycell@1.3.0, pkg:cargo/peeking_take_while@0.1.2, pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/regex@1.10.2, pkg:cargo/rustc-hash@1.1.0, pkg:cargo/shlex@1.3.0, pkg:cargo/syn@2.0.55"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/bitflags@2.0.2,library,,bitflags,2.0.2,pkg:cargo/bitflags@2.0.2,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/bitflags@2.4.1,library,,bitflags,2.4.1,pkg:cargo/bitflags@2.4.1,pkg:cargo/serde@1.0.190
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/block-buffer@0.10.4,library,,block-buffer,0.10.4,pkg:cargo/block-buffer@0.10.4,pkg:cargo/generic-array@0.14.7
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/block@0.1.6,library,,block,0.1.6,pkg:cargo/block@0.1.6,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/blocking@1.4.1,library,,blocking,1.4.1,pkg:cargo/blocking@1.4.1,"pkg:cargo/async-channel@1.9.0, pkg:cargo/async-lock@2.8.0, pkg:cargo/async-task@4.5.0, pkg:cargo/fastrand@2.0.1, pkg:cargo/futures-io@0.3.29, pkg:cargo/futures-lite@1.13.0, pkg:cargo/piper@0.2.1, pkg:cargo/tracing@0.1.40"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/brotli-decompressor@2.5.1,library,,brotli-decompressor,2.5.1,pkg:cargo/brotli-decompressor@2.5.1,"pkg:cargo/alloc-no-stdlib@2.0.4, pkg:cargo/alloc-stdlib@0.2.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/brotli@3.4.0,library,,brotli,3.4.0,pkg:cargo/brotli@3.4.0,"pkg:cargo/alloc-no-stdlib@2.0.4, pkg:cargo/alloc-stdlib@0.2.2, pkg:cargo/brotli-decompressor@2.5.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/build-target@0.4.0,library,,build-target,0.4.0,pkg:cargo/build-target@0.4.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/bumpalo@3.12.0,library,,bumpalo,3.12.0,pkg:cargo/bumpalo@3.12.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/bumpalo@3.14.0,library,,bumpalo,3.14.0,pkg:cargo/bumpalo@3.14.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/bytemuck@1.13.1,library,,bytemuck,1.13.1,pkg:cargo/bytemuck@1.13.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/bytemuck@1.14.0,library,,bytemuck,1.14.0,pkg:cargo/bytemuck@1.14.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/byteorder@1.4.3,library,,byteorder,1.4.3,pkg:cargo/byteorder@1.4.3,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/byteorder@1.5.0,library,,byteorder,1.5.0,pkg:cargo/byteorder@1.5.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/bytes@1.5.0,library,,bytes,1.5.0,pkg:cargo/bytes@1.5.0,pkg:cargo/serde@1.0.190
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/bzip2-sys@0.1.11%2B1.0.8,library,,bzip2-sys,0.1.11+1.0.8,pkg:cargo/bzip2-sys@0.1.11%2B1.0.8,"pkg:cargo/cc@1.0.83, pkg:cargo/libc@0.2.150, pkg:cargo/pkg-config@0.3.27"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/bzip2@0.4.4,library,,bzip2,0.4.4,pkg:cargo/bzip2@0.4.4,"pkg:cargo/bzip2-sys@0.1.11%2B1.0.8, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/cc@1.0.79,library,,cc,1.0.79,pkg:cargo/cc@1.0.79,pkg:cargo/jobserver@0.1.25
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/cc@1.0.83,library,,cc,1.0.83,pkg:cargo/cc@1.0.83,"pkg:cargo/jobserver@0.1.27, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/cesu8@1.1.0,library,,cesu8,1.1.0,pkg:cargo/cesu8@1.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/cexpr@0.6.0,library,,cexpr,0.6.0,pkg:cargo/cexpr@0.6.0,pkg:cargo/nom@7.1.3
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/cfg-if@0.1.10,library,,cfg-if,0.1.10,pkg:cargo/cfg-if@0.1.10,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/chrono@0.4.31,library,,chrono,0.4.31,pkg:cargo/chrono@0.4.31,"pkg:cargo/android-tzdata@0.1.1, pkg:cargo/iana-time-zone@0.1.58, pkg:cargo/js-sys@0.3.64, pkg:cargo/num-traits@0.2.17, pkg:cargo/wasm-bindgen@0.2.87, pkg:cargo/windows-targets@0.48.5"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/cidr-utils@0.5.11,library,,cidr-utils,0.5.11,pkg:cargo/cidr-utils@0.5.11,"pkg:cargo/debug-helper@0.3.13, pkg:cargo/num-bigint@0.4.4, pkg:cargo/num-traits@0.2.17, pkg:cargo/once_cell@1.18.0, pkg:cargo/regex@1.10.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/cipher@0.4.4,library,,cipher,0.4.4,pkg:cargo/cipher@0.4.4,"pkg:cargo/crypto-common@0.1.6, pkg:cargo/inout@0.1.3"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/clang-sys@1.6.1,library,,clang-sys,1.6.1,pkg:cargo/clang-sys@1.6.1,"pkg:cargo/glob@0.3.1, pkg:cargo/libc@0.2.150, pkg:cargo/libloading@0.7.4"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/clap@4.1.11,library,,clap,4.1.11,pkg:cargo/clap@4.1.11,"1d40ca75-3f4a-412c-bfde-aa59d4105526, pkg:cargo/bitflags@2.0.2, pkg:cargo/clap_derive@4.1.9, pkg:cargo/clap_lex@0.3.3, pkg:cargo/is-terminal@0.4.5, pkg:cargo/once_cell@1.17.1, pkg:cargo/termcolor@1.2.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/clap@4.4.7,library,,clap,4.4.7,pkg:cargo/clap@4.4.7,pkg:cargo/clap_builder@4.4.7
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/clap_builder@4.4.7,library,,clap_builder,4.4.7,pkg:cargo/clap_builder@4.4.7,"ba033647-7f3c-4cce-8312-18a39a4da99d, pkg:cargo/anstream@0.6.4, pkg:cargo/anstyle@1.0.4, pkg:cargo/clap_lex@0.6.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/clap_derive@4.1.9,library,,clap_derive,4.1.9,pkg:cargo/clap_derive@4.1.9,"0bf0b472-8867-4bbd-b875-2a54d956be84, 8e2c9669-b4b1-4fc1-8dab-d39243f71805, pkg:cargo/heck@0.4.1, pkg:cargo/proc-macro2@1.0.51, pkg:cargo/quote@1.0.23"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/clap_lex@0.3.3,library,,clap_lex,0.3.3,pkg:cargo/clap_lex@0.3.3,pkg:cargo/os_str_bytes@6.5.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/clap_lex@0.6.0,library,,clap_lex,0.6.0,pkg:cargo/clap_lex@0.6.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/cmake@0.1.50,library,,cmake,0.1.50,pkg:cargo/cmake@0.1.50,pkg:cargo/cc@1.0.83
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/cocoa-foundation@0.1.2,library,,cocoa-foundation,0.1.2,pkg:cargo/cocoa-foundation@0.1.2,"a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/block@0.1.6, pkg:cargo/core-foundation@0.9.3, pkg:cargo/core-graphics-types@0.1.2, pkg:cargo/libc@0.2.150, pkg:cargo/objc@0.2.7"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/cocoa@0.24.1,library,,cocoa,0.24.1,pkg:cargo/cocoa@0.24.1,"a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/block@0.1.6, pkg:cargo/cocoa-foundation@0.1.2, pkg:cargo/core-foundation@0.9.3, pkg:cargo/core-graphics@0.22.3, pkg:cargo/foreign-types@0.3.2, pkg:cargo/libc@0.2.150, pkg:cargo/objc@0.2.7"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/colorchoice@1.0.0,library,,colorchoice,1.0.0,pkg:cargo/colorchoice@1.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/combine@4.6.6,library,,combine,4.6.6,pkg:cargo/combine@4.6.6,"pkg:cargo/bytes@1.5.0, pkg:cargo/memchr@2.6.4"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/concurrent-queue@2.3.0,library,,concurrent-queue,2.3.0,pkg:cargo/concurrent-queue@2.3.0,pkg:cargo/crossbeam-utils@0.8.16
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/console_error_panic_hook@0.1.7,library,,console_error_panic_hook,0.1.7,pkg:cargo/console_error_panic_hook@0.1.7,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/wasm-bindgen@0.2.87"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/constant_time_eq@0.1.5,library,,constant_time_eq,0.1.5,pkg:cargo/constant_time_eq@0.1.5,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/constant_time_eq@0.2.6,library,,constant_time_eq,0.2.6,pkg:cargo/constant_time_eq@0.2.6,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/core-foundation-sys@0.8.4,library,,core-foundation-sys,0.8.4,pkg:cargo/core-foundation-sys@0.8.4,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/core-foundation@0.9.3,library,,core-foundation,0.9.3,pkg:cargo/core-foundation@0.9.3,"pkg:cargo/core-foundation-sys@0.8.4, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/core-graphics-types@0.1.2,library,,core-graphics-types,0.1.2,pkg:cargo/core-graphics-types@0.1.2,"a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/core-foundation@0.9.3, pkg:cargo/libc@0.2.150, pkg:cargo/objc2-encode@2.0.0-pre.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/core-graphics@0.22.3,library,,core-graphics,0.22.3,pkg:cargo/core-graphics@0.22.3,"a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/core-foundation@0.9.3, pkg:cargo/core-graphics-types@0.1.2, pkg:cargo/foreign-types@0.3.2, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/coreaudio-rs@0.11.3,library,,coreaudio-rs,0.11.3,pkg:cargo/coreaudio-rs@0.11.3,"a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/core-foundation-sys@0.8.4, pkg:cargo/coreaudio-sys@0.2.13"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/coreaudio-sys@0.2.13,library,,coreaudio-sys,0.2.13,pkg:cargo/coreaudio-sys@0.2.13,pkg:cargo/bindgen@0.68.1
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/cpal@0.15.2,library,,cpal,0.15.2,pkg:cargo/cpal@0.15.2,"pkg:cargo/alsa@0.7.1, pkg:cargo/core-foundation-sys@0.8.4, pkg:cargo/coreaudio-rs@0.11.3, pkg:cargo/dasp_sample@0.11.0, pkg:cargo/jni@0.19.0, pkg:cargo/js-sys@0.3.64, pkg:cargo/libc@0.2.150, pkg:cargo/mach2@0.4.1, pkg:cargo/ndk-context@0.1.1, pkg:cargo/ndk@0.7.0, pkg:cargo/oboe@0.5.0, pkg:cargo/once_cell@1.18.0, pkg:cargo/parking_lot@0.12.1, pkg:cargo/wasm-bindgen-futures@0.4.37, pkg:cargo/wasm-bindgen@0.2.87, pkg:cargo/web-sys@0.3.64, pkg:cargo/windows@0.46.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/cpufeatures@0.2.11,library,,cpufeatures,0.2.11,pkg:cargo/cpufeatures@0.2.11,pkg:cargo/libc@0.2.150
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/crossbeam-channel@0.5.6,library,,crossbeam-channel,0.5.6,pkg:cargo/crossbeam-channel@0.5.6,"b8bd2d7d-ad09-4e53-ac00-f9005ae756fc, pkg:cargo/crossbeam-utils@0.8.14"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/crossbeam-channel@0.5.8,library,,crossbeam-channel,0.5.8,pkg:cargo/crossbeam-channel@0.5.8,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/crossbeam-utils@0.8.16"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/crossbeam-deque@0.8.2,library,,crossbeam-deque,0.8.2,pkg:cargo/crossbeam-deque@0.8.2,"b8bd2d7d-ad09-4e53-ac00-f9005ae756fc, pkg:cargo/crossbeam-epoch@0.9.13, pkg:cargo/crossbeam-utils@0.8.14"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/crossbeam-deque@0.8.3,library,,crossbeam-deque,0.8.3,pkg:cargo/crossbeam-deque@0.8.3,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/crossbeam-epoch@0.9.15, pkg:cargo/crossbeam-utils@0.8.16"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/crossbeam-epoch@0.9.13,library,,crossbeam-epoch,0.9.13,pkg:cargo/crossbeam-epoch@0.9.13,"b8bd2d7d-ad09-4e53-ac00-f9005ae756fc, de7b4aed-1170-4baf-a62a-123c4ac5608d, e8f08a36-1172-448b-82d8-96b594978a63, pkg:cargo/crossbeam-utils@0.8.14, pkg:cargo/scopeguard@1.1.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/crossbeam-epoch@0.9.15,library,,crossbeam-epoch,0.9.15,pkg:cargo/crossbeam-epoch@0.9.15,"8b637efe-8817-476b-82ad-95c4100543bb, e9171ec2-75fe-40fb-9fd9-017b022df7d8, pkg:cargo/crossbeam-utils@0.8.16, pkg:cargo/memoffset@0.9.0, pkg:cargo/scopeguard@1.2.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/crossbeam-queue@0.3.8,library,,crossbeam-queue,0.3.8,pkg:cargo/crossbeam-queue@0.3.8,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/crossbeam-utils@0.8.16"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/crossbeam-utils@0.8.14,library,,crossbeam-utils,0.8.14,pkg:cargo/crossbeam-utils@0.8.14,b8bd2d7d-ad09-4e53-ac00-f9005ae756fc
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/crossbeam-utils@0.8.16,library,,crossbeam-utils,0.8.16,pkg:cargo/crossbeam-utils@0.8.16,8b637efe-8817-476b-82ad-95c4100543bb
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/crypto-common@0.1.6,library,,crypto-common,0.1.6,pkg:cargo/crypto-common@0.1.6,"pkg:cargo/generic-array@0.14.7, pkg:cargo/typenum@1.17.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/ctrlc@3.4.1,library,,ctrlc,3.4.1,pkg:cargo/ctrlc@3.4.1,"pkg:cargo/nix@0.27.1, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dart-sys@4.0.2,library,,dart-sys,4.0.2,pkg:cargo/dart-sys@4.0.2,pkg:cargo/cc@1.0.83
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dashmap@5.5.3,library,,dashmap,5.5.3,pkg:cargo/dashmap@5.5.3,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/hashbrown@0.14.2, pkg:cargo/lock_api@0.4.11, pkg:cargo/once_cell@1.18.0, pkg:cargo/parking_lot_core@0.9.9"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dasp@0.11.0,library,,dasp,0.11.0,pkg:cargo/dasp@0.11.0,"pkg:cargo/dasp_envelope@0.11.0, pkg:cargo/dasp_frame@0.11.0, pkg:cargo/dasp_interpolate@0.11.0, pkg:cargo/dasp_peak@0.11.0, pkg:cargo/dasp_ring_buffer@0.11.0, pkg:cargo/dasp_rms@0.11.0, pkg:cargo/dasp_sample@0.11.0, pkg:cargo/dasp_signal@0.11.0, pkg:cargo/dasp_slice@0.11.0, pkg:cargo/dasp_window@0.11.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dasp_envelope@0.11.0,library,,dasp_envelope,0.11.0,pkg:cargo/dasp_envelope@0.11.0,"pkg:cargo/dasp_frame@0.11.0, pkg:cargo/dasp_peak@0.11.0, pkg:cargo/dasp_ring_buffer@0.11.0, pkg:cargo/dasp_rms@0.11.0, pkg:cargo/dasp_sample@0.11.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dasp_frame@0.11.0,library,,dasp_frame,0.11.0,pkg:cargo/dasp_frame@0.11.0,pkg:cargo/dasp_sample@0.11.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dasp_interpolate@0.11.0,library,,dasp_interpolate,0.11.0,pkg:cargo/dasp_interpolate@0.11.0,"pkg:cargo/dasp_frame@0.11.0, pkg:cargo/dasp_ring_buffer@0.11.0, pkg:cargo/dasp_sample@0.11.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dasp_peak@0.11.0,library,,dasp_peak,0.11.0,pkg:cargo/dasp_peak@0.11.0,"pkg:cargo/dasp_frame@0.11.0, pkg:cargo/dasp_sample@0.11.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dasp_ring_buffer@0.11.0,library,,dasp_ring_buffer,0.11.0,pkg:cargo/dasp_ring_buffer@0.11.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dasp_rms@0.11.0,library,,dasp_rms,0.11.0,pkg:cargo/dasp_rms@0.11.0,"pkg:cargo/dasp_frame@0.11.0, pkg:cargo/dasp_ring_buffer@0.11.0, pkg:cargo/dasp_sample@0.11.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dasp_sample@0.11.0,library,,dasp_sample,0.11.0,pkg:cargo/dasp_sample@0.11.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dasp_signal@0.11.0,library,,dasp_signal,0.11.0,pkg:cargo/dasp_signal@0.11.0,"pkg:cargo/dasp_envelope@0.11.0, pkg:cargo/dasp_frame@0.11.0, pkg:cargo/dasp_interpolate@0.11.0, pkg:cargo/dasp_peak@0.11.0, pkg:cargo/dasp_ring_buffer@0.11.0, pkg:cargo/dasp_rms@0.11.0, pkg:cargo/dasp_sample@0.11.0, pkg:cargo/dasp_window@0.11.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dasp_slice@0.11.0,library,,dasp_slice,0.11.0,pkg:cargo/dasp_slice@0.11.0,"pkg:cargo/dasp_frame@0.11.0, pkg:cargo/dasp_sample@0.11.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dasp_window@0.11.1,library,,dasp_window,0.11.1,pkg:cargo/dasp_window@0.11.1,pkg:cargo/dasp_sample@0.11.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dbus-crossroads@0.5.2,library,,dbus-crossroads,0.5.2,pkg:cargo/dbus-crossroads@0.5.2,pkg:cargo/dbus@0.9.7
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dbus@0.9.7,library,,dbus,0.9.7,pkg:cargo/dbus@0.9.7,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/libc@0.2.150, pkg:cargo/libdbus-sys@0.2.5"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/debug-helper@0.3.13,library,,debug-helper,0.3.13,pkg:cargo/debug-helper@0.3.13,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/default-net@0.14.1,library,,default-net,0.14.1,pkg:cargo/default-net@0.14.1,"pkg:cargo/dlopen2@0.4.1, pkg:cargo/libc@0.2.150, pkg:cargo/memalloc@0.1.0, pkg:cargo/netlink-packet-core@0.5.0, pkg:cargo/netlink-packet-route@0.15.0, pkg:cargo/netlink-sys@0.8.5, pkg:cargo/once_cell@1.18.0, pkg:cargo/system-configuration@0.5.1, pkg:cargo/windows@0.32.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/deranged@0.3.9,library,,deranged,0.3.9,pkg:cargo/deranged@0.3.9,pkg:cargo/powerfmt@0.2.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/derivative@2.2.0,library,,derivative,2.2.0,pkg:cargo/derivative@2.2.0,"ba6fb264-fcdd-47dd-adb7-d10a039faf2e, pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/digest@0.10.7,library,,digest,0.10.7,pkg:cargo/digest@0.10.7,"pkg:cargo/block-buffer@0.10.4, pkg:cargo/crypto-common@0.1.6, pkg:cargo/subtle@2.5.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/directories-next@2.0.0,library,,directories-next,2.0.0,pkg:cargo/directories-next@2.0.0,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/dirs-sys-next@0.1.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dirs-next@2.0.0,library,,dirs-next,2.0.0,pkg:cargo/dirs-next@2.0.0,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/dirs-sys-next@0.1.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dirs-sys-next@0.1.2,library,,dirs-sys-next,0.1.2,pkg:cargo/dirs-sys-next@0.1.2,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/libc@0.2.150, pkg:cargo/redox_users@0.4.3"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dirs-sys@0.3.7,library,,dirs-sys,0.3.7,pkg:cargo/dirs-sys@0.3.7,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/libc@0.2.150, pkg:cargo/redox_users@0.4.3"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dirs-sys@0.4.1,library,,dirs-sys,0.4.1,pkg:cargo/dirs-sys@0.4.1,"pkg:cargo/libc@0.2.150, pkg:cargo/option-ext@0.2.0, pkg:cargo/redox_users@0.4.3, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dirs@2.0.2,library,,dirs,2.0.2,pkg:cargo/dirs@2.0.2,"pkg:cargo/cfg-if@0.1.10, pkg:cargo/dirs-sys@0.3.7"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dirs@5.0.1,library,,dirs,5.0.1,pkg:cargo/dirs@5.0.1,pkg:cargo/dirs-sys@0.4.1
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dispatch@0.2.0,library,,dispatch,0.2.0,pkg:cargo/dispatch@0.2.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dlopen2@0.4.1,library,,dlopen2,0.4.1,pkg:cargo/dlopen2@0.4.1,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/dlopen2_derive@0.2.0, pkg:cargo/libc@0.2.150, pkg:cargo/once_cell@1.18.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dlopen2_derive@0.2.0,library,,dlopen2_derive,0.2.0,pkg:cargo/dlopen2_derive@0.2.0,"ba6fb264-fcdd-47dd-adb7-d10a039faf2e, pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dlopen@0.1.8,library,,dlopen,0.1.8,pkg:cargo/dlopen@0.1.8,"67f07eff-29c9-4cec-8aee-74d31745e56a, de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/dlopen_derive@0.1.4, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/dlopen_derive@0.1.4,library,,dlopen_derive,0.1.4,pkg:cargo/dlopen_derive@0.1.4,"pkg:cargo/libc@0.2.150, pkg:cargo/quote@0.6.13, pkg:cargo/syn@0.15.44"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/ed25519@1.5.3,library,,ed25519,1.5.3,pkg:cargo/ed25519@1.5.3,pkg:cargo/signature@1.6.4
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/either@1.8.1,library,,either,1.8.1,pkg:cargo/either@1.8.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/either@1.9.0,library,,either,1.9.0,pkg:cargo/either@1.9.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/enumflags2@0.7.8,library,,enumflags2,0.7.8,pkg:cargo/enumflags2@0.7.8,"pkg:cargo/enumflags2_derive@0.7.8, pkg:cargo/serde@1.0.190"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/enumflags2_derive@0.7.8,library,,enumflags2_derive,0.7.8,pkg:cargo/enumflags2_derive@0.7.8,"pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/syn@2.0.55"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/env_logger@0.10.0,library,,env_logger,0.10.0,pkg:cargo/env_logger@0.10.0,"pkg:cargo/humantime@2.1.0, pkg:cargo/is-terminal@0.4.9, pkg:cargo/log@0.4.20, pkg:cargo/regex@1.10.2, pkg:cargo/termcolor@1.3.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/equivalent@1.0.1,library,,equivalent,1.0.1,pkg:cargo/equivalent@1.0.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/errno-dragonfly@0.1.2,library,,errno-dragonfly,0.1.2,pkg:cargo/errno-dragonfly@0.1.2,"pkg:cargo/cc@1.0.79, pkg:cargo/libc@0.2.139"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/errno@0.2.8,library,,errno,0.2.8,pkg:cargo/errno@0.2.8,"2c64e100-5648-4e34-9518-482ca657604e, pkg:cargo/errno-dragonfly@0.1.2, pkg:cargo/libc@0.2.139"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/errno@0.3.5,library,,errno,0.3.5,pkg:cargo/errno@0.3.5,"pkg:cargo/libc@0.2.150, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/event-listener@2.5.3,library,,event-listener,2.5.3,pkg:cargo/event-listener@2.5.3,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/event-listener@3.0.0,library,,event-listener,3.0.0,pkg:cargo/event-listener@3.0.0,"pkg:cargo/concurrent-queue@2.3.0, pkg:cargo/parking@2.2.0, pkg:cargo/pin-project-lite@0.2.13"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/exr@1.6.3,library,,exr,1.6.3,pkg:cargo/exr@1.6.3,"26d3d320-e9b9-454c-8ddb-6ae1488569b2, 451fe4d1-f54c-48f6-a0ac-40ec87407c86, de312e01-4800-4269-b057-ad82220ec539, pkg:cargo/flume@0.10.14, pkg:cargo/miniz_oxide@0.6.2, pkg:cargo/rayon-core@1.11.0, pkg:cargo/smallvec@1.10.0, pkg:cargo/zune-inflate@0.2.51"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/exr@1.71.0,library,,exr,1.71.0,pkg:cargo/exr@1.71.0,"01c32034-126d-47d1-a926-9cad785f5429, 0a5d4274-5c57-4672-b3e9-bdd75036654d, 933f7e1f-56d3-4cc3-acf8-c8db53c37f9d, pkg:cargo/flume@0.11.0, pkg:cargo/miniz_oxide@0.7.1, pkg:cargo/rayon-core@1.12.0, pkg:cargo/smallvec@1.11.1, pkg:cargo/zune-inflate@0.2.54"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/fastrand@1.9.0,library,,fastrand,1.9.0,pkg:cargo/fastrand@1.9.0,pkg:cargo/instant@0.1.12
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/fastrand@2.0.1,library,,fastrand,2.0.1,pkg:cargo/fastrand@2.0.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/fdeflate@0.3.0,library,,fdeflate,0.3.0,pkg:cargo/fdeflate@0.3.0,pkg:cargo/simd-adler32@0.3.7
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/filetime@0.2.22,library,,filetime,0.2.22,pkg:cargo/filetime@0.2.22,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/libc@0.2.150, pkg:cargo/redox_syscall@0.3.5, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/flate2@1.0.25,library,,flate2,1.0.25,pkg:cargo/flate2@1.0.25,"77666680-e880-4d53-b997-6f5d77a8fc92, pkg:cargo/miniz_oxide@0.6.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/flate2@1.0.28,library,,flate2,1.0.28,pkg:cargo/flate2@1.0.28,"e8609413-5317-4066-8294-78ff5a2c2097, pkg:cargo/miniz_oxide@0.7.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/flexi_logger@0.27.3,library,,flexi_logger,0.27.3,pkg:cargo/flexi_logger@0.27.3,"67f07eff-29c9-4cec-8aee-74d31745e56a, pkg:cargo/chrono@0.4.31, pkg:cargo/crossbeam-channel@0.5.8, pkg:cargo/crossbeam-queue@0.3.8, pkg:cargo/glob@0.3.1, pkg:cargo/is-terminal@0.4.9, pkg:cargo/log@0.4.20, pkg:cargo/nu-ansi-term@0.49.0, pkg:cargo/regex@1.10.2, pkg:cargo/thiserror@1.0.50"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/flume@0.10.14,library,,flume,0.10.14,pkg:cargo/flume@0.10.14,"pkg:cargo/futures-core@0.3.26, pkg:cargo/futures-sink@0.3.26, pkg:cargo/nanorand@0.7.0, pkg:cargo/pin-project@1.0.12, pkg:cargo/spin@0.9.6"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/flume@0.11.0,library,,flume,0.11.0,pkg:cargo/flume@0.11.0,pkg:cargo/spin@0.9.8
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/flutter_rust_bridge@1.80.1,library,,flutter_rust_bridge,1.80.1,pkg:cargo/flutter_rust_bridge@1.80.1,"67f07eff-29c9-4cec-8aee-74d31745e56a, pkg:cargo/allo-isolate@0.1.20, pkg:cargo/anyhow@1.0.75, pkg:cargo/build-target@0.4.0, pkg:cargo/bytemuck@1.14.0, pkg:cargo/cc@1.0.83, pkg:cargo/chrono@0.4.31, pkg:cargo/console_error_panic_hook@0.1.7, pkg:cargo/dart-sys@4.0.2, pkg:cargo/flutter_rust_bridge_macros@1.82.3, pkg:cargo/js-sys@0.3.64, pkg:cargo/libc@0.2.150, pkg:cargo/log@0.4.20, pkg:cargo/parking_lot@0.12.1, pkg:cargo/threadpool@1.8.1, pkg:cargo/uuid@1.5.0, pkg:cargo/wasm-bindgen@0.2.87, pkg:cargo/web-sys@0.3.64"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/flutter_rust_bridge_macros@1.82.3,library,,flutter_rust_bridge_macros,1.82.3,pkg:cargo/flutter_rust_bridge_macros@1.82.3,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/fon@0.6.0,library,,fon,0.6.0,pkg:cargo/fon@0.6.0,pkg:cargo/libm@0.2.8
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/foreign-types-shared@0.1.1,library,,foreign-types-shared,0.1.1,pkg:cargo/foreign-types-shared@0.1.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/foreign-types@0.3.2,library,,foreign-types,0.3.2,pkg:cargo/foreign-types@0.3.2,pkg:cargo/foreign-types-shared@0.1.1
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/form_urlencoded@1.2.0,library,,form_urlencoded,1.2.0,pkg:cargo/form_urlencoded@1.2.0,pkg:cargo/percent-encoding@2.3.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/fruitbasket@0.10.0,library,,fruitbasket,0.10.0,pkg:cargo/fruitbasket@0.10.0,"pkg:cargo/dirs@2.0.2, pkg:cargo/objc-foundation@0.1.1, pkg:cargo/objc@0.2.7, pkg:cargo/objc_id@0.1.1, pkg:cargo/time@0.1.45"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/fuser@0.13.0,library,,fuser,0.13.0,pkg:cargo/fuser@0.13.0,"pkg:cargo/libc@0.2.150, pkg:cargo/log@0.4.20, pkg:cargo/memchr@2.6.4, pkg:cargo/page_size@0.5.0, pkg:cargo/pkg-config@0.3.27, pkg:cargo/smallvec@1.11.1, pkg:cargo/zerocopy@0.6.6"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/futures-channel@0.3.29,library,,futures-channel,0.3.29,pkg:cargo/futures-channel@0.3.29,"pkg:cargo/futures-core@0.3.29, pkg:cargo/futures-sink@0.3.29"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/futures-core@0.3.26,library,,futures-core,0.3.26,pkg:cargo/futures-core@0.3.26,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/futures-core@0.3.29,library,,futures-core,0.3.29,pkg:cargo/futures-core@0.3.29,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/futures-executor@0.3.29,library,,futures-executor,0.3.29,pkg:cargo/futures-executor@0.3.29,"pkg:cargo/futures-core@0.3.29, pkg:cargo/futures-task@0.3.29, pkg:cargo/futures-util@0.3.29"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/futures-io@0.3.29,library,,futures-io,0.3.29,pkg:cargo/futures-io@0.3.29,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/futures-lite@1.13.0,library,,futures-lite,1.13.0,pkg:cargo/futures-lite@1.13.0,"pkg:cargo/fastrand@1.9.0, pkg:cargo/futures-core@0.3.29, pkg:cargo/futures-io@0.3.29, pkg:cargo/memchr@2.6.4, pkg:cargo/parking@2.2.0, pkg:cargo/pin-project-lite@0.2.13, pkg:cargo/waker-fn@1.1.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/futures-macro@0.3.29,library,,futures-macro,0.3.29,pkg:cargo/futures-macro@0.3.29,"pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/syn@2.0.55"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/futures-sink@0.3.26,library,,futures-sink,0.3.26,pkg:cargo/futures-sink@0.3.26,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/futures-sink@0.3.29,library,,futures-sink,0.3.29,pkg:cargo/futures-sink@0.3.29,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/futures-task@0.3.29,library,,futures-task,0.3.29,pkg:cargo/futures-task@0.3.29,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/futures-util@0.3.29,library,,futures-util,0.3.29,pkg:cargo/futures-util@0.3.29,"pkg:cargo/futures-channel@0.3.29, pkg:cargo/futures-core@0.3.29, pkg:cargo/futures-io@0.3.29, pkg:cargo/futures-macro@0.3.29, pkg:cargo/futures-sink@0.3.29, pkg:cargo/futures-task@0.3.29, pkg:cargo/memchr@2.6.4, pkg:cargo/pin-project-lite@0.2.13, pkg:cargo/pin-utils@0.1.0, pkg:cargo/slab@0.4.9"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/futures@0.3.29,library,,futures,0.3.29,pkg:cargo/futures@0.3.29,"pkg:cargo/futures-channel@0.3.29, pkg:cargo/futures-core@0.3.29, pkg:cargo/futures-executor@0.3.29, pkg:cargo/futures-io@0.3.29, pkg:cargo/futures-sink@0.3.29, pkg:cargo/futures-task@0.3.29, pkg:cargo/futures-util@0.3.29"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/generic-array@0.14.7,library,,generic-array,0.14.7,pkg:cargo/generic-array@0.14.7,"9f473092-fb36-4bd0-bfd6-1c3ef9392466, pkg:cargo/typenum@1.17.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/gethostname@0.3.0,library,,gethostname,0.3.0,pkg:cargo/gethostname@0.3.0,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/getrandom@0.2.10,library,,getrandom,0.2.10,pkg:cargo/getrandom@0.2.10,"8b637efe-8817-476b-82ad-95c4100543bb, bf1c6e60-6219-43f7-a042-e315b7a4251d, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/getrandom@0.2.8,library,,getrandom,0.2.8,pkg:cargo/getrandom@0.2.8,"85ecb1c3-290e-4342-9852-e413e6e6cf17, b8bd2d7d-ad09-4e53-ac00-f9005ae756fc, pkg:cargo/js-sys@0.3.61, pkg:cargo/libc@0.2.139, pkg:cargo/wasm-bindgen@0.2.84"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/gif@0.11.4,library,,gif,0.11.4,pkg:cargo/gif@0.11.4,"5de366bc-a9ab-49f7-b753-dcbb92682a72, fc20529d-7d15-495b-9e85-5f938858367f"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/gif@0.12.0,library,,gif,0.12.0,pkg:cargo/gif@0.12.0,"b2e445b8-9eb1-4a9e-a093-404078659c72, e8f0fcb9-8da6-44c4-ba20-b021b4ecf765"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/gimli@0.28.0,library,,gimli,0.28.0,pkg:cargo/gimli@0.28.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/glib-macros@0.10.1,library,,glib-macros,0.10.1,pkg:cargo/glib-macros@0.10.1,"3effe842-47a9-4457-8c0d-023e5219bc17, ba6fb264-fcdd-47dd-adb7-d10a039faf2e, pkg:cargo/anyhow@1.0.75, pkg:cargo/heck@0.3.3, pkg:cargo/itertools@0.9.0, pkg:cargo/proc-macro-crate@0.1.5, pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/glib-sys@0.10.1,library,,glib-sys,0.10.1,pkg:cargo/glib-sys@0.10.1,"pkg:cargo/libc@0.2.150, pkg:cargo/system-deps@1.3.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/glib@0.10.3,library,,glib,0.10.3,pkg:cargo/glib@0.10.3,"a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/futures-channel@0.3.29, pkg:cargo/futures-core@0.3.29, pkg:cargo/futures-executor@0.3.29, pkg:cargo/futures-task@0.3.29, pkg:cargo/futures-util@0.3.29, pkg:cargo/glib-macros@0.10.1, pkg:cargo/glib-sys@0.10.1, pkg:cargo/gobject-sys@0.10.0, pkg:cargo/libc@0.2.150, pkg:cargo/once_cell@1.18.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/glob@0.3.1,library,,glob,0.3.1,pkg:cargo/glob@0.3.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/gobject-sys@0.10.0,library,,gobject-sys,0.10.0,pkg:cargo/gobject-sys@0.10.0,"pkg:cargo/glib-sys@0.10.1, pkg:cargo/libc@0.2.150, pkg:cargo/system-deps@1.3.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/gstreamer-app-sys@0.9.1,library,,gstreamer-app-sys,0.9.1,pkg:cargo/gstreamer-app-sys@0.9.1,"pkg:cargo/glib-sys@0.10.1, pkg:cargo/gstreamer-base-sys@0.9.1, pkg:cargo/gstreamer-sys@0.9.1, pkg:cargo/libc@0.2.150, pkg:cargo/system-deps@1.3.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/gstreamer-app@0.16.5,library,,gstreamer-app,0.16.5,pkg:cargo/gstreamer-app@0.16.5,"a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/futures-core@0.3.29, pkg:cargo/futures-sink@0.3.29, pkg:cargo/glib-sys@0.10.1, pkg:cargo/glib@0.10.3, pkg:cargo/gobject-sys@0.10.0, pkg:cargo/gstreamer-app-sys@0.9.1, pkg:cargo/gstreamer-base@0.16.5, pkg:cargo/gstreamer-sys@0.9.1, pkg:cargo/gstreamer@0.16.7, pkg:cargo/libc@0.2.150, pkg:cargo/once_cell@1.18.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/gstreamer-base-sys@0.9.1,library,,gstreamer-base-sys,0.9.1,pkg:cargo/gstreamer-base-sys@0.9.1,"pkg:cargo/glib-sys@0.10.1, pkg:cargo/gobject-sys@0.10.0, pkg:cargo/gstreamer-sys@0.9.1, pkg:cargo/libc@0.2.150, pkg:cargo/system-deps@1.3.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/gstreamer-base@0.16.5,library,,gstreamer-base,0.16.5,pkg:cargo/gstreamer-base@0.16.5,"a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/glib-sys@0.10.1, pkg:cargo/glib@0.10.3, pkg:cargo/gobject-sys@0.10.0, pkg:cargo/gstreamer-base-sys@0.9.1, pkg:cargo/gstreamer-sys@0.9.1, pkg:cargo/gstreamer@0.16.7, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/gstreamer-sys@0.9.1,library,,gstreamer-sys,0.9.1,pkg:cargo/gstreamer-sys@0.9.1,"pkg:cargo/glib-sys@0.10.1, pkg:cargo/gobject-sys@0.10.0, pkg:cargo/libc@0.2.150, pkg:cargo/system-deps@1.3.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/gstreamer-video-sys@0.9.1,library,,gstreamer-video-sys,0.9.1,pkg:cargo/gstreamer-video-sys@0.9.1,"pkg:cargo/glib-sys@0.10.1, pkg:cargo/gobject-sys@0.10.0, pkg:cargo/gstreamer-base-sys@0.9.1, pkg:cargo/gstreamer-sys@0.9.1, pkg:cargo/libc@0.2.150, pkg:cargo/system-deps@1.3.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/gstreamer-video@0.16.7,library,,gstreamer-video,0.16.7,pkg:cargo/gstreamer-video@0.16.7,"a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/futures-channel@0.3.29, pkg:cargo/futures-util@0.3.29, pkg:cargo/glib-sys@0.10.1, pkg:cargo/glib@0.10.3, pkg:cargo/gobject-sys@0.10.0, pkg:cargo/gstreamer-base-sys@0.9.1, pkg:cargo/gstreamer-base@0.16.5, pkg:cargo/gstreamer-sys@0.9.1, pkg:cargo/gstreamer-video-sys@0.9.1, pkg:cargo/gstreamer@0.16.7, pkg:cargo/libc@0.2.150, pkg:cargo/once_cell@1.18.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/gstreamer@0.16.7,library,,gstreamer,0.16.7,pkg:cargo/gstreamer@0.16.7,"8b637efe-8817-476b-82ad-95c4100543bb, a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/futures-channel@0.3.29, pkg:cargo/futures-core@0.3.29, pkg:cargo/futures-util@0.3.29, pkg:cargo/glib-sys@0.10.1, pkg:cargo/glib@0.10.3, pkg:cargo/gobject-sys@0.10.0, pkg:cargo/gstreamer-sys@0.9.1, pkg:cargo/libc@0.2.150, pkg:cargo/muldiv@0.2.1, pkg:cargo/num-rational@0.3.2, pkg:cargo/once_cell@1.18.0, pkg:cargo/paste@1.0.14, pkg:cargo/pretty-hex@0.2.1, pkg:cargo/thiserror@1.0.50"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/hashbrown@0.14.2,library,,hashbrown,0.14.2,pkg:cargo/hashbrown@0.14.2,"pkg:cargo/ahash@0.8.6, pkg:cargo/allocator-api2@0.2.16"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/heck@0.3.3,library,,heck,0.3.3,pkg:cargo/heck@0.3.3,pkg:cargo/unicode-segmentation@1.10.1
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/heck@0.4.1,library,,heck,0.4.1,pkg:cargo/heck@0.4.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/hermit-abi@0.2.6,library,,hermit-abi,0.2.6,pkg:cargo/hermit-abi@0.2.6,pkg:cargo/libc@0.2.139
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/hermit-abi@0.3.1,library,,hermit-abi,0.3.1,pkg:cargo/hermit-abi@0.3.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/hermit-abi@0.3.3,library,,hermit-abi,0.3.3,pkg:cargo/hermit-abi@0.3.3,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/hex@0.4.3,library,,hex,0.4.3,pkg:cargo/hex@0.4.3,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/hmac@0.12.1,library,,hmac,0.12.1,pkg:cargo/hmac@0.12.1,pkg:cargo/digest@0.10.7
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/home@0.5.5,library,,home,0.5.5,pkg:cargo/home@0.5.5,pkg:cargo/windows-sys@0.48.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/html-escape@0.2.13,library,,html-escape,0.2.13,pkg:cargo/html-escape@0.2.13,pkg:cargo/utf8-width@0.1.7
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/httparse@1.8.0,library,,httparse,1.8.0,pkg:cargo/httparse@1.8.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/humantime@2.1.0,library,,humantime,2.1.0,pkg:cargo/humantime@2.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/iana-time-zone-haiku@0.1.2,library,,iana-time-zone-haiku,0.1.2,pkg:cargo/iana-time-zone-haiku@0.1.2,pkg:cargo/cc@1.0.83
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/iana-time-zone@0.1.58,library,,iana-time-zone,0.1.58,pkg:cargo/iana-time-zone@0.1.58,"pkg:cargo/android_system_properties@0.1.5, pkg:cargo/core-foundation-sys@0.8.4, pkg:cargo/iana-time-zone-haiku@0.1.2, pkg:cargo/js-sys@0.3.64, pkg:cargo/wasm-bindgen@0.2.87, pkg:cargo/windows-core@0.51.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/idna@0.4.0,library,,idna,0.4.0,pkg:cargo/idna@0.4.0,"pkg:cargo/unicode-bidi@0.3.13, pkg:cargo/unicode-normalization@0.1.22"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/image@0.24.5,library,,image,0.24.5,pkg:cargo/image@0.24.5,"09cfe590-7325-4a4b-9627-672fa512b83b, 5de366bc-a9ab-49f7-b753-dcbb92682a72, ce1438cd-1e01-46a5-b852-4445796dbd3e, pkg:cargo/bytemuck@1.13.1, pkg:cargo/byteorder@1.4.3, pkg:cargo/exr@1.6.3, pkg:cargo/gif@0.11.4, pkg:cargo/num-traits@0.2.15, pkg:cargo/png@0.17.7, pkg:cargo/scoped_threadpool@0.1.9, pkg:cargo/tiff@0.8.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/image@0.24.7,library,,image,0.24.7,pkg:cargo/image@0.24.7,"04b2ecff-dd11-4904-a30b-a08f26719fea, 54fe5f04-bf4a-416d-ac29-10a31b703069, b2e445b8-9eb1-4a9e-a093-404078659c72, pkg:cargo/bytemuck@1.14.0, pkg:cargo/byteorder@1.5.0, pkg:cargo/exr@1.71.0, pkg:cargo/gif@0.12.0, pkg:cargo/num-traits@0.2.17, pkg:cargo/png@0.17.10, pkg:cargo/qoi@0.4.1, pkg:cargo/tiff@0.9.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/include_dir@0.7.3,library,,include_dir,0.7.3,pkg:cargo/include_dir@0.7.3,pkg:cargo/include_dir_macros@0.7.3
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/include_dir_macros@0.7.3,library,,include_dir_macros,0.7.3,pkg:cargo/include_dir_macros@0.7.3,"pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/indexmap@2.0.2,library,,indexmap,2.0.2,pkg:cargo/indexmap@2.0.2,"pkg:cargo/equivalent@1.0.1, pkg:cargo/hashbrown@0.14.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/inout@0.1.3,library,,inout,0.1.3,pkg:cargo/inout@0.1.3,pkg:cargo/generic-array@0.14.7
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/instant@0.1.12,library,,instant,0.1.12,pkg:cargo/instant@0.1.12,8b637efe-8817-476b-82ad-95c4100543bb
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/io-lifetimes@1.0.11,library,,io-lifetimes,1.0.11,pkg:cargo/io-lifetimes@1.0.11,"pkg:cargo/hermit-abi@0.3.3, pkg:cargo/libc@0.2.150, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/io-lifetimes@1.0.9,library,,io-lifetimes,1.0.9,pkg:cargo/io-lifetimes@1.0.9,"3b497892-bfd1-470e-a9ac-e655f2d68627, pkg:cargo/hermit-abi@0.3.1, pkg:cargo/libc@0.2.139"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/is-terminal@0.4.5,library,,is-terminal,0.4.5,pkg:cargo/is-terminal@0.4.5,"3b497892-bfd1-470e-a9ac-e655f2d68627, pkg:cargo/hermit-abi@0.3.1, pkg:cargo/io-lifetimes@1.0.9, pkg:cargo/rustix@0.36.11"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/is-terminal@0.4.9,library,,is-terminal,0.4.9,pkg:cargo/is-terminal@0.4.9,"pkg:cargo/hermit-abi@0.3.3, pkg:cargo/rustix@0.38.21, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/itertools@0.9.0,library,,itertools,0.9.0,pkg:cargo/itertools@0.9.0,pkg:cargo/either@1.9.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/itoa@1.0.9,library,,itoa,1.0.9,pkg:cargo/itoa@1.0.9,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/jni-sys@0.3.0,library,,jni-sys,0.3.0,pkg:cargo/jni-sys@0.3.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/jni@0.19.0,library,,jni,0.19.0,pkg:cargo/jni@0.19.0,"pkg:cargo/cesu8@1.1.0, pkg:cargo/combine@4.6.6, pkg:cargo/jni-sys@0.3.0, pkg:cargo/log@0.4.20, pkg:cargo/thiserror@1.0.50, pkg:cargo/walkdir@2.4.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/jni@0.20.0,library,,jni,0.20.0,pkg:cargo/jni@0.20.0,"pkg:cargo/cesu8@1.1.0, pkg:cargo/combine@4.6.6, pkg:cargo/jni-sys@0.3.0, pkg:cargo/log@0.4.20, pkg:cargo/thiserror@1.0.50, pkg:cargo/walkdir@2.4.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/jni@0.21.1,library,,jni,0.21.1,pkg:cargo/jni@0.21.1,"5b1258eb-6f5b-422f-adc0-6c647d5160b4, 8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/cesu8@1.1.0, pkg:cargo/combine@4.6.6, pkg:cargo/jni-sys@0.3.0, pkg:cargo/log@0.4.20, pkg:cargo/thiserror@1.0.50, pkg:cargo/walkdir@2.4.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/jobserver@0.1.25,library,,jobserver,0.1.25,pkg:cargo/jobserver@0.1.25,pkg:cargo/libc@0.2.139
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/jobserver@0.1.27,library,,jobserver,0.1.27,pkg:cargo/jobserver@0.1.27,pkg:cargo/libc@0.2.150
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/js-sys@0.3.61,library,,js-sys,0.3.61,pkg:cargo/js-sys@0.3.61,pkg:cargo/wasm-bindgen@0.2.84
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/js-sys@0.3.64,library,,js-sys,0.3.64,pkg:cargo/js-sys@0.3.64,pkg:cargo/wasm-bindgen@0.2.87
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/lazycell@1.3.0,library,,lazycell,1.3.0,pkg:cargo/lazycell@1.3.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/libc@0.2.139,library,,libc,0.2.139,pkg:cargo/libc@0.2.139,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/libc@0.2.150,library,,libc,0.2.150,pkg:cargo/libc@0.2.150,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/libdbus-sys@0.2.5,library,,libdbus-sys,0.2.5,pkg:cargo/libdbus-sys@0.2.5,pkg:cargo/pkg-config@0.3.27
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/libloading@0.7.4,library,,libloading,0.7.4,pkg:cargo/libloading@0.7.4,"8b637efe-8817-476b-82ad-95c4100543bb, de01b389-50e0-4f80-8dac-272c0b49b45b"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/libloading@0.8.1,library,,libloading,0.8.1,pkg:cargo/libloading@0.8.1,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/libm@0.2.8,library,,libm,0.2.8,pkg:cargo/libm@0.2.8,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/libsamplerate-sys@0.1.12,library,,libsamplerate-sys,0.1.12,pkg:cargo/libsamplerate-sys@0.1.12,pkg:cargo/cmake@0.1.50
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/libsodium-sys@0.2.7,library,,libsodium-sys,0.2.7,pkg:cargo/libsodium-sys@0.2.7,"pkg:cargo/cc@1.0.83, pkg:cargo/libc@0.2.150, pkg:cargo/pkg-config@0.3.27, pkg:cargo/walkdir@2.4.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/linux-raw-sys@0.1.4,library,,linux-raw-sys,0.1.4,pkg:cargo/linux-raw-sys@0.1.4,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/linux-raw-sys@0.3.8,library,,linux-raw-sys,0.3.8,pkg:cargo/linux-raw-sys@0.3.8,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/linux-raw-sys@0.4.10,library,,linux-raw-sys,0.4.10,pkg:cargo/linux-raw-sys@0.4.10,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/lock_api@0.4.11,library,,lock_api,0.4.11,pkg:cargo/lock_api@0.4.11,"e9171ec2-75fe-40fb-9fd9-017b022df7d8, pkg:cargo/scopeguard@1.2.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/lock_api@0.4.9,library,,lock_api,0.4.9,pkg:cargo/lock_api@0.4.9,"e8f08a36-1172-448b-82d8-96b594978a63, pkg:cargo/scopeguard@1.1.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/log@0.4.17,library,,log,0.4.17,pkg:cargo/log@0.4.17,b8bd2d7d-ad09-4e53-ac00-f9005ae756fc
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/log@0.4.20,library,,log,0.4.20,pkg:cargo/log@0.4.20,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/mac_address@1.1.5,library,,mac_address,1.1.5,pkg:cargo/mac_address@1.1.5,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/nix@0.23.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/mach2@0.4.1,library,,mach2,0.4.1,pkg:cargo/mach2@0.4.1,pkg:cargo/libc@0.2.150
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/malloc_buf@0.0.6,library,,malloc_buf,0.0.6,pkg:cargo/malloc_buf@0.0.6,pkg:cargo/libc@0.2.150
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/memalloc@0.1.0,library,,memalloc,0.1.0,pkg:cargo/memalloc@0.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/memchr@2.6.4,library,,memchr,2.6.4,pkg:cargo/memchr@2.6.4,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/memoffset@0.6.5,library,,memoffset,0.6.5,pkg:cargo/memoffset@0.6.5,e9171ec2-75fe-40fb-9fd9-017b022df7d8
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/memoffset@0.9.0,library,,memoffset,0.9.0,pkg:cargo/memoffset@0.9.0,e9171ec2-75fe-40fb-9fd9-017b022df7d8
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/minimal-lexical@0.2.1,library,,minimal-lexical,0.2.1,pkg:cargo/minimal-lexical@0.2.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/miniz_oxide@0.6.2,library,,miniz_oxide,0.6.2,pkg:cargo/miniz_oxide@0.6.2,36d9ca5f-056a-4aaf-b805-fc2f23c068d3
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/miniz_oxide@0.7.1,library,,miniz_oxide,0.7.1,pkg:cargo/miniz_oxide@0.7.1,"ed8d5360-f377-42ed-95a6-5f77f7775d43, pkg:cargo/simd-adler32@0.3.7"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/mio@0.8.11,library,,mio,0.8.11,pkg:cargo/mio@0.8.11,"bf1c6e60-6219-43f7-a042-e315b7a4251d, pkg:cargo/libc@0.2.150, pkg:cargo/log@0.4.20, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/muldiv@0.2.1,library,,muldiv,0.2.1,pkg:cargo/muldiv@0.2.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/nanorand@0.7.0,library,,nanorand,0.7.0,pkg:cargo/nanorand@0.7.0,pkg:cargo/getrandom@0.2.8
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/native-tls@0.2.11,library,,native-tls,0.2.11,pkg:cargo/native-tls@0.2.11,"67f07eff-29c9-4cec-8aee-74d31745e56a, pkg:cargo/libc@0.2.150, pkg:cargo/log@0.4.20, pkg:cargo/openssl-probe@0.1.5, pkg:cargo/openssl-sys@0.9.98, pkg:cargo/openssl@0.10.62, pkg:cargo/schannel@0.1.22, pkg:cargo/security-framework-sys@2.10.0, pkg:cargo/security-framework@2.10.0, pkg:cargo/tempfile@3.8.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/ndk-context@0.1.1,library,,ndk-context,0.1.1,pkg:cargo/ndk-context@0.1.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/ndk-sys@0.4.1%2B23.1.7779620,library,,ndk-sys,0.4.1+23.1.7779620,pkg:cargo/ndk-sys@0.4.1%2B23.1.7779620,pkg:cargo/jni-sys@0.3.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/ndk@0.7.0,library,,ndk,0.7.0,pkg:cargo/ndk@0.7.0,"a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/jni-sys@0.3.0, pkg:cargo/ndk-sys@0.4.1%2B23.1.7779620, pkg:cargo/num_enum@0.5.11, pkg:cargo/raw-window-handle@0.5.2, pkg:cargo/thiserror@1.0.50"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/netlink-packet-core@0.5.0,library,,netlink-packet-core,0.5.0,pkg:cargo/netlink-packet-core@0.5.0,"pkg:cargo/anyhow@1.0.75, pkg:cargo/byteorder@1.5.0, pkg:cargo/libc@0.2.150, pkg:cargo/netlink-packet-utils@0.5.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/netlink-packet-route@0.15.0,library,,netlink-packet-route,0.15.0,pkg:cargo/netlink-packet-route@0.15.0,"a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/anyhow@1.0.75, pkg:cargo/byteorder@1.5.0, pkg:cargo/libc@0.2.150, pkg:cargo/netlink-packet-core@0.5.0, pkg:cargo/netlink-packet-utils@0.5.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/netlink-packet-utils@0.5.2,library,,netlink-packet-utils,0.5.2,pkg:cargo/netlink-packet-utils@0.5.2,"pkg:cargo/anyhow@1.0.75, pkg:cargo/byteorder@1.5.0, pkg:cargo/paste@1.0.14, pkg:cargo/thiserror@1.0.50"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/netlink-sys@0.8.5,library,,netlink-sys,0.8.5,pkg:cargo/netlink-sys@0.8.5,"pkg:cargo/bytes@1.5.0, pkg:cargo/libc@0.2.150, pkg:cargo/log@0.4.20"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/nix@0.23.2,library,,nix,0.23.2,pkg:cargo/nix@0.23.2,"8b637efe-8817-476b-82ad-95c4100543bb, a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/cc@1.0.83, pkg:cargo/libc@0.2.150, pkg:cargo/memoffset@0.6.5"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/nix@0.24.3,library,,nix,0.24.3,pkg:cargo/nix@0.24.3,"8b637efe-8817-476b-82ad-95c4100543bb, a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/nix@0.26.4,library,,nix,0.26.4,pkg:cargo/nix@0.26.4,"8b637efe-8817-476b-82ad-95c4100543bb, a9f921e1-f671-4082-8299-8a1cdeba7267, fb934dad-318a-4470-8100-4860730cb909, pkg:cargo/libc@0.2.150, pkg:cargo/pin-utils@0.1.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/nix@0.27.1,library,,nix,0.27.1,pkg:cargo/nix@0.27.1,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/bitflags@2.4.1, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/nom@7.1.3,library,,nom,7.1.3,pkg:cargo/nom@7.1.3,"pkg:cargo/memchr@2.6.4, pkg:cargo/minimal-lexical@0.2.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/nu-ansi-term@0.49.0,library,,nu-ansi-term,0.49.0,pkg:cargo/nu-ansi-term@0.49.0,pkg:cargo/windows-sys@0.48.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/num-bigint@0.4.4,library,,num-bigint,0.4.4,pkg:cargo/num-bigint@0.4.4,"59524327-31f9-4889-ace0-0b9c9bc16116, e9171ec2-75fe-40fb-9fd9-017b022df7d8, pkg:cargo/num-traits@0.2.17"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/num-complex@0.4.4,library,,num-complex,0.4.4,pkg:cargo/num-complex@0.4.4,pkg:cargo/num-traits@0.2.17
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/num-derive@0.3.3,library,,num-derive,0.3.3,pkg:cargo/num-derive@0.3.3,"ba6fb264-fcdd-47dd-adb7-d10a039faf2e, pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/num-rational@0.3.2,library,,num-rational,0.3.2,pkg:cargo/num-rational@0.3.2,"59524327-31f9-4889-ace0-0b9c9bc16116, e9171ec2-75fe-40fb-9fd9-017b022df7d8, pkg:cargo/num-traits@0.2.17"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/num-traits@0.2.15,library,,num-traits,0.2.15,pkg:cargo/num-traits@0.2.15,e8f08a36-1172-448b-82d8-96b594978a63
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/num-traits@0.2.17,library,,num-traits,0.2.17,pkg:cargo/num-traits@0.2.17,e9171ec2-75fe-40fb-9fd9-017b022df7d8
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/num_cpus@1.15.0,library,,num_cpus,1.15.0,pkg:cargo/num_cpus@1.15.0,"pkg:cargo/hermit-abi@0.2.6, pkg:cargo/libc@0.2.139"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/num_cpus@1.16.0,library,,num_cpus,1.16.0,pkg:cargo/num_cpus@1.16.0,"pkg:cargo/hermit-abi@0.3.3, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/num_enum@0.5.11,library,,num_enum,0.5.11,pkg:cargo/num_enum@0.5.11,pkg:cargo/num_enum_derive@0.5.11
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/num_enum_derive@0.5.11,library,,num_enum_derive,0.5.11,pkg:cargo/num_enum_derive@0.5.11,"ba6fb264-fcdd-47dd-adb7-d10a039faf2e, pkg:cargo/proc-macro-crate@1.3.1, pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/num_threads@0.1.6,library,,num_threads,0.1.6,pkg:cargo/num_threads@0.1.6,pkg:cargo/libc@0.2.150
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/objc-foundation@0.1.1,library,,objc-foundation,0.1.1,pkg:cargo/objc-foundation@0.1.1,"pkg:cargo/block@0.1.6, pkg:cargo/objc@0.2.7, pkg:cargo/objc_id@0.1.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/objc-sys@0.2.0-beta.2,library,,objc-sys,0.2.0-beta.2,pkg:cargo/objc-sys@0.2.0-beta.2,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/objc2-encode@2.0.0-pre.2,library,,objc2-encode,2.0.0-pre.2,pkg:cargo/objc2-encode@2.0.0-pre.2,pkg:cargo/objc-sys@0.2.0-beta.2
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/objc@0.2.7,library,,objc,0.2.7,pkg:cargo/objc@0.2.7,"pkg:cargo/malloc_buf@0.0.6, pkg:cargo/objc_exception@0.1.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/objc_exception@0.1.2,library,,objc_exception,0.1.2,pkg:cargo/objc_exception@0.1.2,pkg:cargo/cc@1.0.83
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/objc_id@0.1.1,library,,objc_id,0.1.1,pkg:cargo/objc_id@0.1.1,pkg:cargo/objc@0.2.7
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/object@0.32.1,library,,object,0.32.1,pkg:cargo/object@0.32.1,pkg:cargo/memchr@2.6.4
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/oboe-sys@0.5.0,library,,oboe-sys,0.5.0,pkg:cargo/oboe-sys@0.5.0,pkg:cargo/cc@1.0.83
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/oboe@0.5.0,library,,oboe,0.5.0,pkg:cargo/oboe@0.5.0,"pkg:cargo/jni@0.20.0, pkg:cargo/ndk-context@0.1.1, pkg:cargo/ndk@0.7.0, pkg:cargo/num-derive@0.3.3, pkg:cargo/num-traits@0.2.17, pkg:cargo/oboe-sys@0.5.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/once_cell@1.17.1,library,,once_cell,1.17.1,pkg:cargo/once_cell@1.17.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/once_cell@1.18.0,library,,once_cell,1.18.0,pkg:cargo/once_cell@1.18.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/openssl-macros@0.1.1,library,,openssl-macros,0.1.1,pkg:cargo/openssl-macros@0.1.1,"pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/syn@2.0.55"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/openssl-probe@0.1.5,library,,openssl-probe,0.1.5,pkg:cargo/openssl-probe@0.1.5,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/openssl-sys@0.9.98,library,,openssl-sys,0.9.98,pkg:cargo/openssl-sys@0.9.98,"pkg:cargo/cc@1.0.83, pkg:cargo/libc@0.2.150, pkg:cargo/pkg-config@0.3.27, pkg:cargo/vcpkg@0.2.15"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/openssl@0.10.62,library,,openssl,0.10.62,pkg:cargo/openssl@0.10.62,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/bitflags@2.4.1, pkg:cargo/foreign-types@0.3.2, pkg:cargo/libc@0.2.150, pkg:cargo/once_cell@1.18.0, pkg:cargo/openssl-macros@0.1.1, pkg:cargo/openssl-sys@0.9.98"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/option-ext@0.2.0,library,,option-ext,0.2.0,pkg:cargo/option-ext@0.2.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/ordered-stream@0.2.0,library,,ordered-stream,0.2.0,pkg:cargo/ordered-stream@0.2.0,"pkg:cargo/futures-core@0.3.29, pkg:cargo/pin-project-lite@0.2.13"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/os_str_bytes@6.5.0,library,,os_str_bytes,6.5.0,pkg:cargo/os_str_bytes@6.5.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/osascript@0.3.0,library,,osascript,0.3.0,pkg:cargo/osascript@0.3.0,"pkg:cargo/serde@1.0.190, pkg:cargo/serde_derive@1.0.190, pkg:cargo/serde_json@1.0.107"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/page_size@0.5.0,library,,page_size,0.5.0,pkg:cargo/page_size@0.5.0,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/parking@2.2.0,library,,parking,2.2.0,pkg:cargo/parking@2.2.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/parking_lot@0.12.1,library,,parking_lot,0.12.1,pkg:cargo/parking_lot@0.12.1,"pkg:cargo/lock_api@0.4.11, pkg:cargo/parking_lot_core@0.9.9"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/parking_lot_core@0.9.9,library,,parking_lot_core,0.9.9,pkg:cargo/parking_lot_core@0.9.9,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/libc@0.2.150, pkg:cargo/redox_syscall@0.4.1, pkg:cargo/smallvec@1.11.1, pkg:cargo/windows-targets@0.48.5"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/password-hash@0.4.2,library,,password-hash,0.4.2,pkg:cargo/password-hash@0.4.2,"pkg:cargo/base64ct@1.6.0, pkg:cargo/rand_core@0.6.4, pkg:cargo/subtle@2.5.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/paste@1.0.14,library,,paste,1.0.14,pkg:cargo/paste@1.0.14,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/pbkdf2@0.11.0,library,,pbkdf2,0.11.0,pkg:cargo/pbkdf2@0.11.0,"pkg:cargo/digest@0.10.7, pkg:cargo/hmac@0.12.1, pkg:cargo/password-hash@0.4.2, pkg:cargo/sha2@0.10.8"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/peeking_take_while@0.1.2,library,,peeking_take_while,0.1.2,pkg:cargo/peeking_take_while@0.1.2,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/percent-encoding@2.3.0,library,,percent-encoding,2.3.0,pkg:cargo/percent-encoding@2.3.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/pin-project-internal@1.0.12,library,,pin-project-internal,1.0.12,pkg:cargo/pin-project-internal@1.0.12,"0bf0b472-8867-4bbd-b875-2a54d956be84, pkg:cargo/proc-macro2@1.0.51, pkg:cargo/quote@1.0.23"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/pin-project-lite@0.2.13,library,,pin-project-lite,0.2.13,pkg:cargo/pin-project-lite@0.2.13,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/pin-project@1.0.12,library,,pin-project,1.0.12,pkg:cargo/pin-project@1.0.12,pkg:cargo/pin-project-internal@1.0.12
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/pin-utils@0.1.0,library,,pin-utils,0.1.0,pkg:cargo/pin-utils@0.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/piper@0.2.1,library,,piper,0.2.1,pkg:cargo/piper@0.2.1,"pkg:cargo/atomic-waker@1.1.2, pkg:cargo/fastrand@2.0.1, pkg:cargo/futures-io@0.3.29"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/pkg-config@0.3.27,library,,pkg-config,0.3.27,pkg:cargo/pkg-config@0.3.27,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/png@0.17.10,library,,png,0.17.10,pkg:cargo/png@0.17.10,"a9f921e1-f671-4082-8299-8a1cdeba7267, e8609413-5317-4066-8294-78ff5a2c2097, pkg:cargo/fdeflate@0.3.0, pkg:cargo/flate2@1.0.28, pkg:cargo/miniz_oxide@0.7.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/png@0.17.7,library,,png,0.17.7,pkg:cargo/png@0.17.7,"7298fb44-f15e-41fc-981d-659cfa12459d, 77666680-e880-4d53-b997-6f5d77a8fc92, pkg:cargo/flate2@1.0.25, pkg:cargo/miniz_oxide@0.6.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/polling@2.8.0,library,,polling,2.8.0,pkg:cargo/polling@2.8.0,"8b637efe-8817-476b-82ad-95c4100543bb, a9f921e1-f671-4082-8299-8a1cdeba7267, e9171ec2-75fe-40fb-9fd9-017b022df7d8, pkg:cargo/concurrent-queue@2.3.0, pkg:cargo/libc@0.2.150, pkg:cargo/log@0.4.20, pkg:cargo/pin-project-lite@0.2.13, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/powerfmt@0.2.0,library,,powerfmt,0.2.0,pkg:cargo/powerfmt@0.2.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/ppv-lite86@0.2.17,library,,ppv-lite86,0.2.17,pkg:cargo/ppv-lite86@0.2.17,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/pretty-hex@0.2.1,library,,pretty-hex,0.2.1,pkg:cargo/pretty-hex@0.2.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/primal-check@0.3.3,library,,primal-check,0.3.3,pkg:cargo/primal-check@0.3.3,59524327-31f9-4889-ace0-0b9c9bc16116
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/proc-macro-crate@0.1.5,library,,proc-macro-crate,0.1.5,pkg:cargo/proc-macro-crate@0.1.5,pkg:cargo/toml@0.5.11
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/proc-macro-crate@1.3.1,library,,proc-macro-crate,1.3.1,pkg:cargo/proc-macro-crate@1.3.1,"pkg:cargo/once_cell@1.18.0, pkg:cargo/toml_edit@0.19.15"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/proc-macro2@0.4.30,library,,proc-macro2,0.4.30,pkg:cargo/proc-macro2@0.4.30,pkg:cargo/unicode-xid@0.1.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/proc-macro2@1.0.51,library,,proc-macro2,1.0.51,pkg:cargo/proc-macro2@1.0.51,pkg:cargo/unicode-ident@1.0.6
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/proc-macro2@1.0.79,library,,proc-macro2,1.0.79,pkg:cargo/proc-macro2@1.0.79,pkg:cargo/unicode-ident@1.0.12
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/protobuf-support@3.4.0,library,,protobuf-support,3.4.0,pkg:cargo/protobuf-support@3.4.0,pkg:cargo/thiserror@1.0.50
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/protobuf@3.4.0,library,,protobuf,3.4.0,pkg:cargo/protobuf@3.4.0,"pkg:cargo/bytes@1.5.0, pkg:cargo/once_cell@1.18.0, pkg:cargo/protobuf-support@3.4.0, pkg:cargo/thiserror@1.0.50"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/qoi@0.4.1,library,,qoi,0.4.1,pkg:cargo/qoi@0.4.1,pkg:cargo/bytemuck@1.14.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/qrcode-generator@4.1.9,library,,qrcode-generator,4.1.9,pkg:cargo/qrcode-generator@4.1.9,"pkg:cargo/html-escape@0.2.13, pkg:cargo/image@0.24.7, pkg:cargo/qrcodegen@1.8.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/qrcodegen@1.8.0,library,,qrcodegen,1.8.0,pkg:cargo/qrcodegen@1.8.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/quick-xml@0.30.0,library,,quick-xml,0.30.0,pkg:cargo/quick-xml@0.30.0,pkg:cargo/memchr@2.6.4
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/quinn-proto@0.9.6,library,,quinn-proto,0.9.6,pkg:cargo/quinn-proto@0.9.6,"pkg:cargo/bytes@1.5.0, pkg:cargo/rand@0.8.5, pkg:cargo/ring@0.16.20, pkg:cargo/rustc-hash@1.1.0, pkg:cargo/rustls-native-certs@0.6.3, pkg:cargo/rustls@0.20.9, pkg:cargo/slab@0.4.9, pkg:cargo/thiserror@1.0.50, pkg:cargo/tinyvec@1.6.0, pkg:cargo/tracing@0.1.40, pkg:cargo/webpki@0.22.4"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/quinn-udp@0.3.2,library,,quinn-udp,0.3.2,pkg:cargo/quinn-udp@0.3.2,"pkg:cargo/libc@0.2.150, pkg:cargo/quinn-proto@0.9.6, pkg:cargo/socket2@0.4.10, pkg:cargo/tracing@0.1.40, pkg:cargo/windows-sys@0.42.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/quinn@0.9.4,library,,quinn,0.9.4,pkg:cargo/quinn@0.9.4,"pkg:cargo/bytes@1.5.0, pkg:cargo/pin-project-lite@0.2.13, pkg:cargo/quinn-proto@0.9.6, pkg:cargo/quinn-udp@0.3.2, pkg:cargo/rustc-hash@1.1.0, pkg:cargo/rustls@0.20.9, pkg:cargo/thiserror@1.0.50, pkg:cargo/tokio@1.36.0, pkg:cargo/tracing@0.1.40, pkg:cargo/webpki@0.22.4"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/quote@0.6.13,library,,quote,0.6.13,pkg:cargo/quote@0.6.13,pkg:cargo/proc-macro2@0.4.30
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/quote@1.0.23,library,,quote,1.0.23,pkg:cargo/quote@1.0.23,pkg:cargo/proc-macro2@1.0.51
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/quote@1.0.35,library,,quote,1.0.35,pkg:cargo/quote@1.0.35,pkg:cargo/proc-macro2@1.0.79
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rand@0.8.5,library,,rand,0.8.5,pkg:cargo/rand@0.8.5,"pkg:cargo/libc@0.2.150, pkg:cargo/rand_chacha@0.3.1, pkg:cargo/rand_core@0.6.4"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rand_chacha@0.3.1,library,,rand_chacha,0.3.1,pkg:cargo/rand_chacha@0.3.1,"pkg:cargo/ppv-lite86@0.2.17, pkg:cargo/rand_core@0.6.4"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rand_core@0.6.4,library,,rand_core,0.6.4,pkg:cargo/rand_core@0.6.4,pkg:cargo/getrandom@0.2.10
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/raw-window-handle@0.5.2,library,,raw-window-handle,0.5.2,pkg:cargo/raw-window-handle@0.5.2,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rayon-core@1.11.0,library,,rayon-core,1.11.0,pkg:cargo/rayon-core@1.11.0,"pkg:cargo/crossbeam-channel@0.5.6, pkg:cargo/crossbeam-deque@0.8.2, pkg:cargo/crossbeam-utils@0.8.14, pkg:cargo/num_cpus@1.15.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rayon-core@1.12.0,library,,rayon-core,1.12.0,pkg:cargo/rayon-core@1.12.0,"pkg:cargo/crossbeam-deque@0.8.3, pkg:cargo/crossbeam-utils@0.8.16"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rayon@1.6.1,library,,rayon,1.6.1,pkg:cargo/rayon@1.6.1,"pkg:cargo/either@1.8.1, pkg:cargo/rayon-core@1.11.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rayon@1.8.0,library,,rayon,1.8.0,pkg:cargo/rayon@1.8.0,"pkg:cargo/either@1.9.0, pkg:cargo/rayon-core@1.12.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/realfft@3.3.0,library,,realfft,3.3.0,pkg:cargo/realfft@3.3.0,pkg:cargo/rustfft@6.1.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/redox_syscall@0.2.16,library,,redox_syscall,0.2.16,pkg:cargo/redox_syscall@0.2.16,a9f921e1-f671-4082-8299-8a1cdeba7267
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/redox_syscall@0.3.5,library,,redox_syscall,0.3.5,pkg:cargo/redox_syscall@0.3.5,a9f921e1-f671-4082-8299-8a1cdeba7267
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/redox_syscall@0.4.1,library,,redox_syscall,0.4.1,pkg:cargo/redox_syscall@0.4.1,a9f921e1-f671-4082-8299-8a1cdeba7267
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/redox_users@0.4.3,library,,redox_users,0.4.3,pkg:cargo/redox_users@0.4.3,"pkg:cargo/getrandom@0.2.10, pkg:cargo/redox_syscall@0.2.16, pkg:cargo/thiserror@1.0.50"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/regex-automata@0.4.3,library,,regex-automata,0.4.3,pkg:cargo/regex-automata@0.4.3,"pkg:cargo/aho-corasick@1.1.2, pkg:cargo/memchr@2.6.4, pkg:cargo/regex-syntax@0.8.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/regex-syntax@0.8.2,library,,regex-syntax,0.8.2,pkg:cargo/regex-syntax@0.8.2,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/regex@1.10.2,library,,regex,1.10.2,pkg:cargo/regex@1.10.2,"pkg:cargo/aho-corasick@1.1.2, pkg:cargo/memchr@2.6.4, pkg:cargo/regex-automata@0.4.3, pkg:cargo/regex-syntax@0.8.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/repng@0.2.2,library,,repng,0.2.2,pkg:cargo/repng@0.2.2,"pkg:cargo/byteorder@1.5.0, pkg:cargo/flate2@1.0.28"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/ring@0.16.20,library,,ring,0.16.20,pkg:cargo/ring@0.16.20,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/cc@1.0.83, pkg:cargo/libc@0.2.150, pkg:cargo/once_cell@1.18.0, pkg:cargo/spin@0.5.2, pkg:cargo/untrusted@0.7.1, pkg:cargo/web-sys@0.3.64"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/ring@0.17.5,library,,ring,0.17.5,pkg:cargo/ring@0.17.5,"pkg:cargo/cc@1.0.83, pkg:cargo/getrandom@0.2.10, pkg:cargo/libc@0.2.150, pkg:cargo/spin@0.9.8, pkg:cargo/untrusted@0.9.0, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/ringbuf@0.3.3,library,,ringbuf,0.3.3,pkg:cargo/ringbuf@0.3.3,pkg:cargo/crossbeam-utils@0.8.16
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rpassword@7.2.0,library,,rpassword,7.2.0,pkg:cargo/rpassword@7.2.0,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/libc@0.2.150, pkg:cargo/rtoolbox@0.0.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rtoolbox@0.0.1,library,,rtoolbox,0.0.1,pkg:cargo/rtoolbox@0.0.1,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rubato@0.12.0,library,,rubato,0.12.0,pkg:cargo/rubato@0.12.0,"59524327-31f9-4889-ace0-0b9c9bc16116, pkg:cargo/num-complex@0.4.4, pkg:cargo/num-traits@0.2.17, pkg:cargo/realfft@3.3.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/runas@1.2.0,library,,runas,1.2.0,pkg:cargo/runas@1.2.0,"pkg:cargo/libc@0.2.150, pkg:cargo/security-framework-sys@2.10.0, pkg:cargo/which@4.4.2, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rustc-demangle@0.1.23,library,,rustc-demangle,0.1.23,pkg:cargo/rustc-demangle@0.1.23,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rustc-hash@1.1.0,library,,rustc-hash,1.1.0,pkg:cargo/rustc-hash@1.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rustfft@6.1.0,library,,rustfft,6.1.0,pkg:cargo/rustfft@6.1.0,"59524327-31f9-4889-ace0-0b9c9bc16116, 9f473092-fb36-4bd0-bfd6-1c3ef9392466, pkg:cargo/num-complex@0.4.4, pkg:cargo/num-traits@0.2.17, pkg:cargo/primal-check@0.3.3, pkg:cargo/strength_reduce@0.2.4, pkg:cargo/transpose@0.2.3"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rustix@0.36.11,library,,rustix,0.36.11,pkg:cargo/rustix@0.36.11,"3b497892-bfd1-470e-a9ac-e655f2d68627, 7298fb44-f15e-41fc-981d-659cfa12459d, pkg:cargo/errno@0.2.8, pkg:cargo/io-lifetimes@1.0.9, pkg:cargo/libc@0.2.139, pkg:cargo/linux-raw-sys@0.1.4"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rustix@0.37.27,library,,rustix,0.37.27,pkg:cargo/rustix@0.37.27,"a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/errno@0.3.5, pkg:cargo/io-lifetimes@1.0.11, pkg:cargo/libc@0.2.150, pkg:cargo/linux-raw-sys@0.3.8, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rustix@0.38.21,library,,rustix,0.38.21,pkg:cargo/rustix@0.38.21,"pkg:cargo/bitflags@2.4.1, pkg:cargo/errno@0.3.5, pkg:cargo/libc@0.2.150, pkg:cargo/linux-raw-sys@0.4.10, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rustls-native-certs@0.6.3,library,,rustls-native-certs,0.6.3,pkg:cargo/rustls-native-certs@0.6.3,"pkg:cargo/openssl-probe@0.1.5, pkg:cargo/rustls-pemfile@1.0.3, pkg:cargo/schannel@0.1.22, pkg:cargo/security-framework@2.10.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rustls-native-certs@0.7.0,library,,rustls-native-certs,0.7.0,pkg:cargo/rustls-native-certs@0.7.0,"pkg:cargo/openssl-probe@0.1.5, pkg:cargo/rustls-pemfile@2.1.2, pkg:cargo/rustls-pki-types@1.4.1, pkg:cargo/schannel@0.1.22, pkg:cargo/security-framework@2.10.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rustls-pemfile@1.0.3,library,,rustls-pemfile,1.0.3,pkg:cargo/rustls-pemfile@1.0.3,pkg:cargo/base64@0.21.5
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rustls-pemfile@2.1.2,library,,rustls-pemfile,2.1.2,pkg:cargo/rustls-pemfile@2.1.2,"pkg:cargo/base64@0.22.0, pkg:cargo/rustls-pki-types@1.4.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rustls-pki-types@1.4.1,library,,rustls-pki-types,1.4.1,pkg:cargo/rustls-pki-types@1.4.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rustls-platform-verifier-android@0.1.0,library,,rustls-platform-verifier-android,0.1.0,pkg:cargo/rustls-platform-verifier-android@0.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rustls-platform-verifier@0.3.1,library,,rustls-platform-verifier,0.3.1,pkg:cargo/rustls-platform-verifier@0.3.1,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/core-foundation-sys@0.8.4, pkg:cargo/core-foundation@0.9.3, pkg:cargo/jni@0.19.0, pkg:cargo/log@0.4.20, pkg:cargo/once_cell@1.18.0, pkg:cargo/rustls-native-certs@0.7.0, pkg:cargo/rustls-platform-verifier-android@0.1.0, pkg:cargo/rustls-webpki@0.102.2, pkg:cargo/rustls@0.23.4, pkg:cargo/security-framework-sys@2.10.0, pkg:cargo/security-framework@2.10.0, pkg:cargo/webpki-roots@0.26.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rustls-webpki@0.102.2,library,,rustls-webpki,0.102.2,pkg:cargo/rustls-webpki@0.102.2,"pkg:cargo/ring@0.17.5, pkg:cargo/rustls-pki-types@1.4.1, pkg:cargo/untrusted@0.9.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rustls@0.20.9,library,,rustls,0.20.9,pkg:cargo/rustls@0.20.9,"pkg:cargo/ring@0.16.20, pkg:cargo/sct@0.7.1, pkg:cargo/webpki@0.22.4"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/rustls@0.23.4,library,,rustls,0.23.4,pkg:cargo/rustls@0.23.4,"pkg:cargo/log@0.4.20, pkg:cargo/once_cell@1.18.0, pkg:cargo/ring@0.17.5, pkg:cargo/rustls-pki-types@1.4.1, pkg:cargo/rustls-webpki@0.102.2, pkg:cargo/subtle@2.5.0, pkg:cargo/zeroize@1.7.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/ryu@1.0.15,library,,ryu,1.0.15,pkg:cargo/ryu@1.0.15,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/same-file@1.0.6,library,,same-file,1.0.6,pkg:cargo/same-file@1.0.6,pkg:cargo/winapi-util@0.1.6
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/samplerate@0.2.4,library,,samplerate,0.2.4,pkg:cargo/samplerate@0.2.4,pkg:cargo/libsamplerate-sys@0.1.12
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/schannel@0.1.22,library,,schannel,0.1.22,pkg:cargo/schannel@0.1.22,pkg:cargo/windows-sys@0.48.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/scoped_threadpool@0.1.9,library,,scoped_threadpool,0.1.9,pkg:cargo/scoped_threadpool@0.1.9,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/scopeguard@1.1.0,library,,scopeguard,1.1.0,pkg:cargo/scopeguard@1.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/scopeguard@1.2.0,library,,scopeguard,1.2.0,pkg:cargo/scopeguard@1.2.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/sct@0.7.1,library,,sct,0.7.1,pkg:cargo/sct@0.7.1,"pkg:cargo/ring@0.17.5, pkg:cargo/untrusted@0.9.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/security-framework-sys@2.10.0,library,,security-framework-sys,2.10.0,pkg:cargo/security-framework-sys@2.10.0,"pkg:cargo/core-foundation-sys@0.8.4, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/security-framework@2.10.0,library,,security-framework,2.10.0,pkg:cargo/security-framework@2.10.0,"a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/core-foundation-sys@0.8.4, pkg:cargo/core-foundation@0.9.3, pkg:cargo/libc@0.2.150, pkg:cargo/num-bigint@0.4.4, pkg:cargo/security-framework-sys@2.10.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/serde@1.0.190,library,,serde,1.0.190,pkg:cargo/serde@1.0.190,pkg:cargo/serde_derive@1.0.190
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/serde_derive@1.0.190,library,,serde_derive,1.0.190,pkg:cargo/serde_derive@1.0.190,"pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/syn@2.0.55"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/serde_json@1.0.107,library,,serde_json,1.0.107,pkg:cargo/serde_json@1.0.107,"pkg:cargo/itoa@1.0.9, pkg:cargo/ryu@1.0.15, pkg:cargo/serde@1.0.190"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/serde_repr@0.1.16,library,,serde_repr,0.1.16,pkg:cargo/serde_repr@0.1.16,"pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/syn@2.0.55"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/serde_spanned@0.6.4,library,,serde_spanned,0.6.4,pkg:cargo/serde_spanned@0.6.4,pkg:cargo/serde@1.0.190
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/sha1@0.10.6,library,,sha1,0.10.6,pkg:cargo/sha1@0.10.6,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/cpufeatures@0.2.11, pkg:cargo/digest@0.10.7"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/sha2@0.10.8,library,,sha2,0.10.8,pkg:cargo/sha2@0.10.8,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/cpufeatures@0.2.11, pkg:cargo/digest@0.10.7"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/shared_memory@0.12.4,library,,shared_memory,0.12.4,pkg:cargo/shared_memory@0.12.4,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/libc@0.2.150, pkg:cargo/nix@0.23.2, pkg:cargo/rand@0.8.5, pkg:cargo/win-sys@0.3.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/shlex@1.3.0,library,,shlex,1.3.0,pkg:cargo/shlex@1.3.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/shutdown_hooks@0.1.0,library,,shutdown_hooks,0.1.0,pkg:cargo/shutdown_hooks@0.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/signal-hook-registry@1.4.1,library,,signal-hook-registry,1.4.1,pkg:cargo/signal-hook-registry@1.4.1,pkg:cargo/libc@0.2.150
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/signature@1.6.4,library,,signature,1.6.4,pkg:cargo/signature@1.6.4,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/simd-adler32@0.3.5,library,,simd-adler32,0.3.5,pkg:cargo/simd-adler32@0.3.5,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/simd-adler32@0.3.7,library,,simd-adler32,0.3.7,pkg:cargo/simd-adler32@0.3.7,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/slab@0.4.9,library,,slab,0.4.9,pkg:cargo/slab@0.4.9,e9171ec2-75fe-40fb-9fd9-017b022df7d8
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/smallvec@1.10.0,library,,smallvec,1.10.0,pkg:cargo/smallvec@1.10.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/smallvec@1.11.1,library,,smallvec,1.11.1,pkg:cargo/smallvec@1.11.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/socket2@0.3.19,library,,socket2,0.3.19,pkg:cargo/socket2@0.3.19,"8b637efe-8817-476b-82ad-95c4100543bb, de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/socket2@0.4.10,library,,socket2,0.4.10,pkg:cargo/socket2@0.4.10,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/socket2@0.5.5,library,,socket2,0.5.5,pkg:cargo/socket2@0.5.5,"pkg:cargo/libc@0.2.150, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/sodiumoxide@0.2.7,library,,sodiumoxide,0.2.7,pkg:cargo/sodiumoxide@0.2.7,"pkg:cargo/ed25519@1.5.3, pkg:cargo/libc@0.2.150, pkg:cargo/libsodium-sys@0.2.7, pkg:cargo/serde@1.0.190"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/spin@0.5.2,library,,spin,0.5.2,pkg:cargo/spin@0.5.2,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/spin@0.9.6,library,,spin,0.9.6,pkg:cargo/spin@0.9.6,pkg:cargo/lock_api@0.4.9
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/spin@0.9.8,library,,spin,0.9.8,pkg:cargo/spin@0.9.8,pkg:cargo/lock_api@0.4.11
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/static_assertions@1.1.0,library,,static_assertions,1.1.0,pkg:cargo/static_assertions@1.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/strength_reduce@0.2.4,library,,strength_reduce,0.2.4,pkg:cargo/strength_reduce@0.2.4,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/strum@0.18.0,library,,strum,0.18.0,pkg:cargo/strum@0.18.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/strum_macros@0.18.0,library,,strum_macros,0.18.0,pkg:cargo/strum_macros@0.18.0,"ba6fb264-fcdd-47dd-adb7-d10a039faf2e, pkg:cargo/heck@0.3.3, pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/subtle@2.5.0,library,,subtle,2.5.0,pkg:cargo/subtle@2.5.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/syn@0.15.44,library,,syn,0.15.44,pkg:cargo/syn@0.15.44,"pkg:cargo/proc-macro2@0.4.30, pkg:cargo/quote@0.6.13, pkg:cargo/unicode-xid@0.1.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/syn@2.0.55,library,,syn,2.0.55,pkg:cargo/syn@2.0.55,"pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/unicode-ident@1.0.12"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/sys-locale@0.3.1,library,,sys-locale,0.3.1,pkg:cargo/sys-locale@0.3.1,pkg:cargo/libc@0.2.150
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/system-configuration-sys@0.5.0,library,,system-configuration-sys,0.5.0,pkg:cargo/system-configuration-sys@0.5.0,"pkg:cargo/core-foundation-sys@0.8.4, pkg:cargo/libc@0.2.150"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/system-configuration@0.5.1,library,,system-configuration,0.5.1,pkg:cargo/system-configuration@0.5.1,"a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/core-foundation@0.9.3, pkg:cargo/system-configuration-sys@0.5.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/system-deps@1.3.2,library,,system-deps,1.3.2,pkg:cargo/system-deps@1.3.2,"pkg:cargo/heck@0.3.3, pkg:cargo/pkg-config@0.3.27, pkg:cargo/strum@0.18.0, pkg:cargo/strum_macros@0.18.0, pkg:cargo/thiserror@1.0.50, pkg:cargo/toml@0.5.11, pkg:cargo/version-compare@0.0.10"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/system_shutdown@4.0.1,library,,system_shutdown,4.0.1,pkg:cargo/system_shutdown@4.0.1,"pkg:cargo/windows@0.44.0, pkg:cargo/zbus@3.14.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/tauri-winrt-notification@0.1.3,library,,tauri-winrt-notification,0.1.3,pkg:cargo/tauri-winrt-notification@0.1.3,"pkg:cargo/quick-xml@0.30.0, pkg:cargo/windows@0.51.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/tempfile@3.8.1,library,,tempfile,3.8.1,pkg:cargo/tempfile@3.8.1,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/fastrand@2.0.1, pkg:cargo/redox_syscall@0.4.1, pkg:cargo/rustix@0.38.21, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/termcolor@1.2.0,library,,termcolor,1.2.0,pkg:cargo/termcolor@1.2.0,pkg:cargo/winapi-util@0.1.5
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/termcolor@1.3.0,library,,termcolor,1.3.0,pkg:cargo/termcolor@1.3.0,pkg:cargo/winapi-util@0.1.6
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/thiserror-impl@1.0.50,library,,thiserror-impl,1.0.50,pkg:cargo/thiserror-impl@1.0.50,"pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/syn@2.0.55"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/thiserror@1.0.50,library,,thiserror,1.0.50,pkg:cargo/thiserror@1.0.50,pkg:cargo/thiserror-impl@1.0.50
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/threadpool@1.8.1,library,,threadpool,1.8.1,pkg:cargo/threadpool@1.8.1,pkg:cargo/num_cpus@1.16.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/tiff@0.8.1,library,,tiff,0.8.1,pkg:cargo/tiff@0.8.1,"ce1438cd-1e01-46a5-b852-4445796dbd3e, fc20529d-7d15-495b-9e85-5f938858367f, pkg:cargo/flate2@1.0.25"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/tiff@0.9.0,library,,tiff,0.9.0,pkg:cargo/tiff@0.9.0,"54fe5f04-bf4a-416d-ac29-10a31b703069, e8f0fcb9-8da6-44c4-ba20-b021b4ecf765, pkg:cargo/flate2@1.0.28"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/time-core@0.1.2,library,,time-core,0.1.2,pkg:cargo/time-core@0.1.2,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/time-macros@0.2.15,library,,time-macros,0.2.15,pkg:cargo/time-macros@0.2.15,pkg:cargo/time-core@0.1.2
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/time@0.1.45,library,,time,0.1.45,pkg:cargo/time@0.1.45,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/libc@0.2.150, pkg:cargo/wasi@0.10.0%2Bwasi-snapshot-preview1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/time@0.3.30,library,,time,0.3.30,pkg:cargo/time@0.3.30,"pkg:cargo/deranged@0.3.9, pkg:cargo/itoa@1.0.9, pkg:cargo/libc@0.2.150, pkg:cargo/num_threads@0.1.6, pkg:cargo/powerfmt@0.2.0, pkg:cargo/serde@1.0.190, pkg:cargo/time-core@0.1.2, pkg:cargo/time-macros@0.2.15"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/tinyvec@1.6.0,library,,tinyvec,1.6.0,pkg:cargo/tinyvec@1.6.0,pkg:cargo/tinyvec_macros@0.1.1
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/tinyvec_macros@0.1.1,library,,tinyvec_macros,0.1.1,pkg:cargo/tinyvec_macros@0.1.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/tokio-macros@2.2.0,library,,tokio-macros,2.2.0,pkg:cargo/tokio-macros@2.2.0,"pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/syn@2.0.55"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/tokio-native-tls@0.3.1,library,,tokio-native-tls,0.3.1,pkg:cargo/tokio-native-tls@0.3.1,"pkg:cargo/native-tls@0.2.11, pkg:cargo/tokio@1.36.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/tokio-rustls@0.26.0,library,,tokio-rustls,0.26.0,pkg:cargo/tokio-rustls@0.26.0,"pkg:cargo/rustls-pki-types@1.4.1, pkg:cargo/rustls@0.23.4, pkg:cargo/tokio@1.36.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/tokio-util@0.7.10,library,,tokio-util,0.7.10,pkg:cargo/tokio-util@0.7.10,"pkg:cargo/bytes@1.5.0, pkg:cargo/futures-core@0.3.29, pkg:cargo/futures-io@0.3.29, pkg:cargo/futures-sink@0.3.29, pkg:cargo/futures-util@0.3.29, pkg:cargo/hashbrown@0.14.2, pkg:cargo/pin-project-lite@0.2.13, pkg:cargo/slab@0.4.9, pkg:cargo/tokio@1.36.0, pkg:cargo/tracing@0.1.40"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/tokio@1.36.0,library,,tokio,1.36.0,pkg:cargo/tokio@1.36.0,"pkg:cargo/backtrace@0.3.69, pkg:cargo/bytes@1.5.0, pkg:cargo/libc@0.2.150, pkg:cargo/mio@0.8.11, pkg:cargo/num_cpus@1.16.0, pkg:cargo/parking_lot@0.12.1, pkg:cargo/pin-project-lite@0.2.13, pkg:cargo/signal-hook-registry@1.4.1, pkg:cargo/socket2@0.5.5, pkg:cargo/tokio-macros@2.2.0, pkg:cargo/windows-sys@0.48.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/toml@0.5.11,library,,toml,0.5.11,pkg:cargo/toml@0.5.11,pkg:cargo/serde@1.0.190
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/toml@0.7.8,library,,toml,0.7.8,pkg:cargo/toml@0.7.8,"pkg:cargo/serde@1.0.190, pkg:cargo/serde_spanned@0.6.4, pkg:cargo/toml_datetime@0.6.5, pkg:cargo/toml_edit@0.19.15"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/toml_datetime@0.6.5,library,,toml_datetime,0.6.5,pkg:cargo/toml_datetime@0.6.5,pkg:cargo/serde@1.0.190
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/toml_edit@0.19.15,library,,toml_edit,0.19.15,pkg:cargo/toml_edit@0.19.15,"pkg:cargo/indexmap@2.0.2, pkg:cargo/serde@1.0.190, pkg:cargo/serde_spanned@0.6.4, pkg:cargo/toml_datetime@0.6.5, pkg:cargo/winnow@0.5.17"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/totp-rs@5.4.0,library,,totp-rs,5.4.0,pkg:cargo/totp-rs@5.4.0,"pkg:cargo/base32@0.4.0, pkg:cargo/constant_time_eq@0.2.6, pkg:cargo/hmac@0.12.1, pkg:cargo/rand@0.8.5, pkg:cargo/sha1@0.10.6, pkg:cargo/sha2@0.10.8, pkg:cargo/url@2.4.1, pkg:cargo/urlencoding@2.1.3"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/tracing-attributes@0.1.27,library,,tracing-attributes,0.1.27,pkg:cargo/tracing-attributes@0.1.27,"pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/syn@2.0.55"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/tracing-core@0.1.32,library,,tracing-core,0.1.32,pkg:cargo/tracing-core@0.1.32,pkg:cargo/once_cell@1.18.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/tracing@0.1.40,library,,tracing,0.1.40,pkg:cargo/tracing@0.1.40,"pkg:cargo/pin-project-lite@0.2.13, pkg:cargo/tracing-attributes@0.1.27, pkg:cargo/tracing-core@0.1.32"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/transpose@0.2.3,library,,transpose,0.2.3,pkg:cargo/transpose@0.2.3,"59524327-31f9-4889-ace0-0b9c9bc16116, pkg:cargo/strength_reduce@0.2.4"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/typenum@1.17.0,library,,typenum,1.17.0,pkg:cargo/typenum@1.17.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/uds_windows@1.0.2,library,,uds_windows,1.0.2,pkg:cargo/uds_windows@1.0.2,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/tempfile@3.8.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/unicode-bidi@0.3.13,library,,unicode-bidi,0.3.13,pkg:cargo/unicode-bidi@0.3.13,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/unicode-ident@1.0.12,library,,unicode-ident,1.0.12,pkg:cargo/unicode-ident@1.0.12,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/unicode-ident@1.0.6,library,,unicode-ident,1.0.6,pkg:cargo/unicode-ident@1.0.6,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/unicode-normalization@0.1.22,library,,unicode-normalization,0.1.22,pkg:cargo/unicode-normalization@0.1.22,pkg:cargo/tinyvec@1.6.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/unicode-segmentation@1.10.1,library,,unicode-segmentation,1.10.1,pkg:cargo/unicode-segmentation@1.10.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/unicode-xid@0.1.0,library,,unicode-xid,0.1.0,pkg:cargo/unicode-xid@0.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/untrusted@0.7.1,library,,untrusted,0.7.1,pkg:cargo/untrusted@0.7.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/untrusted@0.9.0,library,,untrusted,0.9.0,pkg:cargo/untrusted@0.9.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/url@2.4.1,library,,url,2.4.1,pkg:cargo/url@2.4.1,"pkg:cargo/form_urlencoded@1.2.0, pkg:cargo/idna@0.4.0, pkg:cargo/percent-encoding@2.3.0, pkg:cargo/serde@1.0.190"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/urlencoding@2.1.3,library,,urlencoding,2.1.3,pkg:cargo/urlencoding@2.1.3,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/users@0.11.0,library,,users,0.11.0,pkg:cargo/users@0.11.0,"pkg:cargo/libc@0.2.150, pkg:cargo/log@0.4.20"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/utf16string@0.2.0,library,,utf16string,0.2.0,pkg:cargo/utf16string@0.2.0,pkg:cargo/byteorder@1.5.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/utf8-width@0.1.7,library,,utf8-width,0.1.7,pkg:cargo/utf8-width@0.1.7,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/utf8parse@0.2.1,library,,utf8parse,0.2.1,pkg:cargo/utf8parse@0.2.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/uuid@1.5.0,library,,uuid,1.5.0,pkg:cargo/uuid@1.5.0,pkg:cargo/getrandom@0.2.10
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/vcpkg@0.2.15,library,,vcpkg,0.2.15,pkg:cargo/vcpkg@0.2.15,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/version-compare@0.0.10,library,,version-compare,0.0.10,pkg:cargo/version-compare@0.0.10,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/waker-fn@1.1.1,library,,waker-fn,1.1.1,pkg:cargo/waker-fn@1.1.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/walkdir@2.4.0,library,,walkdir,2.4.0,pkg:cargo/walkdir@2.4.0,"pkg:cargo/same-file@1.0.6, pkg:cargo/winapi-util@0.1.6"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/wasi@0.10.0%2Bwasi-snapshot-preview1,library,,wasi,0.10.0+wasi-snapshot-preview1,pkg:cargo/wasi@0.10.0%2Bwasi-snapshot-preview1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/wasite@0.1.0,library,,wasite,0.1.0,pkg:cargo/wasite@0.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/wasm-bindgen-backend@0.2.84,library,,wasm-bindgen-backend,0.2.84,pkg:cargo/wasm-bindgen-backend@0.2.84,"0bf0b472-8867-4bbd-b875-2a54d956be84, pkg:cargo/bumpalo@3.12.0, pkg:cargo/log@0.4.17, pkg:cargo/once_cell@1.17.1, pkg:cargo/proc-macro2@1.0.51, pkg:cargo/quote@1.0.23, pkg:cargo/wasm-bindgen-shared@0.2.84"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/wasm-bindgen-backend@0.2.87,library,,wasm-bindgen-backend,0.2.87,pkg:cargo/wasm-bindgen-backend@0.2.87,"pkg:cargo/bumpalo@3.14.0, pkg:cargo/log@0.4.20, pkg:cargo/once_cell@1.18.0, pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/syn@2.0.55, pkg:cargo/wasm-bindgen-shared@0.2.87"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/wasm-bindgen-futures@0.4.37,library,,wasm-bindgen-futures,0.4.37,pkg:cargo/wasm-bindgen-futures@0.4.37,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/js-sys@0.3.64, pkg:cargo/wasm-bindgen@0.2.87, pkg:cargo/web-sys@0.3.64"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/wasm-bindgen-macro-support@0.2.84,library,,wasm-bindgen-macro-support,0.2.84,pkg:cargo/wasm-bindgen-macro-support@0.2.84,"0bf0b472-8867-4bbd-b875-2a54d956be84, pkg:cargo/proc-macro2@1.0.51, pkg:cargo/quote@1.0.23, pkg:cargo/wasm-bindgen-backend@0.2.84, pkg:cargo/wasm-bindgen-shared@0.2.84"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/wasm-bindgen-macro-support@0.2.87,library,,wasm-bindgen-macro-support,0.2.87,pkg:cargo/wasm-bindgen-macro-support@0.2.87,"pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/syn@2.0.55, pkg:cargo/wasm-bindgen-backend@0.2.87, pkg:cargo/wasm-bindgen-shared@0.2.87"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/wasm-bindgen-macro@0.2.84,library,,wasm-bindgen-macro,0.2.84,pkg:cargo/wasm-bindgen-macro@0.2.84,"pkg:cargo/quote@1.0.23, pkg:cargo/wasm-bindgen-macro-support@0.2.84"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/wasm-bindgen-macro@0.2.87,library,,wasm-bindgen-macro,0.2.87,pkg:cargo/wasm-bindgen-macro@0.2.87,"pkg:cargo/quote@1.0.35, pkg:cargo/wasm-bindgen-macro-support@0.2.87"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/wasm-bindgen-shared@0.2.84,library,,wasm-bindgen-shared,0.2.84,pkg:cargo/wasm-bindgen-shared@0.2.84,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/wasm-bindgen-shared@0.2.87,library,,wasm-bindgen-shared,0.2.87,pkg:cargo/wasm-bindgen-shared@0.2.87,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/wasm-bindgen@0.2.84,library,,wasm-bindgen,0.2.84,pkg:cargo/wasm-bindgen@0.2.84,"b8bd2d7d-ad09-4e53-ac00-f9005ae756fc, pkg:cargo/wasm-bindgen-macro@0.2.84"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/wasm-bindgen@0.2.87,library,,wasm-bindgen,0.2.87,pkg:cargo/wasm-bindgen@0.2.87,"8b637efe-8817-476b-82ad-95c4100543bb, pkg:cargo/wasm-bindgen-macro@0.2.87"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/web-sys@0.3.64,library,,web-sys,0.3.64,pkg:cargo/web-sys@0.3.64,"pkg:cargo/js-sys@0.3.64, pkg:cargo/wasm-bindgen@0.2.87"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/webpki-roots@0.26.1,library,,webpki-roots,0.26.1,pkg:cargo/webpki-roots@0.26.1,pkg:cargo/rustls-pki-types@1.4.1
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/webpki@0.22.4,library,,webpki,0.22.4,pkg:cargo/webpki@0.22.4,"pkg:cargo/ring@0.17.5, pkg:cargo/untrusted@0.9.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/which@4.4.2,library,,which,4.4.2,pkg:cargo/which@4.4.2,"pkg:cargo/either@1.9.0, pkg:cargo/home@0.5.5, pkg:cargo/once_cell@1.18.0, pkg:cargo/rustix@0.38.21"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/whoami@1.5.0,library,,whoami,1.5.0,pkg:cargo/whoami@1.5.0,"pkg:cargo/redox_syscall@0.4.1, pkg:cargo/wasite@0.1.0, pkg:cargo/web-sys@0.3.64"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/widestring@1.0.2,library,,widestring,1.0.2,pkg:cargo/widestring@1.0.2,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/win-sys@0.3.1,library,,win-sys,0.3.1,pkg:cargo/win-sys@0.3.1,pkg:cargo/windows@0.34.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/winapi-util@0.1.5,library,,winapi-util,0.1.5,pkg:cargo/winapi-util@0.1.5,2c64e100-5648-4e34-9518-482ca657604e
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/winapi-util@0.1.6,library,,winapi-util,0.1.6,pkg:cargo/winapi-util@0.1.6,de01b389-50e0-4f80-8dac-272c0b49b45b
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/winapi-wsapoll@0.1.1,library,,winapi-wsapoll,0.1.1,pkg:cargo/winapi-wsapoll@0.1.1,de01b389-50e0-4f80-8dac-272c0b49b45b
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows-core@0.51.1,library,,windows-core,0.51.1,pkg:cargo/windows-core@0.51.1,pkg:cargo/windows-targets@0.48.5
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows-service@0.6.0,library,,windows-service,0.6.0,pkg:cargo/windows-service@0.6.0,"5b1258eb-6f5b-422f-adc0-6c647d5160b4, a9f921e1-f671-4082-8299-8a1cdeba7267, pkg:cargo/widestring@1.0.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows-sys@0.42.0,library,,windows-sys,0.42.0,pkg:cargo/windows-sys@0.42.0,"pkg:cargo/windows_aarch64_gnullvm@0.42.2, pkg:cargo/windows_aarch64_msvc@0.42.2, pkg:cargo/windows_i686_gnu@0.42.2, pkg:cargo/windows_i686_msvc@0.42.2, pkg:cargo/windows_x86_64_gnu@0.42.2, pkg:cargo/windows_x86_64_gnullvm@0.42.2, pkg:cargo/windows_x86_64_msvc@0.42.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows-sys@0.48.0,library,,windows-sys,0.48.0,pkg:cargo/windows-sys@0.48.0,pkg:cargo/windows-targets@0.48.5
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows-targets@0.42.1,library,,windows-targets,0.42.1,pkg:cargo/windows-targets@0.42.1,"pkg:cargo/windows_aarch64_gnullvm@0.42.1, pkg:cargo/windows_aarch64_msvc@0.42.1, pkg:cargo/windows_i686_gnu@0.42.1, pkg:cargo/windows_i686_msvc@0.42.1, pkg:cargo/windows_x86_64_gnu@0.42.1, pkg:cargo/windows_x86_64_gnullvm@0.42.1, pkg:cargo/windows_x86_64_msvc@0.42.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows-targets@0.42.2,library,,windows-targets,0.42.2,pkg:cargo/windows-targets@0.42.2,"pkg:cargo/windows_aarch64_gnullvm@0.42.2, pkg:cargo/windows_aarch64_msvc@0.42.2, pkg:cargo/windows_i686_gnu@0.42.2, pkg:cargo/windows_i686_msvc@0.42.2, pkg:cargo/windows_x86_64_gnu@0.42.2, pkg:cargo/windows_x86_64_gnullvm@0.42.2, pkg:cargo/windows_x86_64_msvc@0.42.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows-targets@0.48.5,library,,windows-targets,0.48.5,pkg:cargo/windows-targets@0.48.5,"pkg:cargo/windows_aarch64_gnullvm@0.48.5, pkg:cargo/windows_aarch64_msvc@0.48.5, pkg:cargo/windows_i686_gnu@0.48.5, pkg:cargo/windows_i686_msvc@0.48.5, pkg:cargo/windows_x86_64_gnu@0.48.5, pkg:cargo/windows_x86_64_gnullvm@0.48.5, pkg:cargo/windows_x86_64_msvc@0.48.5"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows@0.32.0,library,,windows,0.32.0,pkg:cargo/windows@0.32.0,"pkg:cargo/windows_aarch64_msvc@0.32.0, pkg:cargo/windows_i686_gnu@0.32.0, pkg:cargo/windows_i686_msvc@0.32.0, pkg:cargo/windows_x86_64_gnu@0.32.0, pkg:cargo/windows_x86_64_msvc@0.32.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows@0.34.0,library,,windows,0.34.0,pkg:cargo/windows@0.34.0,"pkg:cargo/windows_aarch64_msvc@0.34.0, pkg:cargo/windows_i686_gnu@0.34.0, pkg:cargo/windows_i686_msvc@0.34.0, pkg:cargo/windows_x86_64_gnu@0.34.0, pkg:cargo/windows_x86_64_msvc@0.34.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows@0.44.0,library,,windows,0.44.0,pkg:cargo/windows@0.44.0,pkg:cargo/windows-targets@0.42.2
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows@0.46.0,library,,windows,0.46.0,pkg:cargo/windows@0.46.0,pkg:cargo/windows-targets@0.42.2
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows@0.51.1,library,,windows,0.51.1,pkg:cargo/windows@0.51.1,"pkg:cargo/windows-core@0.51.1, pkg:cargo/windows-targets@0.48.5"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_aarch64_gnullvm@0.42.1,library,,windows_aarch64_gnullvm,0.42.1,pkg:cargo/windows_aarch64_gnullvm@0.42.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_aarch64_gnullvm@0.42.2,library,,windows_aarch64_gnullvm,0.42.2,pkg:cargo/windows_aarch64_gnullvm@0.42.2,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_aarch64_gnullvm@0.48.5,library,,windows_aarch64_gnullvm,0.48.5,pkg:cargo/windows_aarch64_gnullvm@0.48.5,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_aarch64_msvc@0.32.0,library,,windows_aarch64_msvc,0.32.0,pkg:cargo/windows_aarch64_msvc@0.32.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_aarch64_msvc@0.34.0,library,,windows_aarch64_msvc,0.34.0,pkg:cargo/windows_aarch64_msvc@0.34.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_aarch64_msvc@0.42.1,library,,windows_aarch64_msvc,0.42.1,pkg:cargo/windows_aarch64_msvc@0.42.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_aarch64_msvc@0.42.2,library,,windows_aarch64_msvc,0.42.2,pkg:cargo/windows_aarch64_msvc@0.42.2,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_aarch64_msvc@0.48.5,library,,windows_aarch64_msvc,0.48.5,pkg:cargo/windows_aarch64_msvc@0.48.5,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_i686_gnu@0.32.0,library,,windows_i686_gnu,0.32.0,pkg:cargo/windows_i686_gnu@0.32.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_i686_gnu@0.34.0,library,,windows_i686_gnu,0.34.0,pkg:cargo/windows_i686_gnu@0.34.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_i686_gnu@0.42.1,library,,windows_i686_gnu,0.42.1,pkg:cargo/windows_i686_gnu@0.42.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_i686_gnu@0.42.2,library,,windows_i686_gnu,0.42.2,pkg:cargo/windows_i686_gnu@0.42.2,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_i686_gnu@0.48.5,library,,windows_i686_gnu,0.48.5,pkg:cargo/windows_i686_gnu@0.48.5,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_i686_msvc@0.32.0,library,,windows_i686_msvc,0.32.0,pkg:cargo/windows_i686_msvc@0.32.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_i686_msvc@0.34.0,library,,windows_i686_msvc,0.34.0,pkg:cargo/windows_i686_msvc@0.34.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_i686_msvc@0.42.1,library,,windows_i686_msvc,0.42.1,pkg:cargo/windows_i686_msvc@0.42.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_i686_msvc@0.42.2,library,,windows_i686_msvc,0.42.2,pkg:cargo/windows_i686_msvc@0.42.2,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_i686_msvc@0.48.5,library,,windows_i686_msvc,0.48.5,pkg:cargo/windows_i686_msvc@0.48.5,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_x86_64_gnu@0.32.0,library,,windows_x86_64_gnu,0.32.0,pkg:cargo/windows_x86_64_gnu@0.32.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_x86_64_gnu@0.34.0,library,,windows_x86_64_gnu,0.34.0,pkg:cargo/windows_x86_64_gnu@0.34.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_x86_64_gnu@0.42.1,library,,windows_x86_64_gnu,0.42.1,pkg:cargo/windows_x86_64_gnu@0.42.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_x86_64_gnu@0.42.2,library,,windows_x86_64_gnu,0.42.2,pkg:cargo/windows_x86_64_gnu@0.42.2,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_x86_64_gnu@0.48.5,library,,windows_x86_64_gnu,0.48.5,pkg:cargo/windows_x86_64_gnu@0.48.5,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_x86_64_gnullvm@0.42.1,library,,windows_x86_64_gnullvm,0.42.1,pkg:cargo/windows_x86_64_gnullvm@0.42.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_x86_64_gnullvm@0.42.2,library,,windows_x86_64_gnullvm,0.42.2,pkg:cargo/windows_x86_64_gnullvm@0.42.2,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_x86_64_gnullvm@0.48.5,library,,windows_x86_64_gnullvm,0.48.5,pkg:cargo/windows_x86_64_gnullvm@0.48.5,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_x86_64_msvc@0.32.0,library,,windows_x86_64_msvc,0.32.0,pkg:cargo/windows_x86_64_msvc@0.32.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_x86_64_msvc@0.34.0,library,,windows_x86_64_msvc,0.34.0,pkg:cargo/windows_x86_64_msvc@0.34.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_x86_64_msvc@0.42.1,library,,windows_x86_64_msvc,0.42.1,pkg:cargo/windows_x86_64_msvc@0.42.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_x86_64_msvc@0.42.2,library,,windows_x86_64_msvc,0.42.2,pkg:cargo/windows_x86_64_msvc@0.42.2,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/windows_x86_64_msvc@0.48.5,library,,windows_x86_64_msvc,0.48.5,pkg:cargo/windows_x86_64_msvc@0.48.5,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/winnow@0.5.17,library,,winnow,0.5.17,pkg:cargo/winnow@0.5.17,pkg:cargo/memchr@2.6.4
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/winreg@0.11.0,library,,winreg,0.11.0,pkg:cargo/winreg@0.11.0,"8b637efe-8817-476b-82ad-95c4100543bb, de01b389-50e0-4f80-8dac-272c0b49b45b"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/wol-rs@1.0.1,library,,wol-rs,1.0.1,pkg:cargo/wol-rs@1.0.1,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/x11rb-protocol@0.12.0,library,,x11rb-protocol,0.12.0,pkg:cargo/x11rb-protocol@0.12.0,pkg:cargo/nix@0.26.4
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/x11rb@0.12.0,library,,x11rb,0.12.0,pkg:cargo/x11rb@0.12.0,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/gethostname@0.3.0, pkg:cargo/nix@0.26.4, pkg:cargo/winapi-wsapoll@0.1.1, pkg:cargo/x11rb-protocol@0.12.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/xdg-home@1.0.0,library,,xdg-home,1.0.0,pkg:cargo/xdg-home@1.0.0,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/nix@0.26.4"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zbus@3.14.1,library,,zbus,3.14.1,pkg:cargo/zbus@3.14.1,"de01b389-50e0-4f80-8dac-272c0b49b45b, pkg:cargo/async-broadcast@0.5.1, pkg:cargo/async-executor@1.6.0, pkg:cargo/async-fs@1.6.0, pkg:cargo/async-io@1.13.0, pkg:cargo/async-lock@2.8.0, pkg:cargo/async-process@1.8.1, pkg:cargo/async-recursion@1.0.5, pkg:cargo/async-task@4.5.0, pkg:cargo/async-trait@0.1.79, pkg:cargo/blocking@1.4.1, pkg:cargo/byteorder@1.5.0, pkg:cargo/derivative@2.2.0, pkg:cargo/enumflags2@0.7.8, pkg:cargo/event-listener@2.5.3, pkg:cargo/futures-core@0.3.29, pkg:cargo/futures-sink@0.3.29, pkg:cargo/futures-util@0.3.29, pkg:cargo/hex@0.4.3, pkg:cargo/nix@0.26.4, pkg:cargo/once_cell@1.18.0, pkg:cargo/ordered-stream@0.2.0, pkg:cargo/rand@0.8.5, pkg:cargo/serde@1.0.190, pkg:cargo/serde_repr@0.1.16, pkg:cargo/sha1@0.10.6, pkg:cargo/static_assertions@1.1.0, pkg:cargo/tracing@0.1.40, pkg:cargo/uds_windows@1.0.2, pkg:cargo/xdg-home@1.0.0, pkg:cargo/zbus_macros@3.14.1, pkg:cargo/zbus_names@2.6.0, pkg:cargo/zvariant@3.15.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zbus_macros@3.14.1,library,,zbus_macros,3.14.1,pkg:cargo/zbus_macros@3.14.1,"ba6fb264-fcdd-47dd-adb7-d10a039faf2e, pkg:cargo/proc-macro-crate@1.3.1, pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/regex@1.10.2, pkg:cargo/zvariant_utils@1.0.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zbus_names@2.6.0,library,,zbus_names,2.6.0,pkg:cargo/zbus_names@2.6.0,"pkg:cargo/serde@1.0.190, pkg:cargo/static_assertions@1.1.0, pkg:cargo/zvariant@3.15.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zerocopy-derive@0.6.6,library,,zerocopy-derive,0.6.6,pkg:cargo/zerocopy-derive@0.6.6,"pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/syn@2.0.55"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zerocopy-derive@0.7.32,library,,zerocopy-derive,0.7.32,pkg:cargo/zerocopy-derive@0.7.32,"pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/syn@2.0.55"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zerocopy@0.6.6,library,,zerocopy,0.6.6,pkg:cargo/zerocopy@0.6.6,"pkg:cargo/byteorder@1.5.0, pkg:cargo/zerocopy-derive@0.6.6"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zerocopy@0.7.32,library,,zerocopy,0.7.32,pkg:cargo/zerocopy@0.7.32,pkg:cargo/zerocopy-derive@0.7.32
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zeroize@1.7.0,library,,zeroize,1.7.0,pkg:cargo/zeroize@1.7.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zip@0.6.6,library,,zip,0.6.6,pkg:cargo/zip@0.6.6,"e8609413-5317-4066-8294-78ff5a2c2097, pkg:cargo/aes@0.8.3, pkg:cargo/byteorder@1.5.0, pkg:cargo/bzip2@0.4.4, pkg:cargo/constant_time_eq@0.1.5, pkg:cargo/crossbeam-utils@0.8.16, pkg:cargo/flate2@1.0.28, pkg:cargo/hmac@0.12.1, pkg:cargo/pbkdf2@0.11.0, pkg:cargo/sha1@0.10.6, pkg:cargo/time@0.3.30, pkg:cargo/zstd@0.11.2%2Bzstd.1.5.2"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zstd-safe@5.0.2%2Bzstd.1.5.2,library,,zstd-safe,5.0.2+zstd.1.5.2,pkg:cargo/zstd-safe@5.0.2%2Bzstd.1.5.2,"pkg:cargo/libc@0.2.150, pkg:cargo/zstd-sys@2.0.9%2Bzstd.1.5.5"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zstd-safe@7.0.0,library,,zstd-safe,7.0.0,pkg:cargo/zstd-safe@7.0.0,pkg:cargo/zstd-sys@2.0.9%2Bzstd.1.5.5
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zstd-sys@2.0.9%2Bzstd.1.5.5,library,,zstd-sys,2.0.9+zstd.1.5.5,pkg:cargo/zstd-sys@2.0.9%2Bzstd.1.5.5,"pkg:cargo/cc@1.0.83, pkg:cargo/pkg-config@0.3.27"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zstd@0.11.2%2Bzstd.1.5.2,library,,zstd,0.11.2+zstd.1.5.2,pkg:cargo/zstd@0.11.2%2Bzstd.1.5.2,pkg:cargo/zstd-safe@5.0.2%2Bzstd.1.5.2
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zstd@0.13.0,library,,zstd,0.13.0,pkg:cargo/zstd@0.13.0,pkg:cargo/zstd-safe@7.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zune-inflate@0.2.51,library,,zune-inflate,0.2.51,pkg:cargo/zune-inflate@0.2.51,pkg:cargo/simd-adler32@0.3.5
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zune-inflate@0.2.54,library,,zune-inflate,0.2.54,pkg:cargo/zune-inflate@0.2.54,pkg:cargo/simd-adler32@0.3.7
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zvariant@3.15.0,library,,zvariant,3.15.0,pkg:cargo/zvariant@3.15.0,"pkg:cargo/byteorder@1.5.0, pkg:cargo/enumflags2@0.7.8, pkg:cargo/libc@0.2.150, pkg:cargo/serde@1.0.190, pkg:cargo/static_assertions@1.1.0, pkg:cargo/zvariant_derive@3.15.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zvariant_derive@3.15.0,library,,zvariant_derive,3.15.0,pkg:cargo/zvariant_derive@3.15.0,"ba6fb264-fcdd-47dd-adb7-d10a039faf2e, pkg:cargo/proc-macro-crate@1.3.1, pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35, pkg:cargo/zvariant_utils@1.0.1"
+,,https://github.com/rustdesk/rustdesk,pkg:cargo/zvariant_utils@1.0.1,library,,zvariant_utils,1.0.1,pkg:cargo/zvariant_utils@1.0.1,"ba6fb264-fcdd-47dd-adb7-d10a039faf2e, pkg:cargo/proc-macro2@1.0.79, pkg:cargo/quote@1.0.35"
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/DKImagePickerController@4.3.4#Core,library,,DKImagePickerController/Core,4.3.4,pkg:cocoapods/DKImagePickerController@4.3.4#Core,"pkg:cocoapods/DKImagePickerController@4.3.4#ImageDataManager, pkg:cocoapods/DKImagePickerController@4.3.4#Resource"
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/DKImagePickerController@4.3.4#ImageDataManager,library,,DKImagePickerController/ImageDataManager,4.3.4,pkg:cocoapods/DKImagePickerController@4.3.4#ImageDataManager,
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/DKImagePickerController@4.3.4#PhotoGallery,library,,DKImagePickerController/PhotoGallery,4.3.4,pkg:cocoapods/DKImagePickerController@4.3.4#PhotoGallery,"pkg:cocoapods/DKImagePickerController@4.3.4#Core, pkg:cocoapods/DKPhotoGallery@0.0.17"
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/DKImagePickerController@4.3.4#Resource,library,,DKImagePickerController/Resource,4.3.4,pkg:cocoapods/DKImagePickerController@4.3.4#Resource,
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/DKPhotoGallery@0.0.17,library,,DKPhotoGallery,0.0.17,pkg:cocoapods/DKPhotoGallery@0.0.17,"pkg:cocoapods/DKPhotoGallery@0.0.17#Core, pkg:cocoapods/DKPhotoGallery@0.0.17#Model, pkg:cocoapods/DKPhotoGallery@0.0.17#Preview, pkg:cocoapods/DKPhotoGallery@0.0.17#Resource, pkg:cocoapods/SDWebImage@5.18.11, pkg:cocoapods/SwiftyGif@5.4.4"
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/DKPhotoGallery@0.0.17#Core,library,,DKPhotoGallery/Core,0.0.17,pkg:cocoapods/DKPhotoGallery@0.0.17#Core,"pkg:cocoapods/DKPhotoGallery@0.0.17#Model, pkg:cocoapods/DKPhotoGallery@0.0.17#Preview, pkg:cocoapods/SDWebImage@5.18.11, pkg:cocoapods/SwiftyGif@5.4.4"
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/DKPhotoGallery@0.0.17#Model,library,,DKPhotoGallery/Model,0.0.17,pkg:cocoapods/DKPhotoGallery@0.0.17#Model,"pkg:cocoapods/SDWebImage@5.18.11, pkg:cocoapods/SwiftyGif@5.4.4"
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/DKPhotoGallery@0.0.17#Preview,library,,DKPhotoGallery/Preview,0.0.17,pkg:cocoapods/DKPhotoGallery@0.0.17#Preview,"pkg:cocoapods/DKPhotoGallery@0.0.17#Model, pkg:cocoapods/DKPhotoGallery@0.0.17#Resource, pkg:cocoapods/SDWebImage@5.18.11, pkg:cocoapods/SwiftyGif@5.4.4"
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/DKPhotoGallery@0.0.17#Resource,library,,DKPhotoGallery/Resource,0.0.17,pkg:cocoapods/DKPhotoGallery@0.0.17#Resource,"pkg:cocoapods/SDWebImage@5.18.11, pkg:cocoapods/SwiftyGif@5.4.4"
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/Flutter@1.0.0,library,,Flutter,1.0.0,pkg:cocoapods/Flutter@1.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/FlutterMacOS@1.0.0,library,,FlutterMacOS,1.0.0,pkg:cocoapods/FlutterMacOS@1.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/MTBBarcodeScanner@5.0.11,library,,MTBBarcodeScanner,5.0.11,pkg:cocoapods/MTBBarcodeScanner@5.0.11,
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/SDWebImage@5.18.11,library,,SDWebImage,5.18.11,pkg:cocoapods/SDWebImage@5.18.11,pkg:cocoapods/SDWebImage@5.18.11#Core
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/SDWebImage@5.18.11#Core,library,,SDWebImage/Core,5.18.11,pkg:cocoapods/SDWebImage@5.18.11#Core,
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/SwiftyGif@5.4.4,library,,SwiftyGif,5.4.4,pkg:cocoapods/SwiftyGif@5.4.4,
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/desktop_drop@0.0.1,library,,desktop_drop,0.0.1,pkg:cocoapods/desktop_drop@0.0.1,pkg:cocoapods/FlutterMacOS@1.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/desktop_multi_window@0.0.1,library,,desktop_multi_window,0.0.1,pkg:cocoapods/desktop_multi_window@0.0.1,pkg:cocoapods/FlutterMacOS@1.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/file_picker@0.0.1,library,,file_picker,0.0.1,pkg:cocoapods/file_picker@0.0.1,"pkg:cocoapods/DKImagePickerController@4.3.4#PhotoGallery, pkg:cocoapods/Flutter@1.0.0"
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/file_selector_macos@0.0.1,library,,file_selector_macos,0.0.1,pkg:cocoapods/file_selector_macos@0.0.1,pkg:cocoapods/FlutterMacOS@1.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/flutter_custom_cursor@0.0.1,library,,flutter_custom_cursor,0.0.1,pkg:cocoapods/flutter_custom_cursor@0.0.1,pkg:cocoapods/FlutterMacOS@1.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/flutter_keyboard_visibility@0.0.1,library,,flutter_keyboard_visibility,0.0.1,pkg:cocoapods/flutter_keyboard_visibility@0.0.1,pkg:cocoapods/Flutter@1.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/image_picker_ios@0.0.1,library,,image_picker_ios,0.0.1,pkg:cocoapods/image_picker_ios@0.0.1,pkg:cocoapods/Flutter@1.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/package_info_plus@0.0.1,library,,package_info_plus,0.0.1,pkg:cocoapods/package_info_plus@0.0.1,pkg:cocoapods/FlutterMacOS@1.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/package_info_plus@0.4.5,library,,package_info_plus,0.4.5,pkg:cocoapods/package_info_plus@0.4.5,pkg:cocoapods/Flutter@1.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/qr_code_scanner@0.2.0,library,,qr_code_scanner,0.2.0,pkg:cocoapods/qr_code_scanner@0.2.0,"pkg:cocoapods/Flutter@1.0.0, pkg:cocoapods/MTBBarcodeScanner@5.0.11"
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/screen_retriever@0.0.1,library,,screen_retriever,0.0.1,pkg:cocoapods/screen_retriever@0.0.1,pkg:cocoapods/FlutterMacOS@1.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/texture_rgba_renderer@0.0.1,library,,texture_rgba_renderer,0.0.1,pkg:cocoapods/texture_rgba_renderer@0.0.1,pkg:cocoapods/FlutterMacOS@1.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/uni_links@0.0.1,library,,uni_links,0.0.1,pkg:cocoapods/uni_links@0.0.1,pkg:cocoapods/Flutter@1.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/uni_links_desktop@0.0.1,library,,uni_links_desktop,0.0.1,pkg:cocoapods/uni_links_desktop@0.0.1,pkg:cocoapods/FlutterMacOS@1.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/url_launcher_ios@0.0.1,library,,url_launcher_ios,0.0.1,pkg:cocoapods/url_launcher_ios@0.0.1,pkg:cocoapods/Flutter@1.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/url_launcher_macos@0.0.1,library,,url_launcher_macos,0.0.1,pkg:cocoapods/url_launcher_macos@0.0.1,pkg:cocoapods/FlutterMacOS@1.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/window_manager@0.2.0,library,,window_manager,0.2.0,pkg:cocoapods/window_manager@0.2.0,pkg:cocoapods/FlutterMacOS@1.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:cocoapods/window_size@0.0.2,library,,window_size,0.0.2,pkg:cocoapods/window_size@0.0.2,pkg:cocoapods/FlutterMacOS@1.0.0
+,,https://github.com/rustdesk/rustdesk,pkg:npm/fast-sha256@1.3.0,library,,fast-sha256,1.3.0,pkg:npm/fast-sha256@1.3.0,
+,,https://github.com/rustdesk/rustdesk,pkg:npm/libsodium-wrappers@0.7.9,library,,libsodium-wrappers,0.7.9,pkg:npm/libsodium-wrappers@0.7.9,pkg:npm/libsodium@0.7.9
+,,https://github.com/rustdesk/rustdesk,pkg:npm/libsodium@0.7.9,library,,libsodium,0.7.9,pkg:npm/libsodium@0.7.9,
+,,https://github.com/rustdesk/rustdesk,pkg:npm/pcm-player@0.0.11,library,,pcm-player,0.0.11,pkg:npm/pcm-player@0.0.11,
+,,https://github.com/rustdesk/rustdesk,pkg:npm/wasm-feature-detect@1.2.11,library,,wasm-feature-detect,1.2.11,pkg:npm/wasm-feature-detect@1.2.11,
+,,https://github.com/rustdesk/rustdesk,pkg:npm/zstddec@0.0.2,library,,zstddec,0.0.2,pkg:npm/zstddec@0.0.2,
+,,https://github.com/rustdesk/rustdesk,pkg:nuget/WixToolset.DUtil@4.0.5,library,,WixToolset.DUtil,4.0.5,pkg:nuget/WixToolset.DUtil@4.0.5,
+,,https://github.com/rustdesk/rustdesk,pkg:nuget/WixToolset.WcaUtil@4.0.5,library,,WixToolset.WcaUtil,4.0.5,pkg:nuget/WixToolset.WcaUtil@4.0.5,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/_fe_analyzer_shared@64.0.0,library,,_fe_analyzer_shared,64.0.0,pkg:pub/_fe_analyzer_shared@64.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/after_layout@1.2.0,library,,after_layout,1.2.0,pkg:pub/after_layout@1.2.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/analyzer@6.2.0,library,,analyzer,6.2.0,pkg:pub/analyzer@6.2.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/animations@2.0.11,library,,animations,2.0.11,pkg:pub/animations@2.0.11,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/archive@3.4.10,library,,archive,3.4.10,pkg:pub/archive@3.4.10,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/args@2.4.2,library,,args,2.4.2,pkg:pub/args@2.4.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/async@2.11.0,library,,async,2.11.0,pkg:pub/async@2.11.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/auto_size_text@3.0.0,library,,auto_size_text,3.0.0,pkg:pub/auto_size_text@3.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/auto_size_text_field@2.2.2,library,,auto_size_text_field,2.2.2,pkg:pub/auto_size_text_field@2.2.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/back_button_interceptor@6.0.2,library,,back_button_interceptor,6.0.2,pkg:pub/back_button_interceptor@6.0.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/boolean_selector@2.1.1,library,,boolean_selector,2.1.1,pkg:pub/boolean_selector@2.1.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/bot_toast@4.1.3,library,,bot_toast,4.1.3,pkg:pub/bot_toast@4.1.3,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/build@2.4.1,library,,build,2.4.1,pkg:pub/build@2.4.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/build_cli_annotations@2.1.0,library,,build_cli_annotations,2.1.0,pkg:pub/build_cli_annotations@2.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/build_config@1.1.1,library,,build_config,1.1.1,pkg:pub/build_config@1.1.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/build_daemon@4.0.1,library,,build_daemon,4.0.1,pkg:pub/build_daemon@4.0.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/build_resolvers@2.4.2,library,,build_resolvers,2.4.2,pkg:pub/build_resolvers@2.4.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/build_runner@2.4.8,library,,build_runner,2.4.8,pkg:pub/build_runner@2.4.8,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/build_runner_core@7.3.0,library,,build_runner_core,7.3.0,pkg:pub/build_runner_core@7.3.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/built_collection@5.1.1,library,,built_collection,5.1.1,pkg:pub/built_collection@5.1.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/built_value@8.9.0,library,,built_value,8.9.0,pkg:pub/built_value@8.9.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/cached_network_image@3.3.1,library,,cached_network_image,3.3.1,pkg:pub/cached_network_image@3.3.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/cached_network_image_platform_interface@4.0.0,library,,cached_network_image_platform_interface,4.0.0,pkg:pub/cached_network_image_platform_interface@4.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/cached_network_image_web@1.1.1,library,,cached_network_image_web,1.1.1,pkg:pub/cached_network_image_web@1.1.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/characters@1.3.0,library,,characters,1.3.0,pkg:pub/characters@1.3.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/charcode@1.3.1,library,,charcode,1.3.1,pkg:pub/charcode@1.3.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/checked_yaml@2.0.3,library,,checked_yaml,2.0.3,pkg:pub/checked_yaml@2.0.3,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/cli_util@0.4.1,library,,cli_util,0.4.1,pkg:pub/cli_util@0.4.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/clock@1.1.1,library,,clock,1.1.1,pkg:pub/clock@1.1.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/code_builder@4.10.0,library,,code_builder,4.10.0,pkg:pub/code_builder@4.10.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/collection@1.18.0,library,,collection,1.18.0,pkg:pub/collection@1.18.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/contextmenu@3.0.0,library,,contextmenu,3.0.0,pkg:pub/contextmenu@3.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/convert@3.1.1,library,,convert,3.1.1,pkg:pub/convert@3.1.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/cross_file@0.3.3%2B8,library,,cross_file,0.3.3+8,pkg:pub/cross_file@0.3.3%2B8,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/crypto@3.0.3,library,,crypto,3.0.3,pkg:pub/crypto@3.0.3,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/csslib@1.0.0,library,,csslib,1.0.0,pkg:pub/csslib@1.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/dart_style@2.3.4,library,,dart_style,2.3.4,pkg:pub/dart_style@2.3.4,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/dash_chat_2@0.0.18,library,,dash_chat_2,0.0.18,pkg:pub/dash_chat_2@0.0.18,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/dbus@0.7.10,library,,dbus,0.7.10,pkg:pub/dbus@0.7.10,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/debounce_throttle@2.0.0,library,,debounce_throttle,2.0.0,pkg:pub/debounce_throttle@2.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/desktop_drop@0.4.4,library,,desktop_drop,0.4.4,pkg:pub/desktop_drop@0.4.4,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/desktop_multi_window@0.1.0,library,,desktop_multi_window,0.1.0,pkg:pub/desktop_multi_window@0.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/device_info_plus@9.1.2,library,,device_info_plus,9.1.2,pkg:pub/device_info_plus@9.1.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/device_info_plus_platform_interface@7.0.0,library,,device_info_plus_platform_interface,7.0.0,pkg:pub/device_info_plus_platform_interface@7.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/draggable_float_widget@0.1.0,library,,draggable_float_widget,0.1.0,pkg:pub/draggable_float_widget@0.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/dropdown_button2@2.3.9,library,,dropdown_button2,2.3.9,pkg:pub/dropdown_button2@2.3.9,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/dynamic_layouts@0.0.1%2B1,library,,dynamic_layouts,0.0.1+1,pkg:pub/dynamic_layouts@0.0.1%2B1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/external_path@1.0.3,library,,external_path,1.0.3,pkg:pub/external_path@1.0.3,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/ffi@2.1.0,library,,ffi,2.1.0,pkg:pub/ffi@2.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/ffigen@8.0.2,library,,ffigen,8.0.2,pkg:pub/ffigen@8.0.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/file@6.1.4,library,,file,6.1.4,pkg:pub/file@6.1.4,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/file_picker@5.5.0,library,,file_picker,5.5.0,pkg:pub/file_picker@5.5.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/file_selector_linux@0.9.2%2B1,library,,file_selector_linux,0.9.2+1,pkg:pub/file_selector_linux@0.9.2%2B1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/file_selector_macos@0.9.3%2B3,library,,file_selector_macos,0.9.3+3,pkg:pub/file_selector_macos@0.9.3%2B3,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/file_selector_platform_interface@2.6.2,library,,file_selector_platform_interface,2.6.2,pkg:pub/file_selector_platform_interface@2.6.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/file_selector_windows@0.9.3%2B1,library,,file_selector_windows,0.9.3+1,pkg:pub/file_selector_windows@0.9.3%2B1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/fixnum@1.1.0,library,,fixnum,1.1.0,pkg:pub/fixnum@1.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flex_color_picker@3.3.1,library,,flex_color_picker,3.3.1,pkg:pub/flex_color_picker@3.3.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flex_seed_scheme@1.4.0,library,,flex_seed_scheme,1.4.0,pkg:pub/flex_seed_scheme@1.4.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter@0.0.0,library,,flutter,0.0.0,pkg:pub/flutter@0.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_breadcrumb@1.0.1,library,,flutter_breadcrumb,1.0.1,pkg:pub/flutter_breadcrumb@1.0.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_cache_manager@3.3.1,library,,flutter_cache_manager,3.3.1,pkg:pub/flutter_cache_manager@3.3.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_custom_cursor@0.0.4,library,,flutter_custom_cursor,0.0.4,pkg:pub/flutter_custom_cursor@0.0.4,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_gpu_texture_renderer@0.0.1,library,,flutter_gpu_texture_renderer,0.0.1,pkg:pub/flutter_gpu_texture_renderer@0.0.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_improved_scrolling@0.0.3,library,,flutter_improved_scrolling,0.0.3,pkg:pub/flutter_improved_scrolling@0.0.3,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_keyboard_visibility@5.4.1,library,,flutter_keyboard_visibility,5.4.1,pkg:pub/flutter_keyboard_visibility@5.4.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_keyboard_visibility_linux@1.0.0,library,,flutter_keyboard_visibility_linux,1.0.0,pkg:pub/flutter_keyboard_visibility_linux@1.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_keyboard_visibility_macos@1.0.0,library,,flutter_keyboard_visibility_macos,1.0.0,pkg:pub/flutter_keyboard_visibility_macos@1.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_keyboard_visibility_platform_interface@2.0.0,library,,flutter_keyboard_visibility_platform_interface,2.0.0,pkg:pub/flutter_keyboard_visibility_platform_interface@2.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_keyboard_visibility_web@2.0.0,library,,flutter_keyboard_visibility_web,2.0.0,pkg:pub/flutter_keyboard_visibility_web@2.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_keyboard_visibility_windows@1.0.0,library,,flutter_keyboard_visibility_windows,1.0.0,pkg:pub/flutter_keyboard_visibility_windows@1.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_launcher_icons@0.13.1,library,,flutter_launcher_icons,0.13.1,pkg:pub/flutter_launcher_icons@0.13.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_lints@2.0.3,library,,flutter_lints,2.0.3,pkg:pub/flutter_lints@2.0.3,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_localizations@0.0.0,library,,flutter_localizations,0.0.0,pkg:pub/flutter_localizations@0.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_parsed_text@2.2.1,library,,flutter_parsed_text,2.2.1,pkg:pub/flutter_parsed_text@2.2.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_plugin_android_lifecycle@2.0.17,library,,flutter_plugin_android_lifecycle,2.0.17,pkg:pub/flutter_plugin_android_lifecycle@2.0.17,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_rust_bridge@1.80.1,library,,flutter_rust_bridge,1.80.1,pkg:pub/flutter_rust_bridge@1.80.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_svg@2.0.9,library,,flutter_svg,2.0.9,pkg:pub/flutter_svg@2.0.9,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/flutter_web_plugins@0.0.0,library,,flutter_web_plugins,0.0.0,pkg:pub/flutter_web_plugins@0.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/freezed@2.4.7,library,,freezed,2.4.7,pkg:pub/freezed@2.4.7,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/freezed_annotation@2.4.1,library,,freezed_annotation,2.4.1,pkg:pub/freezed_annotation@2.4.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/frontend_server_client@3.2.0,library,,frontend_server_client,3.2.0,pkg:pub/frontend_server_client@3.2.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/get@4.6.6,library,,get,4.6.6,pkg:pub/get@4.6.6,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/glob@2.1.2,library,,glob,2.1.2,pkg:pub/glob@2.1.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/graphs@2.3.1,library,,graphs,2.3.1,pkg:pub/graphs@2.3.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/html@0.15.4,library,,html,0.15.4,pkg:pub/html@0.15.4,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/http@1.2.0,library,,http,1.2.0,pkg:pub/http@1.2.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/http_multi_server@3.2.1,library,,http_multi_server,3.2.1,pkg:pub/http_multi_server@3.2.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/http_parser@4.0.2,library,,http_parser,4.0.2,pkg:pub/http_parser@4.0.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/icons_launcher@2.1.7,library,,icons_launcher,2.1.7,pkg:pub/icons_launcher@2.1.7,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/image@4.1.7,library,,image,4.1.7,pkg:pub/image@4.1.7,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/image_picker@0.8.9,library,,image_picker,0.8.9,pkg:pub/image_picker@0.8.9,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/image_picker_android@0.8.9%2B3,library,,image_picker_android,0.8.9+3,pkg:pub/image_picker_android@0.8.9%2B3,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/image_picker_for_web@2.2.0,library,,image_picker_for_web,2.2.0,pkg:pub/image_picker_for_web@2.2.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/image_picker_ios@0.8.9%2B1,library,,image_picker_ios,0.8.9+1,pkg:pub/image_picker_ios@0.8.9%2B1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/image_picker_linux@0.2.1%2B1,library,,image_picker_linux,0.2.1+1,pkg:pub/image_picker_linux@0.2.1%2B1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/image_picker_macos@0.2.1%2B1,library,,image_picker_macos,0.2.1+1,pkg:pub/image_picker_macos@0.2.1%2B1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/image_picker_platform_interface@2.9.3,library,,image_picker_platform_interface,2.9.3,pkg:pub/image_picker_platform_interface@2.9.3,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/image_picker_windows@0.2.1%2B1,library,,image_picker_windows,0.2.1+1,pkg:pub/image_picker_windows@0.2.1%2B1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/intl@0.18.1,library,,intl,0.18.1,pkg:pub/intl@0.18.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/io@1.0.4,library,,io,1.0.4,pkg:pub/io@1.0.4,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/js@0.6.7,library,,js,0.6.7,pkg:pub/js@0.6.7,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/json_annotation@4.8.1,library,,json_annotation,4.8.1,pkg:pub/json_annotation@4.8.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/lints@2.1.1,library,,lints,2.1.1,pkg:pub/lints@2.1.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/logging@1.2.0,library,,logging,1.2.0,pkg:pub/logging@1.2.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/matcher@0.12.16%2B1,library,,matcher,0.12.16+1,pkg:pub/matcher@0.12.16%2B1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/material_color_utilities@0.8.0,library,,material_color_utilities,0.8.0,pkg:pub/material_color_utilities@0.8.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/meta@1.11.0,library,,meta,1.11.0,pkg:pub/meta@1.11.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/mime@1.0.5,library,,mime,1.0.5,pkg:pub/mime@1.0.5,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/nested@1.0.0,library,,nested,1.0.0,pkg:pub/nested@1.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/octo_image@2.0.0,library,,octo_image,2.0.0,pkg:pub/octo_image@2.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/package_config@2.1.0,library,,package_config,2.1.0,pkg:pub/package_config@2.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/package_info_plus@4.2.0,library,,package_info_plus,4.2.0,pkg:pub/package_info_plus@4.2.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/package_info_plus_platform_interface@2.0.1,library,,package_info_plus_platform_interface,2.0.1,pkg:pub/package_info_plus_platform_interface@2.0.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/password_strength@0.2.0,library,,password_strength,0.2.0,pkg:pub/password_strength@0.2.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/path@1.9.0,library,,path,1.9.0,pkg:pub/path@1.9.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/path_parsing@1.0.1,library,,path_parsing,1.0.1,pkg:pub/path_parsing@1.0.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/path_provider@2.1.2,library,,path_provider,2.1.2,pkg:pub/path_provider@2.1.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/path_provider_android@2.2.2,library,,path_provider_android,2.2.2,pkg:pub/path_provider_android@2.2.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/path_provider_foundation@2.3.2,library,,path_provider_foundation,2.3.2,pkg:pub/path_provider_foundation@2.3.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/path_provider_linux@2.2.1,library,,path_provider_linux,2.2.1,pkg:pub/path_provider_linux@2.2.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/path_provider_platform_interface@2.1.2,library,,path_provider_platform_interface,2.1.2,pkg:pub/path_provider_platform_interface@2.1.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/path_provider_windows@2.2.1,library,,path_provider_windows,2.2.1,pkg:pub/path_provider_windows@2.2.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/pedantic@1.11.1,library,,pedantic,1.11.1,pkg:pub/pedantic@1.11.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/percent_indicator@4.2.3,library,,percent_indicator,4.2.3,pkg:pub/percent_indicator@4.2.3,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/petitparser@6.0.2,library,,petitparser,6.0.2,pkg:pub/petitparser@6.0.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/platform@3.1.4,library,,platform,3.1.4,pkg:pub/platform@3.1.4,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/plugin_platform_interface@2.1.8,library,,plugin_platform_interface,2.1.8,pkg:pub/plugin_platform_interface@2.1.8,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/pointycastle@3.7.4,library,,pointycastle,3.7.4,pkg:pub/pointycastle@3.7.4,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/pool@1.5.1,library,,pool,1.5.1,pkg:pub/pool@1.5.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/provider@6.1.1,library,,provider,6.1.1,pkg:pub/provider@6.1.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/pub_semver@2.1.4,library,,pub_semver,2.1.4,pkg:pub/pub_semver@2.1.4,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/pubspec_parse@1.2.3,library,,pubspec_parse,1.2.3,pkg:pub/pubspec_parse@1.2.3,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/pull_down_button@0.9.3,library,,pull_down_button,0.9.3,pkg:pub/pull_down_button@0.9.3,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/puppeteer@3.6.0,library,,puppeteer,3.6.0,pkg:pub/puppeteer@3.6.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/qr@3.0.1,library,,qr,3.0.1,pkg:pub/qr@3.0.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/qr_code_scanner@1.0.1,library,,qr_code_scanner,1.0.1,pkg:pub/qr_code_scanner@1.0.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/qr_flutter@4.1.0,library,,qr_flutter,4.1.0,pkg:pub/qr_flutter@4.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/quiver@3.2.1,library,,quiver,3.2.1,pkg:pub/quiver@3.2.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/rxdart@0.27.7,library,,rxdart,0.27.7,pkg:pub/rxdart@0.27.7,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/screen_retriever@0.1.9,library,,screen_retriever,0.1.9,pkg:pub/screen_retriever@0.1.9,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/scroll_pos@0.4.0,library,,scroll_pos,0.4.0,pkg:pub/scroll_pos@0.4.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/settings_ui@2.0.2,library,,settings_ui,2.0.2,pkg:pub/settings_ui@2.0.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/shelf@1.4.1,library,,shelf,1.4.1,pkg:pub/shelf@1.4.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/shelf_static@1.1.2,library,,shelf_static,1.1.2,pkg:pub/shelf_static@1.1.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/shelf_web_socket@1.0.4,library,,shelf_web_socket,1.0.4,pkg:pub/shelf_web_socket@1.0.4,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/simple_observable@2.0.0,library,,simple_observable,2.0.0,pkg:pub/simple_observable@2.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/sky_engine@0.0.99,library,,sky_engine,0.0.99,pkg:pub/sky_engine@0.0.99,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/source_gen@1.5.0,library,,source_gen,1.5.0,pkg:pub/source_gen@1.5.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/source_span@1.10.0,library,,source_span,1.10.0,pkg:pub/source_span@1.10.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/sqflite@2.3.2,library,,sqflite,2.3.2,pkg:pub/sqflite@2.3.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/sqflite_common@2.5.3,library,,sqflite_common,2.5.3,pkg:pub/sqflite_common@2.5.3,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/stack_trace@1.11.1,library,,stack_trace,1.11.1,pkg:pub/stack_trace@1.11.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/stream_channel@2.1.2,library,,stream_channel,2.1.2,pkg:pub/stream_channel@2.1.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/stream_transform@2.1.0,library,,stream_transform,2.1.0,pkg:pub/stream_transform@2.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/string_scanner@1.2.0,library,,string_scanner,1.2.0,pkg:pub/string_scanner@1.2.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/synchronized@3.1.0%2B1,library,,synchronized,3.1.0+1,pkg:pub/synchronized@3.1.0%2B1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/term_glyph@1.2.1,library,,term_glyph,1.2.1,pkg:pub/term_glyph@1.2.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/test_api@0.7.0,library,,test_api,0.7.0,pkg:pub/test_api@0.7.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/texture_rgba_renderer@0.0.16,library,,texture_rgba_renderer,0.0.16,pkg:pub/texture_rgba_renderer@0.0.16,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/timing@1.0.1,library,,timing,1.0.1,pkg:pub/timing@1.0.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/toggle_switch@2.1.0,library,,toggle_switch,2.1.0,pkg:pub/toggle_switch@2.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/tuple@2.0.2,library,,tuple,2.0.2,pkg:pub/tuple@2.0.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/typed_data@1.3.2,library,,typed_data,1.3.2,pkg:pub/typed_data@1.3.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/uni_links@0.5.1,library,,uni_links,0.5.1,pkg:pub/uni_links@0.5.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/uni_links_desktop@0.1.7,library,,uni_links_desktop,0.1.7,pkg:pub/uni_links_desktop@0.1.7,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/uni_links_platform_interface@1.0.0,library,,uni_links_platform_interface,1.0.0,pkg:pub/uni_links_platform_interface@1.0.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/uni_links_web@0.1.0,library,,uni_links_web,0.1.0,pkg:pub/uni_links_web@0.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/universal_io@2.2.2,library,,universal_io,2.2.2,pkg:pub/universal_io@2.2.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/url_launcher@6.2.4,library,,url_launcher,6.2.4,pkg:pub/url_launcher@6.2.4,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/url_launcher_android@6.2.2,library,,url_launcher_android,6.2.2,pkg:pub/url_launcher_android@6.2.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/url_launcher_ios@6.2.4,library,,url_launcher_ios,6.2.4,pkg:pub/url_launcher_ios@6.2.4,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/url_launcher_linux@3.1.1,library,,url_launcher_linux,3.1.1,pkg:pub/url_launcher_linux@3.1.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/url_launcher_macos@3.1.0,library,,url_launcher_macos,3.1.0,pkg:pub/url_launcher_macos@3.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/url_launcher_platform_interface@2.3.1,library,,url_launcher_platform_interface,2.3.1,pkg:pub/url_launcher_platform_interface@2.3.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/url_launcher_web@2.2.3,library,,url_launcher_web,2.2.3,pkg:pub/url_launcher_web@2.2.3,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/url_launcher_windows@3.1.1,library,,url_launcher_windows,3.1.1,pkg:pub/url_launcher_windows@3.1.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/uuid@3.0.7,library,,uuid,3.0.7,pkg:pub/uuid@3.0.7,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/vector_graphics@1.1.10%2B1,library,,vector_graphics,1.1.10+1,pkg:pub/vector_graphics@1.1.10%2B1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/vector_graphics_codec@1.1.10%2B1,library,,vector_graphics_codec,1.1.10+1,pkg:pub/vector_graphics_codec@1.1.10%2B1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/vector_graphics_compiler@1.1.10%2B1,library,,vector_graphics_compiler,1.1.10+1,pkg:pub/vector_graphics_compiler@1.1.10%2B1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/vector_math@2.1.4,library,,vector_math,2.1.4,pkg:pub/vector_math@2.1.4,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/video_player@2.8.2,library,,video_player,2.8.2,pkg:pub/video_player@2.8.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/video_player_android@2.4.11,library,,video_player_android,2.4.11,pkg:pub/video_player_android@2.4.11,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/video_player_avfoundation@2.5.6,library,,video_player_avfoundation,2.5.6,pkg:pub/video_player_avfoundation@2.5.6,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/video_player_platform_interface@6.2.2,library,,video_player_platform_interface,6.2.2,pkg:pub/video_player_platform_interface@6.2.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/video_player_web@2.1.3,library,,video_player_web,2.1.3,pkg:pub/video_player_web@2.1.3,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/visibility_detector@0.4.0%2B2,library,,visibility_detector,0.4.0+2,pkg:pub/visibility_detector@0.4.0%2B2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/wakelock_plus@1.1.4,library,,wakelock_plus,1.1.4,pkg:pub/wakelock_plus@1.1.4,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/wakelock_plus_platform_interface@1.1.0,library,,wakelock_plus_platform_interface,1.1.0,pkg:pub/wakelock_plus_platform_interface@1.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/watcher@1.1.0,library,,watcher,1.1.0,pkg:pub/watcher@1.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/web@0.4.2,library,,web,0.4.2,pkg:pub/web@0.4.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/web_socket_channel@2.4.0,library,,web_socket_channel,2.4.0,pkg:pub/web_socket_channel@2.4.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/win32@5.2.0,library,,win32,5.2.0,pkg:pub/win32@5.2.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/win32_registry@1.1.2,library,,win32_registry,1.1.2,pkg:pub/win32_registry@1.1.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/window_manager@0.3.6,library,,window_manager,0.3.6,pkg:pub/window_manager@0.3.6,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/window_size@0.1.0,library,,window_size,0.1.0,pkg:pub/window_size@0.1.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/xdg_directories@1.0.4,library,,xdg_directories,1.0.4,pkg:pub/xdg_directories@1.0.4,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/xml@6.5.0,library,,xml,6.5.0,pkg:pub/xml@6.5.0,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/yaml@3.1.2,library,,yaml,3.1.2,pkg:pub/yaml@3.1.2,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/yaml_edit@2.1.1,library,,yaml_edit,2.1.1,pkg:pub/yaml_edit@2.1.1,
+,,https://github.com/rustdesk/rustdesk,pkg:pub/zxing2@0.2.1,library,,zxing2,0.2.1,pkg:pub/zxing2@0.2.1,

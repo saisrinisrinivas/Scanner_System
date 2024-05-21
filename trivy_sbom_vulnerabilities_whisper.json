@@ -1,0 +1,24 @@
+{
+    "SchemaVersion": 2,
+    "CreatedAt": "2024-05-09T13:51:40.0783014+05:30",
+    "ArtifactName": "trivy_sbom_whisper.json",
+    "ArtifactType": "cyclonedx",
+    "Metadata": {
+        "ImageConfig": {
+            "architecture": "",
+            "created": "0001-01-01T00:00:00Z",
+            "os": "",
+            "rootfs": {
+                "type": "",
+                "diff_ids": null
+            },
+            "config": {}
+        }
+    },
+    "Results": [
+        {
+            "RepositoryURL": "https://github.com/openai/whisper",
+            "Vulnerabilities": []
+        }
+    ]
+}

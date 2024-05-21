@@ -1,0 +1,123 @@
+{
+    "SchemaVersion": 2,
+    "CreatedAt": "2024-05-09T11:28:51.0268373+05:30",
+    "ArtifactName": "trivy_sbom_LLM.json",
+    "ArtifactType": "cyclonedx",
+    "Metadata": {
+        "ImageConfig": {
+            "architecture": "",
+            "created": "0001-01-01T00:00:00Z",
+            "os": "",
+            "rootfs": {
+                "type": "",
+                "diff_ids": null
+            },
+            "config": {}
+        }
+    },
+    "Results": [
+        {
+            "Target": "requirements.txt",
+            "Class": "lang-pkgs",
+            "Type": "pip",
+            "Vulnerabilities": [
+                {
+                    "VulnerabilityID": "CVE-2023-36464",
+                    "PkgID": "PyPDF2@3.0.1",
+                    "PkgName": "PyPDF2",
+                    "PkgIdentifier": {
+                        "PURL": "pkg:pypi/pypdf2@3.0.1",
+                        "UID": "a5947d55dc5b9589",
+                        "BOMRef": "pkg:pypi/pypdf2@3.0.1"
+                    },
+                    "InstalledVersion": "3.0.1",
+                    "Status": "affected",
+                    "Layer": {},
+                    "SeveritySource": "ghsa",
+                    "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-36464",
+                    "DataSource": {
+                        "ID": "ghsa",
+                        "Name": "GitHub Security Advisory pip",
+                        "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+                    },
+                    "Title": "pypdf: Possible Infinite Loop when a comment isn't followed by a character",
+                    "Description": "pypdf is an open source, pure-python PDF library. In affected versions an attacker may craft a PDF which leads to an infinite loop if `__parse_content_stream` is executed. That is, for example, the case if the user extracted text from such a PDF. This issue was introduced in pull request #969 and resolved in pull request #1828. Users are advised to upgrade. Users unable to upgrade may modify the line `while peek not in (b\"\\r\", b\"\\n\")` in `pypdf/generic/_data_structures.py` to `while peek not in (b\"\\r\", b\"\\n\", b\"\")`.",
+                    "Severity": "MEDIUM",
+                    "CweIDs": [
+                        "CWE-835"
+                    ],
+                    "VendorSeverity": {
+                        "ghsa": 2,
+                        "nvd": 2,
+                        "redhat": 2
+                    },
+                    "CVSS": {
+                        "ghsa": {
+                            "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                            "V3Score": 6.2
+                        },
+                        "nvd": {
+                            "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                            "V3Score": 5.5
+                        },
+                        "redhat": {
+                            "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                            "V3Score": 6.2
+                        }
+                    },
+                    "References": [
+                        "https://access.redhat.com/security/cve/CVE-2023-36464",
+                        "https://github.com/py-pdf/pypdf",
+                        "https://github.com/py-pdf/pypdf/commit/b0e5c689df689ab173df84dacd77b6fc3c161932",
+                        "https://github.com/py-pdf/pypdf/pull/1828",
+                        "https://github.com/py-pdf/pypdf/pull/969",
+                        "https://github.com/py-pdf/pypdf/releases/tag/3.9.0",
+                        "https://github.com/py-pdf/pypdf/security/advisories/GHSA-4vvm-4w3v-6mr8",
+                        "https://nvd.nist.gov/vuln/detail/CVE-2023-36464",
+                        "https://www.cve.org/CVERecord?id=CVE-2023-36464"
+                    ],
+                    "PublishedDate": "2023-06-27T22:15:11.79Z",
+                    "LastModifiedDate": "2023-07-06T16:13:49.513Z",
+                    "OrganizationName": "",
+                    "OrganizationID": "",
+                    "RepositoryURL": "https://github.com/mg-the-programmer/LLM"
+                },
+                {
+                    "VulnerabilityID": "GHSA-8qw9-gf7w-42x5",
+                    "PkgID": "streamlit@1.18.1",
+                    "PkgName": "streamlit",
+                    "PkgIdentifier": {
+                        "PURL": "pkg:pypi/streamlit@1.18.1",
+                        "UID": "420126d818265f20",
+                        "BOMRef": "pkg:pypi/streamlit@1.18.1"
+                    },
+                    "InstalledVersion": "1.18.1",
+                    "FixedVersion": "1.30.0",
+                    "Status": "fixed",
+                    "Layer": {},
+                    "SeveritySource": "ghsa",
+                    "PrimaryURL": "https://github.com/advisories/GHSA-8qw9-gf7w-42x5",
+                    "DataSource": {
+                        "ID": "ghsa",
+                        "Name": "GitHub Security Advisory pip",
+                        "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+                    },
+                    "Title": "Minor fix to previous patch for CVE-2022-35918",
+                    "Description": "### Impact\n\nThe initial vulnerability identified in Streamlit apps using custom components, allowing for directory traversal attacks, was addressed in version 1.11.1. However, a minor issue persisted, which could still potentially expose certain files on the server file-system under specific conditions.\n\n### Patches\n\nWe released an update in version 1.30.0 to further tighten security measures. Users are strongly advised to update to version 1.30.0 immediately for optimal security.\n\n### Workarounds\n\nNo additional workarounds are necessary once the update to version 1.30.0 is applied.\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n* Email us at [security@streamlit.io](mailto:security@streamlit.io)",
+                    "Severity": "LOW",
+                    "VendorSeverity": {
+                        "ghsa": 1
+                    },
+                    "References": [
+                        "https://github.com/streamlit/streamlit",
+                        "https://github.com/streamlit/streamlit/commit/bd0a8996c4c7ec55b9c6557e7b168b0c13a25b90",
+                        "https://github.com/streamlit/streamlit/security/advisories/GHSA-8qw9-gf7w-42x5"
+                    ],
+                    "OrganizationName": "",
+                    "OrganizationID": "",
+                    "RepositoryURL": "https://github.com/mg-the-programmer/LLM"
+                }
+            ]
+        }
+    ]
+}

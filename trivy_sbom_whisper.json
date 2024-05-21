@@ -1,0 +1,40 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:724f82b5-b835-419c-a209-c4ddf5690518",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2024-05-09T08:21:39+00:00",
+        "tools": {
+            "components": [
+                {
+                    "type": "application",
+                    "group": "aquasecurity",
+                    "name": "trivy",
+                    "version": "0.51.1"
+                }
+            ]
+        },
+        "component": {
+            "bom-ref": "cb06c152-84d4-476a-948a-553aba09fadd",
+            "type": "application",
+            "name": "D:/PWC/Scanner_System/whisper",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:SchemaVersion",
+                    "value": "2"
+                }
+            ]
+        },
+        "RepositoryURL": "https://github.com/openai/whisper"
+    },
+    "components": [],
+    "dependencies": [
+        {
+            "ref": "cb06c152-84d4-476a-948a-553aba09fadd",
+            "dependsOn": []
+        }
+    ],
+    "vulnerabilities": []
+}

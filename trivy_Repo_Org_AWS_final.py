@@ -109,7 +109,7 @@ def trivy_scan(repo_url, repo_name, organization_name="", organization_id=""):
 
     #Bringing the vulnerablities report in JSON format
     with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "r") as json_file:
-        data = json.load(json_file)
+      data = json.load(json_file)
 
     # Check if 'Results' key exists in the JSON data
     if 'Results' in data:
@@ -117,49 +117,33 @@ def trivy_scan(repo_url, repo_name, organization_name="", organization_id=""):
         vulnerabilities = []
         for result in data["Results"]:
             if "Vulnerabilities" in result:
-                vulnerabilities.extend(result["Vulnerabilities"])
-                
-        for result in results:
-            result_target = result.get('Target', '')
-            result_class = result.get('Class', '')
-            result_type = result.get('Type', '')
-            vulnerabilities = result.get('Vulnerabilities', [])  
-            for vuln in vulnerabilities:
-                vuln['OrganizationName'] = organization_name
-                vuln['OrganizationID'] = organization_id
-                vuln['RepositoryURL'] = repo_url
-                # Add additional fields
-                vuln['Target'] = result_target
-                vuln['Class'] = result_class
-                vuln['Type'] = result_type
+                for vulnerability in result["Vulnerabilities"]:
+                    vulnerability['OrganizationName'] = organization_name
+                    vulnerability['OrganizationID'] = organization_id
+                    vulnerability['RepositoryURL'] = repo_url
 
+                    # Add Target, Class, and Type from the result object
+                    vulnerability['Target'] = result.get('Target', '')
+                    vulnerability['Class'] = result.get('Class', '')
+                    vulnerability['Type'] = result.get('Type', '')
+                    vulnerabilities.append(vulnerability)
+
+        desired_headers_order = ["OrganizationName", "OrganizationID", "RepositoryURL", "VulnerabilityID", "PkgID", "PkgName", "InstalledVersion", 
+                                    "FixedVersion", "Status", "Severity", "CweIDs", "CVSS", 
+                                    "PrimaryURL", "References", "PublishedDate", "LastModifiedDate", 
+                                    "Title", "Target", "Class", "Type", "Description"]
+
+        # Writing to CSV
+        with open(f"trivy_sbom_vulnerabilities_{repo_name}.csv", "w", newline="") as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=desired_headers_order)
+            writer.writeheader()
+            for vulnerability in vulnerabilities:
+                reordered_vulnerability = {header: vulnerability.get(header, "") for header in desired_headers_order}
+                writer.writerow(reordered_vulnerability)
+
+        print("Vulnerabilities_CSV file created successfully.")
     else:
-        # If 'Results' key is not found, set repository URL to repo_url
-        data['Results'] = [{"RepositoryURL": repo_url, "Vulnerabilities": []}]
-
-    # Write the modified JSON data back to the file
-    with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "w") as json_file:
-        json.dump(data, json_file, indent=4)
-
-    # Converting CSV file of SBOM_Vulnerability
-    with open(f"trivy_sbom_vulnerabilities_{repo_name}.json", "r") as json_file:
-     data = json.load(json_file)
-
-    results = data["Results"][0]["Vulnerabilities"]
-
-    desired_headers_order = ["OrganizationName", "OrganizationID", "RepositoryURL", "VulnerabilityID", "PkgID", "PkgName", "InstalledVersion", 
-                             "FixedVersion", "Status", "Severity", "CweIDs", "CVSS", 
-                             "PrimaryURL", "References", "PublishedDate", "LastModifiedDate", 
-                              "Title","Target", "Class", "Type", "Description"]
-
-    # Writing to CSV
-    with open(f"trivy_sbom_vulnerabilities_{repo_name}.csv", "w", newline="") as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=desired_headers_order)
-        writer.writeheader()
-        for result in results:
-            reordered_result = {header: result.get(header, "") for header in desired_headers_order}
-            writer.writerow(reordered_result)
-    print("Vulnerabilities_CSV file created successfully.")
+        print("No vulnerabilities found.")
 
 def get_organization_id(org_name, github_pat):
     headers = {
@@ -227,3 +211,4 @@ def initiate_trivy_scan():
 if __name__ == "__main__":
     initiate_trivy_scan()
 
+    

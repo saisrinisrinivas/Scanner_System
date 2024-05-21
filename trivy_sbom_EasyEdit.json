@@ -1,0 +1,588 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:176dffd1-c79e-489f-8602-04161aa7d8ae",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2024-05-20T04:47:39+00:00",
+        "tools": {
+            "components": [
+                {
+                    "type": "application",
+                    "group": "aquasecurity",
+                    "name": "trivy",
+                    "version": "0.51.1"
+                }
+            ]
+        },
+        "component": {
+            "bom-ref": "a9de71f3-6070-4543-9758-53094029f5cd",
+            "type": "application",
+            "name": "D:/PWC/Scanner_System/EasyEdit",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:SchemaVersion",
+                    "value": "2"
+                }
+            ]
+        },
+        "RepositoryURL": "https://github.com/zjunlp/EasyEdit"
+    },
+    "components": [
+        {
+            "bom-ref": "6ed587eb-360a-49c0-bffd-a741d4099af3",
+            "type": "application",
+            "name": "demo/SafeEdit_demo/requirements.txt",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:Class",
+                    "value": "lang-pkgs"
+                },
+                {
+                    "name": "aquasecurity:trivy:Type",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "8c06c69f-3ad0-4273-aa66-ea56258f98d8",
+            "type": "application",
+            "name": "requirements.txt",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:Class",
+                    "value": "lang-pkgs"
+                },
+                {
+                    "name": "aquasecurity:trivy:Type",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/datasets@1.18.3",
+            "type": "library",
+            "name": "datasets",
+            "version": "1.18.3",
+            "purl": "pkg:pypi/datasets@1.18.3",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/einops@0.4.0",
+            "type": "library",
+            "name": "einops",
+            "version": "0.4.0",
+            "purl": "pkg:pypi/einops@0.4.0",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/fairscale@0.4.13",
+            "type": "library",
+            "name": "fairscale",
+            "version": "0.4.13",
+            "purl": "pkg:pypi/fairscale@0.4.13",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/gpustat@1.1",
+            "type": "library",
+            "name": "gpustat",
+            "version": "1.1",
+            "purl": "pkg:pypi/gpustat@1.1",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/gradio@4.5.0",
+            "type": "library",
+            "name": "gradio",
+            "version": "4.5.0",
+            "purl": "pkg:pypi/gradio@4.5.0",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/higher@0.2.1",
+            "type": "library",
+            "name": "higher",
+            "version": "0.2.1",
+            "purl": "pkg:pypi/higher@0.2.1",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/hydra-core@1.1.1",
+            "type": "library",
+            "name": "hydra-core",
+            "version": "1.1.1",
+            "purl": "pkg:pypi/hydra-core@1.1.1",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/importlib-metadata@6.3.0",
+            "type": "library",
+            "name": "importlib-metadata",
+            "version": "6.3.0",
+            "purl": "pkg:pypi/importlib-metadata@6.3.0",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/iopath@0.1.10",
+            "type": "library",
+            "name": "iopath",
+            "version": "0.1.10",
+            "purl": "pkg:pypi/iopath@0.1.10",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/matplotlib@3.5.1",
+            "type": "library",
+            "name": "matplotlib",
+            "version": "3.5.1",
+            "purl": "pkg:pypi/matplotlib@3.5.1",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/nltk@3.6.5",
+            "type": "library",
+            "name": "nltk",
+            "version": "3.6.5",
+            "purl": "pkg:pypi/nltk@3.6.5",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/numpy@1.22.1",
+            "type": "library",
+            "name": "numpy",
+            "version": "1.22.1",
+            "purl": "pkg:pypi/numpy@1.22.1",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/omegaconf@2.1.1",
+            "type": "library",
+            "name": "omegaconf",
+            "version": "2.1.1",
+            "purl": "pkg:pypi/omegaconf@2.1.1",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/openai@0.27.9",
+            "type": "library",
+            "name": "openai",
+            "version": "0.27.9",
+            "purl": "pkg:pypi/openai@0.27.9",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/opencv-python@4.8.0.76",
+            "type": "library",
+            "name": "opencv-python",
+            "version": "4.8.0.76",
+            "purl": "pkg:pypi/opencv-python@4.8.0.76",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/pandas@1.4.0",
+            "type": "library",
+            "name": "pandas",
+            "version": "1.4.0",
+            "purl": "pkg:pypi/pandas@1.4.0",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/peft@0.7.1",
+            "type": "library",
+            "name": "peft",
+            "version": "0.7.1",
+            "purl": "pkg:pypi/peft@0.7.1",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/pyyaml@6.0",
+            "type": "library",
+            "name": "PyYAML",
+            "version": "6.0",
+            "purl": "pkg:pypi/pyyaml@6.0",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/scikit-learn@1.0.2",
+            "type": "library",
+            "name": "scikit-learn",
+            "version": "1.0.2",
+            "purl": "pkg:pypi/scikit-learn@1.0.2",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/scipy@1.7.3",
+            "type": "library",
+            "name": "scipy",
+            "version": "1.7.3",
+            "purl": "pkg:pypi/scipy@1.7.3",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/sentence-transformers@2.2.2",
+            "type": "library",
+            "name": "sentence-transformers",
+            "version": "2.2.2",
+            "purl": "pkg:pypi/sentence-transformers@2.2.2",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/timm@0.9.7",
+            "type": "library",
+            "name": "timm",
+            "version": "0.9.7",
+            "purl": "pkg:pypi/timm@0.9.7",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/tokenizers@0.13.3",
+            "type": "library",
+            "name": "tokenizers",
+            "version": "0.13.3",
+            "purl": "pkg:pypi/tokenizers@0.13.3",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/tokenizers@0.14.1",
+            "type": "library",
+            "name": "tokenizers",
+            "version": "0.14.1",
+            "purl": "pkg:pypi/tokenizers@0.14.1",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/torch@2.0.1",
+            "type": "library",
+            "name": "torch",
+            "version": "2.0.1",
+            "purl": "pkg:pypi/torch@2.0.1",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/tqdm@4.62.3",
+            "type": "library",
+            "name": "tqdm",
+            "version": "4.62.3",
+            "purl": "pkg:pypi/tqdm@4.62.3",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/transformers@4.34.0",
+            "type": "library",
+            "name": "transformers",
+            "version": "4.34.0",
+            "purl": "pkg:pypi/transformers@4.34.0",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/transformers@4.40.0",
+            "type": "library",
+            "name": "transformers",
+            "version": "4.40.0",
+            "purl": "pkg:pypi/transformers@4.40.0",
+            "properties": [
+                {
+                    "name": "aquasecurity:trivy:PkgType",
+                    "value": "pip"
+                }
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "ref": "6ed587eb-360a-49c0-bffd-a741d4099af3",
+            "dependsOn": [
+                "pkg:pypi/gradio@4.5.0",
+                "pkg:pypi/tokenizers@0.14.1",
+                "pkg:pypi/transformers@4.34.0"
+            ]
+        },
+        {
+            "ref": "8c06c69f-3ad0-4273-aa66-ea56258f98d8",
+            "dependsOn": [
+                "pkg:pypi/datasets@1.18.3",
+                "pkg:pypi/einops@0.4.0",
+                "pkg:pypi/fairscale@0.4.13",
+                "pkg:pypi/gpustat@1.1",
+                "pkg:pypi/higher@0.2.1",
+                "pkg:pypi/hydra-core@1.1.1",
+                "pkg:pypi/importlib-metadata@6.3.0",
+                "pkg:pypi/iopath@0.1.10",
+                "pkg:pypi/matplotlib@3.5.1",
+                "pkg:pypi/nltk@3.6.5",
+                "pkg:pypi/numpy@1.22.1",
+                "pkg:pypi/omegaconf@2.1.1",
+                "pkg:pypi/openai@0.27.9",
+                "pkg:pypi/opencv-python@4.8.0.76",
+                "pkg:pypi/pandas@1.4.0",
+                "pkg:pypi/peft@0.7.1",
+                "pkg:pypi/pyyaml@6.0",
+                "pkg:pypi/scikit-learn@1.0.2",
+                "pkg:pypi/scipy@1.7.3",
+                "pkg:pypi/sentence-transformers@2.2.2",
+                "pkg:pypi/timm@0.9.7",
+                "pkg:pypi/tokenizers@0.13.3",
+                "pkg:pypi/torch@2.0.1",
+                "pkg:pypi/tqdm@4.62.3",
+                "pkg:pypi/transformers@4.40.0"
+            ]
+        },
+        {
+            "ref": "a9de71f3-6070-4543-9758-53094029f5cd",
+            "dependsOn": [
+                "6ed587eb-360a-49c0-bffd-a741d4099af3",
+                "8c06c69f-3ad0-4273-aa66-ea56258f98d8"
+            ]
+        },
+        {
+            "ref": "pkg:pypi/datasets@1.18.3",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/einops@0.4.0",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/fairscale@0.4.13",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/gpustat@1.1",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/gradio@4.5.0",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/higher@0.2.1",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/hydra-core@1.1.1",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/importlib-metadata@6.3.0",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/iopath@0.1.10",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/matplotlib@3.5.1",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/nltk@3.6.5",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/numpy@1.22.1",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/omegaconf@2.1.1",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/openai@0.27.9",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/opencv-python@4.8.0.76",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/pandas@1.4.0",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/peft@0.7.1",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/pyyaml@6.0",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/scikit-learn@1.0.2",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/scipy@1.7.3",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/sentence-transformers@2.2.2",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/timm@0.9.7",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/tokenizers@0.13.3",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/tokenizers@0.14.1",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/torch@2.0.1",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/tqdm@4.62.3",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/transformers@4.34.0",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/transformers@4.40.0",
+            "dependsOn": []
+        }
+    ],
+    "vulnerabilities": []
+}
